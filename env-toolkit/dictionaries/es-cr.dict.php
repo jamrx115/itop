@@ -176,10 +176,10 @@ Dict::SetEntries('ES CR', array(
 	'BooleanLabel:yes' => 'si',
 	'BooleanLabel:no' => 'no',
 	'Menu:WelcomeMenu' => 'Bienvenido',
-	'Menu:WelcomeMenu+' => 'Bienvenido a iTop',
+	'Menu:WelcomeMenu+' => 'Mesa de Servicio Alltic',
 	'Menu:WelcomeMenuPage' => 'Bienvenido',
-	'Menu:WelcomeMenuPage+' => 'Bienvenido a iTop',
-	'UI:WelcomeMenu:Title' => 'Bienvenido a iTop',
+	'Menu:WelcomeMenuPage+' => 'Mesa de Servicio Alltic',
+	'UI:WelcomeMenu:Title' => 'Mesa de Servicio Alltic',
 	'UI:WelcomeMenu:LeftBlock' => '<p>iTop es un completo portal de administración de servicios de TI basado en código abierto.</p>
 <p>Incluye:</p>
 <ul><li>Una CMDB completa (Base de datos de Configuraciones) para documentar y manejar el inventario de TI.</li>
@@ -331,7 +331,7 @@ Dict::SetEntries('ES CR', array(
 	'UI:SearchValue:CheckAll' => 'Seleccionar Todo',
 	'UI:SearchValue:UncheckAll' => 'Deseleccionar Todo',
 	'UI:SelectOne' => '-- Seleccione uno --',
-	'UI:Login:Welcome' => 'Bienvenido a iTop',
+	'UI:Login:Welcome' => 'Mesa de Servicio Alltic',
 	'UI:Login:IncorrectLoginPassword' => 'Usuario/Contrase&ntilde;a incorrecto, por favor intente otra vez.',
 	'UI:Login:IdentifyYourself' => 'Identifiquese antes de continuar',
 	'UI:Login:UserNamePrompt' => 'Usuario   ',
@@ -603,7 +603,7 @@ Dict::SetEntries('ES CR', array(
 	'UI:Delete:PleaseDoTheManualOperations' => 'Por favor ejecute las operaciones manuales antes de eliminar este objeto',
 	'UI:Delect:Confirm_Object' => 'Por favor confirme que quiere borrar %1$s.',
 	'UI:Delect:Confirm_Count_ObjectsOf_Class' => 'Por favor confirme que quiere eliminar los siguientes %1$d objeto de la clase %2$s.',
-	'UI:WelcomeToITop' => 'Bienvenido a iTop',
+	'UI:WelcomeToITop' => 'Mesa de Servicio Alltic',
 	'UI:DetailsPageTitle' => 'iTop - %1$s - Detalles %2$s',
 	'UI:ErrorPageTitle' => 'iTop - Error',
 	'UI:ObjectDoesNotExist' => 'Disculpe, este objeto no existe (o no está autorizado para verlo).',
