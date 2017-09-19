@@ -1,0 +1,1 @@
+2017-09-11 16:39:42 | Error | BackupHandler::OnMetaModelStarted Failed to check if a backup/restore is running: Access denied for user ''@'localhost' (using password: NO)
