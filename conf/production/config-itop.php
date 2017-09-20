@@ -29,7 +29,7 @@ $MySettings = array(
 
 	// app_root_url: Root URL used for navigating within the application, or from an email to the application (you can put $SERVER_NAME$ as a placeholder for the server's name)
 	//	default: ''
-	'app_root_url' => 'http://127.0.0.1:8081/itop/',
+	'app_root_url' => 'http://13.58.166.173/itop/',
 
 	// buttons_position: Position of the forms buttons: bottom | top | both
 	//	default: 'both'
@@ -80,7 +80,7 @@ $MySettings = array(
 
 	'db_name' => 'itop_alltic',
 
-	'db_pwd' => '',
+	'db_pwd' => 'root',
 
 	'db_subname' => '',
 
@@ -156,7 +156,7 @@ $MySettings = array(
 
 	// online_help: Hyperlink to the online-help web page
 	//	default: 'http://www.combodo.com/itop-help'
-	'online_help' => 'http://www.combodo.com/itop-help',
+	'online_help' => 'http://alltic.co/',
 
 	// php_path: Path to the php executable in CLI mode
 	//	default: 'php'

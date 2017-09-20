@@ -529,3 +529,5 @@ Executing query: UPDATE `ticket` JOIN `ticket_request` ON `ticket_request`.id = 
 2017-09-19 23:16:44 - Error - Error: Could not connect to the DB server: host = localhost, user = root, mysql_error = 2002, mysql_errno = No such file or directory.
 2017-09-19 23:16:44 - Error - Error: Could not connect to the DB server: host = localhost, user = root, mysql_error = 2002, mysql_errno = No such file or directory.
 2017-09-19 23:16:44 - Error - Error: Could not connect to the DB server: host = localhost, user = root, mysql_error = 2002, mysql_errno = No such file or directory.
+2017-09-20 14:10:56 - Error - Error: Unknown localization language: language_code = ES CO.
+2017-09-20 14:14:14 - Error - Error: Could not connect to the DB server: host = localhost, user = root, mysql_error = 1045, mysql_errno = Access denied for user 'root'@'localhost' (using password: NO).

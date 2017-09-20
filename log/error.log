@@ -1,1 +1,2 @@
 2017-09-11 16:39:42 | Error | BackupHandler::OnMetaModelStarted Failed to check if a backup/restore is running: Access denied for user ''@'localhost' (using password: NO)
+2017-09-20 14:10:56 | Error | Unknown localization language: language_code = ES CO
