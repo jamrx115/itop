@@ -1,6 +1,6 @@
 <?php
 //
-// File generated on 2017-09-18T13:08:03+0000
+// File generated on 2017-09-20T04:05:50+0000
 // Please do not edit manually
 //
 MetaModel::IncludeModule('env-production/core/main.php');
@@ -29,6 +29,7 @@ MetaModel::IncludeModule('env-production/itop-tickets/model.itop-tickets.php');
 MetaModel::IncludeModule('env-production/itop-virtualization-mgmt/model.itop-virtualization-mgmt.php');
 MetaModel::IncludeModule('env-production/itop-welcome-itil/main.itop-welcome-itil.php');
 MetaModel::IncludeModule('env-production/itop-welcome-itil/model.itop-welcome-itil.php');
+MetaModel::IncludeModule('env-production/combodo-sla-computation/model.combodo-sla-computation.php');
 MetaModel::IncludeModule('env-production/itop-bridge-virtualization-storage/model.itop-bridge-virtualization-storage.php');
 MetaModel::IncludeModule('env-production/itop-change-mgmt-itil/model.itop-change-mgmt-itil.php');
 MetaModel::IncludeModule('env-production/itop-incident-mgmt-itil/model.itop-incident-mgmt-itil.php');
@@ -37,3 +38,5 @@ MetaModel::IncludeModule('env-production/itop-problem-mgmt/model.itop-problem-mg
 MetaModel::IncludeModule('env-production/itop-request-mgmt-itil/model.itop-request-mgmt-itil.php');
 MetaModel::IncludeModule('env-production/itop-request-mgmt-itil/main.itop-request-mgmt-itil.php');
 MetaModel::IncludeModule('env-production/itop-service-mgmt/model.itop-service-mgmt.php');
+MetaModel::IncludeModule('env-production/combodo-coverage-windows-computation-incident/main.combodo-coverage-windows-computation-incident.php');
+MetaModel::IncludeModule('env-production/combodo-coverage-windows-computation/main.combodo-coverage-windows-computation.php');

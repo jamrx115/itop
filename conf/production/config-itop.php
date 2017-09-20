@@ -108,7 +108,7 @@ $MySettings = array(
 
 	'ext_auth_variable' => '$_SERVER[\'REMOTE_USER\']',
 
-	'fast_reload_interval' => 60,
+	'fast_reload_interval' => '60',
 
 	// graphviz_path: Path to the Graphviz "dot" executable for graphing objects lifecycle
 	//	default: '/usr/bin/dot'
@@ -116,11 +116,11 @@ $MySettings = array(
 
 	// inline_image_max_display_width: The maximum width (in pixels) when displaying images inside an HTML formatted attribute. Images will be displayed using this this maximum width.
 	//	default: '250'
-	'inline_image_max_display_width' => '250',
+	'inline_image_max_display_width' => 250,
 
 	// inline_image_max_storage_width: The maximum width (in pixels) when uploading images to be used inside an HTML formatted attribute. Images larger than the given size will be downsampled before storing them in the database.
 	//	default: '1600'
-	'inline_image_max_storage_width' => '1600',
+	'inline_image_max_storage_width' => 1600,
 
 	// link_set_attribute_qualifier: Link set from string: attribute qualifier (encloses both the attcode and the value)
 	//	default: '\''
@@ -146,13 +146,13 @@ $MySettings = array(
 
 	'log_web_service' => true,
 
-	'max_display_limit' => 15,
+	'max_display_limit' => '15',
 
 	// max_linkset_output: Maximum number of items shown when getting a list of related items in an email, using the form $this->some_list$. 0 means no limit.
 	//	default: 100
 	'max_linkset_output' => 100,
 
-	'min_display_limit' => 10,
+	'min_display_limit' => '10',
 
 	// online_help: Hyperlink to the online-help web page
 	//	default: 'http://www.combodo.com/itop-help'
@@ -182,7 +182,7 @@ $MySettings = array(
 	//	default: ''
 	'source_dir' => 'datamodels/2.x/',
 
-	'standard_reload_interval' => 300,
+	'standard_reload_interval' => '300',
 
 	// synchro_trace: Synchronization details: none, display, save (includes 'display')
 	//	default: 'none'
@@ -190,7 +190,7 @@ $MySettings = array(
 
 	// timezone: Timezone (reference: http://php.net/manual/en/timezones.php). If empty, it will be left unchanged and MUST be explicitely configured in PHP
 	//	default: 'Europe/Paris'
-	'timezone' => 'Europe/Paris',
+	'timezone' => 'America/Bogota',
 
 	// tracking_level_linked_set_default: Default tracking level if not explicitely set at the attribute level, for AttributeLinkedSet (defaults to NONE in case of a fresh install, LIST otherwise - this to preserve backward compatibility while upgrading from a version older than 2.0.3 - see TRAC #936)
 	//	default: 1
@@ -235,6 +235,12 @@ $MyModuleSettings = array(
 		'retention_count' => 5,
 		'enabled' => true,
 		'debug' => false,
+	),
+	'combodo-sla-computation' => array (
+	/*	'coverage_oql' => 'SELECT CoverageWindow',*/
+                'coverage_oql' => 'SELECT CoverageWindow AS cw JOIN lnkCustomerContractToService AS l1 ON l1.coveragewindow_id = cw.id JOIN CustomerContract AS cc ON l1.customercontract_id = cc.id WHERE cc.org_id= :this->org_id AND l1.service_id = :this->service_id',
+		'holidays_oql' => 'SELECT Holiday',
+		'deadline_format' => '$date$ ($difference$)',
 	),
 );
 

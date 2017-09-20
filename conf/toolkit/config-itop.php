@@ -190,7 +190,7 @@ $MySettings = array(
 
 	// timezone: Timezone (reference: http://php.net/manual/en/timezones.php). If empty, it will be left unchanged and MUST be explicitely configured in PHP
 	//	default: 'Europe/Paris'
-	'timezone' => 'Europe/Paris',
+	'timezone' => 'America/Bogota',
 
 	// tracking_level_linked_set_default: Default tracking level if not explicitely set at the attribute level, for AttributeLinkedSet (defaults to NONE in case of a fresh install, LIST otherwise - this to preserve backward compatibility while upgrading from a version older than 2.0.3 - see TRAC #936)
 	//	default: 1
@@ -235,6 +235,11 @@ $MyModuleSettings = array(
 		'retention_count' => 5,
 		'enabled' => true,
 		'debug' => false,
+	),
+	'combodo-sla-computation' => array (
+		'coverage_oql' => 'SELECT CoverageWindow AS cw JOIN lnkCustomerContractToService AS l1 ON l1.coveragewindow_id = cw.id JOIN CustomerContract AS cc ON l1.customercontract_id = cc.id WHERE cc.org_id= :this->org_id AND l1.service_id = :this->service_id',
+		'holidays_oql' => 'SELECT Holiday',
+		'deadline_format' => '$date$ ($difference$)',
 	),
 );
 
