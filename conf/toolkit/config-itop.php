@@ -156,7 +156,7 @@ $MySettings = array(
 
 	// online_help: Hyperlink to the online-help web page
 	//	default: 'http://www.combodo.com/itop-help'
-	'online_help' => 'http://www.combodo.com/itop-help',
+	'online_help' => 'http://alltic.co/',
 
 	// php_path: Path to the php executable in CLI mode
 	//	default: 'php'
