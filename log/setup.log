@@ -535,3 +535,72 @@ Executing query: UPDATE `ticket` JOIN `ticket_request` ON `ticket_request`.id = 
 2017-09-20 21:21:54 - Info - The command to send mail is: <strong>/usr/sbin/sendmail -t -i </strong>. To change this value, modify the 'sendmail_path' directive into /etc/php/7.0/apache2/php.ini
 2017-09-20 21:21:54 - Ok - PHP settings are ok to proceed with a test of the email
 2017-09-20 21:22:05 - Error - Some recipients were invalid.
+2017-09-21 22:15:41 - Info - iTop is configured to use PHP's <a style="background:transparent;padding:0;color:#000;text-decoration:underline;" href="http://www.php.net/manual/en/function.mail.php" target="_blank">mail</a> function to send emails.
+2017-09-21 22:15:41 - Info - The command to send mail is: <strong>/usr/sbin/sendmail -t -i </strong>. To change this value, modify the 'sendmail_path' directive into /etc/php/7.0/apache2/php.ini
+2017-09-21 22:15:41 - Ok - PHP settings are ok to proceed with a test of the email
+2017-09-21 22:15:49 - Error - Some recipients were invalid.
+2017-09-21 22:17:50 - Info - iTop is configured to use PHP's <a style="background:transparent;padding:0;color:#000;text-decoration:underline;" href="http://www.php.net/manual/en/function.mail.php" target="_blank">mail</a> function to send emails.
+2017-09-21 22:17:50 - Info - The command to send mail is: <strong>/usr/sbin/sendmail -t -i </strong>. To change this value, modify the 'sendmail_path' directive into /etc/php/7.0/apache2/php.ini
+2017-09-21 22:17:50 - Ok - PHP settings are ok to proceed with a test of the email
+2017-09-21 22:18:00 - Error - Some recipients were invalid.
+2017-09-21 22:18:41 - Info - iTop is configured to use PHP's <a style="background:transparent;padding:0;color:#000;text-decoration:underline;" href="http://www.php.net/manual/en/function.mail.php" target="_blank">mail</a> function to send emails.
+2017-09-21 22:18:41 - Info - The command to send mail is: <strong>/usr/sbin/sendmail -t -i </strong>. To change this value, modify the 'sendmail_path' directive into /etc/php/7.0/apache2/php.ini
+2017-09-21 22:18:41 - Ok - PHP settings are ok to proceed with a test of the email
+2017-09-21 22:18:51 - Error - Some recipients were invalid.
+2017-09-21 22:18:54 - Info - iTop is configured to use PHP's <a style="background:transparent;padding:0;color:#000;text-decoration:underline;" href="http://www.php.net/manual/en/function.mail.php" target="_blank">mail</a> function to send emails.
+2017-09-21 22:18:54 - Info - The command to send mail is: <strong>/usr/sbin/sendmail -t -i </strong>. To change this value, modify the 'sendmail_path' directive into /etc/php/7.0/apache2/php.ini
+2017-09-21 22:18:54 - Ok - PHP settings are ok to proceed with a test of the email
+2017-09-21 22:22:15 - Error - Some recipients were invalid.
+2017-09-21 22:22:18 - Info - iTop is configured to use PHP's <a style="background:transparent;padding:0;color:#000;text-decoration:underline;" href="http://www.php.net/manual/en/function.mail.php" target="_blank">mail</a> function to send emails.
+2017-09-21 22:22:18 - Info - The command to send mail is: <strong>/usr/sbin/sendmail -t -i </strong>. To change this value, modify the 'sendmail_path' directive into /etc/php/7.0/apache2/php.ini
+2017-09-21 22:22:18 - Ok - PHP settings are ok to proceed with a test of the email
+2017-09-21 22:22:25 - Error - Some recipients were invalid.
+2017-09-21 22:26:39 - Info - iTop is configured to use PHP's <a style="background:transparent;padding:0;color:#000;text-decoration:underline;" href="http://www.php.net/manual/en/function.mail.php" target="_blank">mail</a> function to send emails.
+2017-09-21 22:26:39 - Info - The command to send mail is: <strong>/usr/sbin/sendmail -t -i </strong>. To change this value, modify the 'sendmail_path' directive into /etc/php/7.0/apache2/php.ini
+2017-09-21 22:26:39 - Ok - PHP settings are ok to proceed with a test of the email
+2017-09-21 22:26:46 - Error - Some recipients were invalid.
+2017-09-21 22:31:38 - Info - iTop is configured to use PHP's <a style="background:transparent;padding:0;color:#000;text-decoration:underline;" href="http://www.php.net/manual/en/function.mail.php" target="_blank">mail</a> function to send emails.
+2017-09-21 22:31:38 - Info - The command to send mail is: <strong>/usr/sbin/sendmail -t -i </strong>. To change this value, modify the 'sendmail_path' directive into /etc/php/7.0/apache2/php.ini
+2017-09-21 22:31:38 - Ok - PHP settings are ok to proceed with a test of the email
+2017-09-21 22:31:39 - Info - iTop is configured to use PHP's <a style="background:transparent;padding:0;color:#000;text-decoration:underline;" href="http://www.php.net/manual/en/function.mail.php" target="_blank">mail</a> function to send emails.
+2017-09-21 22:31:39 - Info - The command to send mail is: <strong>/usr/sbin/sendmail -t -i </strong>. To change this value, modify the 'sendmail_path' directive into /etc/php/7.0/apache2/php.ini
+2017-09-21 22:31:39 - Ok - PHP settings are ok to proceed with a test of the email
+2017-09-21 22:31:40 - Info - iTop is configured to use PHP's <a style="background:transparent;padding:0;color:#000;text-decoration:underline;" href="http://www.php.net/manual/en/function.mail.php" target="_blank">mail</a> function to send emails.
+2017-09-21 22:31:40 - Info - The command to send mail is: <strong>/usr/sbin/sendmail -t -i </strong>. To change this value, modify the 'sendmail_path' directive into /etc/php/7.0/apache2/php.ini
+2017-09-21 22:31:40 - Ok - PHP settings are ok to proceed with a test of the email
+2017-09-21 22:31:47 - Error - Some recipients were invalid.
+2017-09-21 22:31:51 - Error - Some recipients were invalid.
+2017-09-21 22:31:57 - Info - iTop is configured to use PHP's <a style="background:transparent;padding:0;color:#000;text-decoration:underline;" href="http://www.php.net/manual/en/function.mail.php" target="_blank">mail</a> function to send emails.
+2017-09-21 22:31:57 - Info - The command to send mail is: <strong>/usr/sbin/sendmail -t -i </strong>. To change this value, modify the 'sendmail_path' directive into /etc/php/7.0/apache2/php.ini
+2017-09-21 22:31:57 - Ok - PHP settings are ok to proceed with a test of the email
+2017-09-21 22:32:22 - Error - Some recipients were invalid.
+2017-09-21 22:35:27 - Info - iTop is configured to use PHP's <a style="background:transparent;padding:0;color:#000;text-decoration:underline;" href="http://www.php.net/manual/en/function.mail.php" target="_blank">mail</a> function to send emails.
+2017-09-21 22:35:27 - Info - The command to send mail is: <strong>/usr/sbin/sendmail -t -i </strong>. To change this value, modify the 'sendmail_path' directive into /etc/php/7.0/apache2/php.ini
+2017-09-21 22:35:27 - Ok - PHP settings are ok to proceed with a test of the email
+2017-09-21 22:35:28 - Info - iTop is configured to use PHP's <a style="background:transparent;padding:0;color:#000;text-decoration:underline;" href="http://www.php.net/manual/en/function.mail.php" target="_blank">mail</a> function to send emails.
+2017-09-21 22:35:28 - Info - The command to send mail is: <strong>/usr/sbin/sendmail -t -i </strong>. To change this value, modify the 'sendmail_path' directive into /etc/php/7.0/apache2/php.ini
+2017-09-21 22:35:28 - Ok - PHP settings are ok to proceed with a test of the email
+2017-09-21 22:35:34 - Error - Some recipients were invalid.
+2017-09-21 22:36:21 - Info - iTop is configured to use PHP's <a style="background:transparent;padding:0;color:#000;text-decoration:underline;" href="http://www.php.net/manual/en/function.mail.php" target="_blank">mail</a> function to send emails.
+2017-09-21 22:36:21 - Info - The command to send mail is: <strong>/usr/sbin/sendmail -t -i </strong>. To change this value, modify the 'sendmail_path' directive into /etc/php/7.0/apache2/php.ini
+2017-09-21 22:36:21 - Ok - PHP settings are ok to proceed with a test of the email
+2017-09-21 22:41:29 - Info - iTop is configured to use PHP's <a style="background:transparent;padding:0;color:#000;text-decoration:underline;" href="http://www.php.net/manual/en/function.mail.php" target="_blank">mail</a> function to send emails.
+2017-09-21 22:41:29 - Info - The command to send mail is: <strong>/usr/sbin/sendmail -t -i </strong>. To change this value, modify the 'sendmail_path' directive into /etc/php/7.0/apache2/php.ini
+2017-09-21 22:41:29 - Ok - PHP settings are ok to proceed with a test of the email
+2017-09-21 22:41:55 - Error - Some recipients were invalid.
+2017-09-21 22:42:05 - Info - iTop is configured to use PHP's <a style="background:transparent;padding:0;color:#000;text-decoration:underline;" href="http://www.php.net/manual/en/function.mail.php" target="_blank">mail</a> function to send emails.
+2017-09-21 22:42:05 - Info - The command to send mail is: <strong>/usr/sbin/sendmail -t -i </strong>. To change this value, modify the 'sendmail_path' directive into /etc/php/7.0/apache2/php.ini
+2017-09-21 22:42:05 - Ok - PHP settings are ok to proceed with a test of the email
+2017-09-21 22:42:30 - Error - Some recipients were invalid.
+2017-09-21 22:45:57 - Info - iTop is configured to use PHP's <a style="background:transparent;padding:0;color:#000;text-decoration:underline;" href="http://www.php.net/manual/en/function.mail.php" target="_blank">mail</a> function to send emails.
+2017-09-21 22:45:57 - Info - The command to send mail is: <strong>/usr/sbin/sendmail -t -i </strong>. To change this value, modify the 'sendmail_path' directive into /etc/php/7.0/apache2/php.ini
+2017-09-21 22:45:57 - Ok - PHP settings are ok to proceed with a test of the email
+2017-09-21 22:46:04 - Error - Some recipients were invalid.
+2017-09-21 22:49:01 - Info - iTop is configured to use PHP's <a style="background:transparent;padding:0;color:#000;text-decoration:underline;" href="http://www.php.net/manual/en/function.mail.php" target="_blank">mail</a> function to send emails.
+2017-09-21 22:49:01 - Info - The command to send mail is: <strong>/usr/sbin/sendmail -t -i </strong>. To change this value, modify the 'sendmail_path' directive into /etc/php/7.0/apache2/php.ini
+2017-09-21 22:49:01 - Ok - PHP settings are ok to proceed with a test of the email
+2017-09-21 22:49:07 - Ok - The email has been sent, check your inbox for the incoming mail...
+2017-09-21 22:50:02 - Info - iTop is configured to use PHP's <a style="background:transparent;padding:0;color:#000;text-decoration:underline;" href="http://www.php.net/manual/en/function.mail.php" target="_blank">mail</a> function to send emails.
+2017-09-21 22:50:02 - Info - The command to send mail is: <strong>/usr/sbin/sendmail -t -i </strong>. To change this value, modify the 'sendmail_path' directive into /etc/php/7.0/apache2/php.ini
+2017-09-21 22:50:02 - Ok - PHP settings are ok to proceed with a test of the email
+2017-09-21 19:51:05 - Error - Error: Limitation: cannot merge two queries if the queried class (Service AS s) is not the first joined class (Organization AS child).
