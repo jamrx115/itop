@@ -1,11 +1,10 @@
 <?php
 //
-// File generated on 2017-09-21T20:22:40+0000
+// File generated on 2017-09-25T10:16:55-0500
 // Please do not edit manually
 //
 MetaModel::IncludeModule('env-production/core/main.php');
 MetaModel::IncludeModule('env-production/authent-external/model.authent-external.php');
-MetaModel::IncludeModule('env-production/authent-ldap/model.authent-ldap.php');
 MetaModel::IncludeModule('env-production/authent-local/model.authent-local.php');
 MetaModel::IncludeModule('env-production/itop-attachments/model.itop-attachments.php');
 MetaModel::IncludeModule('env-production/itop-attachments/main.attachments.php');

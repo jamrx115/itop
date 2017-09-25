@@ -4,50 +4,45 @@
 //
 Dict::SetLanguagesList(
 array (
-  'EN US' => 
-  array (
-    'description' => 'English',
-    'localized_description' => 'English',
-  ),
-  'ZH CN' => 
-  array (
-    'description' => 'Chinese',
-    'localized_description' => '简体中文',
-  ),
-  'IT IT' => 
-  array (
-    'description' => 'Italian',
-    'localized_description' => 'Italiano',
-  ),
-  'TR TR' => 
-  array (
-    'description' => 'Turkish',
-    'localized_description' => 'Türkçe',
-  ),
   'CS CZ' => 
   array (
     'description' => 'Czech',
     'localized_description' => 'Čeština',
   ),
-  'PT BR' => 
+  'DA DA' => 
   array (
-    'description' => 'Brazilian',
-    'localized_description' => 'Brazilian',
-  ),
-  'ES CR' => 
-  array (
-    'description' => 'Spanish',
-    'localized_description' => 'Español, Castellano',
+    'description' => 'Danish',
+    'localized_description' => 'Dansk',
   ),
   'DE DE' => 
   array (
     'description' => 'German',
     'localized_description' => 'Deutsch',
   ),
+  'EN US' => 
+  array (
+    'description' => 'English',
+    'localized_description' => 'English',
+  ),
+  'ES CR' => 
+  array (
+    'description' => 'Spanish',
+    'localized_description' => 'Español, Castellano',
+  ),
   'FR FR' => 
   array (
     'description' => 'French',
     'localized_description' => 'Français',
+  ),
+  'HU HU' => 
+  array (
+    'description' => 'Hungarian',
+    'localized_description' => 'Magyar',
+  ),
+  'IT IT' => 
+  array (
+    'description' => 'Italian',
+    'localized_description' => 'Italiano',
   ),
   'JA JP' => 
   array (
@@ -59,20 +54,25 @@ array (
     'description' => 'Dutch',
     'localized_description' => 'Nederlands',
   ),
+  'PT BR' => 
+  array (
+    'description' => 'Brazilian',
+    'localized_description' => 'Brazilian',
+  ),
   'RU RU' => 
   array (
     'description' => 'Russian',
     'localized_description' => 'Русский',
   ),
-  'DA DA' => 
+  'TR TR' => 
   array (
-    'description' => 'Danish',
-    'localized_description' => 'Dansk',
+    'description' => 'Turkish',
+    'localized_description' => 'Türkçe',
   ),
-  'HU HU' => 
+  'ZH CN' => 
   array (
-    'description' => 'Hungarian',
-    'localized_description' => 'Magyar',
+    'description' => 'Chinese',
+    'localized_description' => '简体中文',
   ),
 )
 );

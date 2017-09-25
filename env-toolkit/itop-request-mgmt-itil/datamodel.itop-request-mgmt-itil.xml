@@ -76,12 +76,12 @@
 				</field>
 				<field id="impact" xsi:type="AttributeEnum">
 					<values>
-						<value id="1">1</value>
+						<!-- <value id="1">1</value> -->
 						<value id="2">2</value>
-						<value id="3">3</value>
+						<!-- <value id="3">3</value> -->
 					</values>
 					<sql>impact</sql>
-					<default_value>1</default_value>
+					<default_value>2</default_value>
 					<is_null_allowed>false</is_null_allowed>
 					<display_style>list</display_style>
 				</field>
