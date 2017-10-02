@@ -1,4 +1,5 @@
 <?php
+
 // Copyright (C) 2010-2016 Combodo SARL
 //
 //   This file is part of iTop.
@@ -151,9 +152,9 @@ class LoginWebPage extends NiceWebPage
 			$this->add("<tr><td colspan=\"2\" class=\"center v-spacer\"><span class=\"btn_border\"><input type=\"submit\" value=\"".Dict::S('UI:Button:Login')."\" /></span></td></tr>\n");
 			if (strlen($sForgotPwd) > 0)
 			{
-				$this->add("<tr><td colspan=\"2\" class=\"center v-spacer\">$sForgotPwd</td></tr>\n");
+				$this->add("<tr><td colspan=\"2\" class=\"center v-spacer\">$sForgotPwd</td> </tr>\n");
 			}
-			$this->add("</table>\n");
+			$this->add("</table>\n </br> <div align='center'><img src='../images/canales_atencion.png' width='277' height='151' />");
 			$this->add("<input type=\"hidden\" name=\"loginop\" value=\"login\" />\n");
 
 			$this->add_ready_script('$("#user").focus();');
@@ -179,7 +180,7 @@ class LoginWebPage extends NiceWebPage
 			
 			$this->add("</form>\n");
 			$this->add(Dict::S('UI:Login:About'));
-			$this->add("</div>\n");
+				$this->add("</div>\n ");
 			break;
 		}
 	}
