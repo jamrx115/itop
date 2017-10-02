@@ -22,3 +22,11 @@
 2017-09-21 22:42:30 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: jamrx115@gmail.com
 2017-09-21 22:46:04 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: jmartinez@alltic.co
 2017-09-21 19:51:05 | Error | Limitation: cannot merge two queries if the queried class (Service AS s) is not the first joined class (Organization AS child)
+2017-10-02 08:32:14 | Error | Limitation: cannot merge two queries if the queried class (Service AS s) is not the first joined class (Organization AS child)
+2017-10-02 08:32:27 | Error | Limitation: cannot merge two queries if the queried class (Service AS s) is not the first joined class (Organization AS child)
+2017-10-02 08:32:36 | Error | Limitation: cannot merge two queries if the queried class (Service AS s) is not the first joined class (Organization AS child)
+2017-10-02 08:50:00 | Error | Limitation: cannot merge two queries if the queried class (Service AS s) is not the first joined class (Organization AS child)
+2017-10-02 08:50:17 | Error | Limitation: cannot merge two queries if the queried class (Service AS s) is not the first joined class (Organization AS child)
+2017-10-02 09:10:51 | Error | Limitation: cannot merge two queries if the queried class (Service AS s) is not the first joined class (Organization AS child)
+2017-10-02 09:57:59 | Error | Limitation: cannot merge two queries if the queried class (Service AS s) is not the first joined class (Organization AS child)
+2017-10-02 11:12:32 | Error | Limitation: cannot merge two queries if the queried class (Service AS s) is not the first joined class (Organization AS child)

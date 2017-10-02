@@ -1036,3 +1036,11 @@ Executing query: UPDATE `ticket` JOIN `ticket_request` ON `ticket_request`.id = 
 2017-09-25 20:12:29 - Info - operation 'async_action', peak memory usage. 34356968
 2017-09-25 20:12:30 - Info - MetaModel::Startup from D:\servidor\htdocs\itop//conf/production/config-itop.php (ModelOnly = 1)
 2017-09-25 13:12:36 - Info - operation 'async_action', peak memory usage. 35184216
+2017-10-02 08:32:14 - Error - Error: Limitation: cannot merge two queries if the queried class (Service AS s) is not the first joined class (Organization AS child).
+2017-10-02 08:32:27 - Error - Error: Limitation: cannot merge two queries if the queried class (Service AS s) is not the first joined class (Organization AS child).
+2017-10-02 08:32:36 - Error - Error: Limitation: cannot merge two queries if the queried class (Service AS s) is not the first joined class (Organization AS child).
+2017-10-02 08:50:00 - Error - Error: Limitation: cannot merge two queries if the queried class (Service AS s) is not the first joined class (Organization AS child).
+2017-10-02 08:50:17 - Error - Error: Limitation: cannot merge two queries if the queried class (Service AS s) is not the first joined class (Organization AS child).
+2017-10-02 09:10:51 - Error - Error: Limitation: cannot merge two queries if the queried class (Service AS s) is not the first joined class (Organization AS child).
+2017-10-02 09:57:59 - Error - Error: Limitation: cannot merge two queries if the queried class (Service AS s) is not the first joined class (Organization AS child).
+2017-10-02 11:12:32 - Error - Error: Limitation: cannot merge two queries if the queried class (Service AS s) is not the first joined class (Organization AS child).
