@@ -154,7 +154,7 @@ class LoginWebPage extends NiceWebPage
 			{
 				$this->add("<tr><td colspan=\"2\" class=\"center v-spacer\">$sForgotPwd</td> </tr>\n");
 			}
-			$this->add("</table>\n </br> <div align='center'><img src='../images/canales_atencion.png' width='277' height='151' />");
+			$this->add("</table>\n </br> <div align='center'><img src='../images/canales_atencion.png' width='303' height='143' />");
 			$this->add("<input type=\"hidden\" name=\"loginop\" value=\"login\" />\n");
 
 			$this->add_ready_script('$("#user").focus();');
