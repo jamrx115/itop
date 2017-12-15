@@ -300,7 +300,7 @@ Dict::Add('JA JP', 'Japanese', '日本語', array (
 //
 
 Dict::Add('JA JP', 'Japanese', '日本語', array (
-	'Class:EmergencyChange' => '緊急変更', # 'Emergency Change',
+	'Class:EmergencyChange' => '緊急変更', # 'HDC Change',
 	'Class:EmergencyChange+' => '', # '',
 	'Class:EmergencyChange/Attribute:status/Value:new' => '新規', # 'New',
 	'Class:EmergencyChange/Attribute:status/Value:new+' => '', # '',

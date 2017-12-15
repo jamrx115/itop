@@ -300,7 +300,7 @@ Dict::Add('DE DE', 'German', 'Deutsch', array(
 //
 
 Dict::Add('DE DE', 'German', 'Deutsch', array(
-	'Class:EmergencyChange' => 'Emergency Change',
+	'Class:EmergencyChange' => 'HDC Change',
 	'Class:EmergencyChange+' => '',
 	'Class:EmergencyChange/Attribute:status/Value:new' => 'Neu',
 	'Class:EmergencyChange/Attribute:status/Value:new+' => '',

@@ -269,8 +269,8 @@ Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
 //
 
 Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
-	'Class:EmergencyChange' => 'Cambio de Emergencia',
-	'Class:EmergencyChange+' => 'Cambio de Emergencia',
+	'Class:EmergencyChange' => 'Cambio HDC',
+	'Class:EmergencyChange+' => 'Cambio HDC',
 	'Class:EmergencyChange/Stimulus:ev_validate' => 'Validar',
 	'Class:EmergencyChange/Stimulus:ev_validate+' => 'Validar',
 	'Class:EmergencyChange/Stimulus:ev_reject' => 'Rechazar',

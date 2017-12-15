@@ -78,7 +78,7 @@ $MySettings = array(
 
 	'db_host' => 'localhost',
 
-	'db_name' => 'itop_alltic',
+	'db_name' => 'itop_demo',
 
 	'db_pwd' => '',
 
@@ -112,7 +112,7 @@ $MySettings = array(
 
 	// graphviz_path: Path to the Graphviz "dot" executable for graphing objects lifecycle
 	//	default: '/usr/bin/dot'
-	'graphviz_path' => '/usr/bin/dot',
+	'graphviz_path' => './usr/bin/dot',
 
 	// inline_image_max_display_width: The maximum width (in pixels) when displaying images inside an HTML formatted attribute. Images will be displayed using this this maximum width.
 	//	default: '250'

@@ -5,17 +5,17 @@
 
 SetupWebPage::AddModule(
 	__FILE__, // Path to the current file, all other file names are relative to the directory containing this file
-	'plataforma-module/1.0.0',
+	'Requerimiento-autoincremento/1.0.0',
 	array(
 		// Identification
 		//
-		'label' => 'plataforma Module',
+		'label' => 'Campo Incremento Requerimiento',
 		'category' => 'business',
 
 		// Setup
 		//
 		'dependencies' => array(
-			'itop-request-mgmt-itil/2.0.0'
+			'itop-change-mgmt-itil/2.0.0'
 		),
 		'mandatory' => false,
 		'visible' => true,
@@ -23,7 +23,7 @@ SetupWebPage::AddModule(
 		// Components
 		//
 		'datamodel' => array(
-			'model.plataforma-module.php'
+			'model.requerimiento-autoincremento.php'
 		),
 		'webservice' => array(
 			

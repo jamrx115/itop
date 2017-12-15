@@ -75,7 +75,7 @@ Dict::Add('DE DE', 'German', 'Deutsch', array(
 	'Class:NormalChange/Stimulus:ev_monitor+' => '',
 	'Class:NormalChange/Stimulus:ev_finish' => 'Abschließen',
 	'Class:NormalChange/Stimulus:ev_finish+' => '',
-	'Class:EmergencyChange' => 'Emergency Change',
+	'Class:EmergencyChange' => 'HDC Change',
 	'Class:EmergencyChange+' => '',
 	'Class:EmergencyChange/Stimulus:ev_validate' => 'Validieren',
 	'Class:EmergencyChange/Stimulus:ev_validate+' => '',

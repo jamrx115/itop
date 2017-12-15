@@ -3444,7 +3444,7 @@ When associated with a trigger, each action is given an "order" number, specifyi
 	'Class:NormalChange/Stimulus:ev_monitor+' => '',
 	'Class:NormalChange/Stimulus:ev_finish' => 'Finish',
 	'Class:NormalChange/Stimulus:ev_finish+' => '',
-	'Class:EmergencyChange' => 'Emergency Change',
+	'Class:EmergencyChange' => 'HDC Change',
 	'Class:EmergencyChange+' => '',
 	'Class:EmergencyChange/Stimulus:ev_validate' => 'Validate',
 	'Class:EmergencyChange/Stimulus:ev_validate+' => '',
