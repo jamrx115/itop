@@ -4366,4 +4366,5 @@ Cuando se asocien con un disparador, cada acción recibe un número de "orden", 
 	'Class:Contract/Attribute:cost_currency/Value:euros' => 'Euros',
 	'Class:SLT/Attribute:request_type/Value:service_request' => 'service request',
 	'Class:SLT/Attribute:request_type/Value:service_request+' => 'service request',
+	'Class:EmergencyChange/Attribute:external_id' => 'ID Externo',
 ));

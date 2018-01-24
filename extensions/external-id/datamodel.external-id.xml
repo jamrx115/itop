@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itop_design xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0">
+  <constants>
+  </constants>
+  <classes>
+	<class id="EmergencyChange">
+      <fields>
+        <field id="external_id" xsi:type="AttributeString" _delta="define">
+          <sql>external_id</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>
+        </field>
+      </fields>
+	    <presentation>
+        <details _delta="redefine">
+          <items>
+            <item id="functionalcis_list">
+              <rank>10</rank>
+            </item>
+            <item id="contacts_list">
+              <rank>20</rank>
+            </item>
+            <item id="workorders_list">
+              <rank>30</rank>
+            </item>
+            <item id="related_request_list">
+              <rank>40</rank>
+            </item>
+            <item id="related_incident_list">
+              <rank>50</rank>
+            </item>
+            <item id="related_problems_list">
+              <rank>60</rank>
+            </item>
+            <item id="child_changes_list">
+              <rank>70</rank>
+            </item>
+            <item id="col:col1">
+              <rank>80</rank>
+              <items>
+                <item id="fieldset:Ticket:baseinfo">
+                  <rank>10</rank>
+                  <items>
+                    <item id="ref">
+                      <rank>10</rank>
+                    </item>
+                    <item id="org_id">
+                      <rank>20</rank>
+                    </item>
+                    <item id="status">
+                      <rank>30</rank>
+                    </item>
+                    <item id="title">
+                      <rank>40</rank>
+                    </item>
+                    <item id="description">
+                      <rank>50</rank>
+                    </item>
+                    <item id="approval_comment">
+                      <rank>60</rank>
+                    </item>
+					<item id="external_id">
+                      <rank>70</rank>
+                    </item>
+                  </items>
+                </item>
+                <item id="fieldset:Ticket:contact">
+                  <rank>20</rank>
+                  <items>
+                    <item id="caller_id">
+                      <rank>10</rank>
+                    </item>
+                    <item id="team_id">
+                      <rank>20</rank>
+                    </item>
+                    <item id="agent_id">
+                      <rank>30</rank>
+                    </item>
+                    <item id="supervisor_group_id">
+                      <rank>40</rank>
+                    </item>
+                    <item id="supervisor_id">
+                      <rank>50</rank>
+                    </item>
+                    <item id="manager_group_id">
+                      <rank>60</rank>
+                    </item>
+                    <item id="manager_id">
+                      <rank>70</rank>
+                    </item>
+                  </items>
+                </item>
+              </items>
+            </item>
+            <item id="col:col2">
+              <rank>90</rank>
+              <items>
+                <item id="fieldset:Ticket:resolution">
+                  <rank>10</rank>
+                  <items>
+                    <item id="reason">
+                      <rank>10</rank>
+                    </item>
+                    <item id="impact">
+                      <rank>20</rank>
+                    </item>
+                    <item id="outage">
+                      <rank>30</rank>
+                    </item>
+                    <item id="fallback">
+                      <rank>40</rank>
+                    </item>
+                  </items>
+                </item>
+                <item id="fieldset:Ticket:relation">
+                  <rank>20</rank>
+                  <items>
+                    <item id="parent_id">
+                      <rank>10</rank>
+                    </item>
+                  </items>
+                </item>
+              </items>
+            </item>
+            <item id="col:col3">
+              <rank>100</rank>
+              <items>
+                <item id="fieldset:Ticket:date">
+                  <rank>10</rank>
+                  <items>
+                    <item id="creation_date">
+                      <rank>10</rank>
+                    </item>
+                    <item id="start_date">
+                      <rank>20</rank>
+                    </item>
+                    <item id="end_date">
+                      <rank>30</rank>
+                    </item>
+                    <item id="last_update">
+                      <rank>40</rank>
+                    </item>
+                    <item id="approval_date">
+                      <rank>50</rank>
+                    </item>
+                    <item id="close_date">
+                      <rank>60</rank>
+                    </item>
+                  </items>
+                </item>
+              </items>
+            </item>
+          </items>
+        </details>
+        <search>
+          <items>
+            <item id="ref">
+              <rank>10</rank>
+            </item>
+            <item id="org_id">
+              <rank>20</rank>
+            </item>
+            <item id="status">
+              <rank>30</rank>
+            </item>
+            <item id="operational_status">
+              <rank>35</rank>
+            </item>
+            <item id="title">
+              <rank>40</rank>
+            </item>
+            <item id="description">
+              <rank>50</rank>
+            </item>
+            <item id="caller_id">
+              <rank>60</rank>
+            </item>
+            <item id="team_id">
+              <rank>70</rank>
+            </item>
+            <item id="agent_id">
+              <rank>80</rank>
+            </item>
+            <item id="supervisor_group_id">
+              <rank>90</rank>
+            </item>
+            <item id="supervisor_id">
+              <rank>100</rank>
+            </item>
+            <item id="manager_group_id">
+              <rank>110</rank>
+            </item>
+            <item id="manager_id">
+              <rank>120</rank>
+            </item>
+            <item id="reason">
+              <rank>130</rank>
+            </item>
+            <item id="impact">
+              <rank>140</rank>
+            </item>
+            <item id="outage">
+              <rank>150</rank>
+            </item>
+            <item id="parent_id">
+              <rank>160</rank>
+            </item>
+            <item id="creation_date">
+              <rank>170</rank>
+            </item>
+            <item id="start_date">
+              <rank>180</rank>
+            </item>
+            <item id="end_date">
+              <rank>190</rank>
+            </item>
+            <item id="last_update">
+              <rank>200</rank>
+            </item>
+            <item id="approval_date">
+              <rank>210</rank>
+            </item>
+            <item id="close_date">
+              <rank>220</rank>
+            </item>
+          </items>
+        </search>
+        <list>
+          <items>
+            <item id="finalclass">
+              <rank>10</rank>
+            </item>
+            <item id="title">
+              <rank>20</rank>
+            </item>
+            <item id="org_id">
+              <rank>30</rank>
+            </item>
+            <item id="start_date">
+              <rank>40</rank>
+            </item>
+            <item id="end_date">
+              <rank>50</rank>
+            </item>
+            <item id="status">
+              <rank>60</rank>
+            </item>
+            <item id="agent_id">
+              <rank>70</rank>
+            </item>
+          </items>
+        </list>
+      </presentation>	
+    </class>
+  </classes>  
+</itop_design>

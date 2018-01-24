@@ -7,6 +7,6 @@
  */
 
 Dict::Add('EN US', 'English', 'English', array(
-	// Dictionary entries go here
+	'Class:EmergencyChange/Attribute:external_id' => 'External ID',
 ));
 ?>

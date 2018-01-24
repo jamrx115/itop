@@ -5,11 +5,11 @@
 
 SetupWebPage::AddModule(
 	__FILE__, // Path to the current file, all other file names are relative to the directory containing this file
-	'Requerimiento-autoincremento/1.0.0',
+	'External-id/1.0.0',
 	array(
 		// Identification
 		//
-		'label' => 'Campo Incremento Requerimiento',
+		'label' => 'Externa ID',
 		'category' => 'business',
 
 		// Setup
@@ -23,7 +23,7 @@ SetupWebPage::AddModule(
 		// Components
 		//
 		'datamodel' => array(
-			'model.requerimiento-autoincremento.php'
+			'model.external-id.php'
 		),
 		'webservice' => array(
 			

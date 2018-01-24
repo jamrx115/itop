@@ -4401,6 +4401,7 @@ When associated with a trigger, each action is given an "order" number, specifyi
 	'Class:lnkDeliveryModelToContact/Attribute:role_id+' => '',
 	'Class:lnkDeliveryModelToContact/Attribute:role_name' => 'Role name',
 	'Class:lnkDeliveryModelToContact/Attribute:role_name+' => '',
+	'Class:EmergencyChange/Attribute:external_id' => 'External ID',
 	'Class:lnkCustomerContractToService/Attribute:coveragewindow_id' => 'Coverage window',
 	'Class:lnkCustomerContractToService/Attribute:coveragewindow_id+' => '',
 	'Class:lnkCustomerContractToService/Attribute:coveragewindow_name' => 'Coverage window name',

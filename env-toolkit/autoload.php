@@ -1,6 +1,6 @@
 <?php
 //
-// File generated on 2017-12-14T23:42:11-0500
+// File generated on 2018-01-24T11:14:33-0500
 // Please do not edit manually
 //
 MetaModel::IncludeModule('env-toolkit/core/main.php');
@@ -37,5 +37,6 @@ MetaModel::IncludeModule('env-toolkit/itop-problem-mgmt/model.itop-problem-mgmt.
 MetaModel::IncludeModule('env-toolkit/itop-request-mgmt-itil/model.itop-request-mgmt-itil.php');
 MetaModel::IncludeModule('env-toolkit/itop-request-mgmt-itil/main.itop-request-mgmt-itil.php');
 MetaModel::IncludeModule('env-toolkit/itop-service-mgmt/model.itop-service-mgmt.php');
+MetaModel::IncludeModule('env-toolkit/external-id/model.external-id.php');
 MetaModel::IncludeModule('env-toolkit/combodo-coverage-windows-computation-incident/main.combodo-coverage-windows-computation-incident.php');
 MetaModel::IncludeModule('env-toolkit/combodo-coverage-windows-computation/main.combodo-coverage-windows-computation.php');
