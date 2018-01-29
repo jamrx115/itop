@@ -223,6 +223,9 @@
             <item id="close_date">
               <rank>220</rank>
             </item>
+			<item id="external_id">
+              <rank>230</rank>
+            </item>
           </items>
         </search>
         <list>
@@ -247,6 +250,9 @@
             </item>
             <item id="agent_id">
               <rank>70</rank>
+            </item>
+			<item id="external_id">
+              <rank>80</rank>
             </item>
           </items>
         </list>
