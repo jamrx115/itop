@@ -460,6 +460,15 @@
 							<attribute id="caller_id">
 								<mandatory/>
 							</attribute>
+							<attribute id="servicefamily_id">
+								<mandatory/>
+							</attribute>
+							<attribute id="service_id">
+								<mandatory/>
+							</attribute>
+							<attribute id="servicesubcategory_id">
+								<mandatory/>
+							</attribute>
 							<attribute id="team_id">
 								<hidden/>
 							</attribute>
