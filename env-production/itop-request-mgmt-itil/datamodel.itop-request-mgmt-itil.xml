@@ -136,10 +136,23 @@
 					<extkey_attcode>approver_id</extkey_attcode>
 					<target_attcode>email</target_attcode>
 				</field>
-				<field id="service_id" xsi:type="AttributeExternalKey">
-					<filter><![CDATA[SELECT Service AS s JOIN lnkCustomerContractToService AS l1 ON l1.service_id=s.id JOIN CustomerContract AS cc ON l1.customercontract_id=cc.id WHERE cc.org_id = :this->org_id AND s.status != 'obsolete']]></filter>
+				<field id="servicefamily_id" xsi:type="AttributeExternalKey" _delta="define">
+					<filter><![CDATA[SELECT ServiceFamily]]></filter>					
+					<sql>servicefamily_id</sql>
+					<target_class>ServiceFamily</target_class>
+					<is_null_allowed>true</is_null_allowed>
+					<on_target_delete>DEL_MANUAL</on_target_delete>
+					<allow_target_creation>false</allow_target_creation>
+				</field>
+		<field id="servicefamily_name" xsi:type="AttributeExternalField" _delta="define">
+					<extkey_attcode>servicefamily_id</extkey_attcode>
+					<target_attcode>name</target_attcode>
+				</field>	
+				<field id="service_id" xsi:type="AttributeExternalKey" _delta="define">
+					<filter><![CDATA[SELECT Service AS s JOIN lnkCustomerContractToService AS l1 ON l1.service_id=s.id JOIN CustomerContract AS cc ON l1.customercontract_id=cc.id WHERE cc.org_id = :this->org_id AND  s.status != 'obsolete' AND servicefamily_id= :this->servicefamily_id]]></filter>
 					<dependencies>
 						<attribute id="org_id"/>
+						<attribute id="servicefamily_id"/>
 					</dependencies>
 					<sql>service_id</sql>
 					<target_class>Service</target_class>
@@ -147,7 +160,7 @@
 					<on_target_delete>DEL_MANUAL</on_target_delete>
 					<allow_target_creation>false</allow_target_creation>
 				</field>
-				<field id="service_name" xsi:type="AttributeExternalField">
+				<field id="service_name" xsi:type="AttributeExternalField" _delta="define">
 					<extkey_attcode>service_id</extkey_attcode>
 					<target_attcode>name</target_attcode>
 				</field>
@@ -906,6 +919,10 @@
 							<attribute id="urgency">
 								<read_only/>
 							</attribute>
+							<attribute id="servicefamily_id">
+								<mandatory/>
+								<must_prompt/>
+							</attribute>	
 							<attribute id="service_id">
 								<mandatory/>
 								<must_prompt/>
@@ -1028,6 +1045,9 @@
 								<read_only/>
 							</attribute>
 							<attribute id="contacts_list">
+								<read_only/>
+							</attribute>
+							<attribute id="servicefamily_id">
 								<read_only/>
 							</attribute>
 							<attribute id="service_id">
@@ -1450,20 +1470,23 @@
 								<item id="fieldset:Ticket:moreinfo">
 									<rank>20</rank>
 									<items>
-										<item id="service_id">
+									<item id="servicefamily_id">
 											<rank>10</rank>
 										</item>
-										<item id="servicesubcategory_id">
+										<item id="service_id">
 											<rank>20</rank>
 										</item>
-										<item id="escalation_flag">
+										<item id="servicesubcategory_id">
 											<rank>30</rank>
 										</item>
-										<item id="escalation_reason">
+										<item id="escalation_flag">
 											<rank>40</rank>
 										</item>
-										<item id="pending_reason">
+										<item id="escalation_reason">
 											<rank>50</rank>
+										</item>
+										<item id="pending_reason">
+											<rank>60</rank>
 										</item>
 									</items>
 								</item>
@@ -1642,32 +1665,35 @@
 						<item id="priority">
 							<rank>150</rank>
 						</item>
-						<item id="service_id">
+						<item id="servicefamily_id">
 							<rank>160</rank>
 						</item>
-						<item id="servicesubcategory_id">
+						<item id="service_id">
 							<rank>170</rank>
 						</item>
-						<item id="team_id">
+						<item id="servicesubcategory_id">
 							<rank>180</rank>
 						</item>
-						<item id="agent_id">
+						<item id="team_id">
 							<rank>190</rank>
 						</item>
-						<item id="escalation_flag">
+						<item id="agent_id">
 							<rank>200</rank>
 						</item>
-						<item id="resolution_code">
+						<item id="escalation_flag">
 							<rank>210</rank>
 						</item>
-						<item id="user_satisfaction">
+						<item id="resolution_code">
 							<rank>220</rank>
 						</item>
-						<item id="sla_tto_passed">
+						<item id="user_satisfaction">
 							<rank>230</rank>
 						</item>
-						<item id="sla_ttr_passed">
+						<item id="sla_tto_passed">
 							<rank>240</rank>
+						</item>
+						<item id="sla_ttr_passed">
+							<rank>250</rank>
 						</item>
 					</items>
 				</search>
