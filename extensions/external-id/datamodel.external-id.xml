@@ -10,7 +10,54 @@
           <default_value/>
           <is_null_allowed>true</is_null_allowed>
         </field>
-      </fields>
+		<field id="servicefamily_id" xsi:type="AttributeExternalKey" _delta="define">
+					<filter><![CDATA[SELECT ServiceFamily]]></filter>					
+					<sql>servicefamily_id</sql>
+					<target_class>ServiceFamily</target_class>
+					<is_null_allowed>true</is_null_allowed>
+					<on_target_delete>DEL_MANUAL</on_target_delete>
+					<allow_target_creation>false</allow_target_creation>
+				</field>
+		<field id="servicefamily_name" xsi:type="AttributeExternalField" _delta="define">
+					<extkey_attcode>servicefamily_id</extkey_attcode>
+					<target_attcode>name</target_attcode>
+				</field>		
+		<field id="service_id" xsi:type="AttributeExternalKey" _delta="define">
+					<filter><![CDATA[SELECT Service AS s JOIN lnkCustomerContractToService AS l1 ON l1.service_id=s.id JOIN CustomerContract AS cc ON l1.customercontract_id=cc.id WHERE cc.org_id = :this->org_id AND  s.status != 'obsolete' AND servicefamily_id= :this->servicefamily_id]]></filter>
+					<dependencies>
+						<attribute id="org_id"/>
+						<attribute id="servicefamily_id"/>
+					</dependencies>
+					<sql>service_id</sql>
+					<target_class>Service</target_class>
+					<is_null_allowed>true</is_null_allowed>
+					<on_target_delete>DEL_MANUAL</on_target_delete>
+					<allow_target_creation>false</allow_target_creation>
+				</field>
+				<field id="service_name" xsi:type="AttributeExternalField" _delta="define">
+					<extkey_attcode>service_id</extkey_attcode>
+					<target_attcode>name</target_attcode>
+				</field>
+				
+				<field id="servicesubcategory_id" xsi:type="AttributeExternalKey" _delta="define">
+					<filter><![CDATA[SELECT ServiceSubcategory WHERE service_id = :this->service_id  AND status != 'obsolete']]></filter>
+					<dependencies>
+					  <attribute id="service_id"/>
+					</dependencies>
+					<sql>servicesubcategory_id</sql>
+					<target_class>ServiceSubcategory</target_class>
+					<is_null_allowed>true</is_null_allowed>
+					<on_target_delete>DEL_MANUAL</on_target_delete>
+					<allow_target_creation>false</allow_target_creation>
+					<jointype/>
+				</field>
+				<field id="servicesubcategory_name" xsi:type="AttributeExternalField" _delta="define">
+					<extkey_attcode>servicesubcategory_id</extkey_attcode>
+					<target_attcode>name</target_attcode>
+				</field>
+				
+		</fields>
+	  
 	    <presentation>
         <details _delta="redefine">
           <items>
@@ -50,18 +97,27 @@
                     <item id="status">
                       <rank>30</rank>
                     </item>
-                    <item id="title">
+					<item id="servicefamily_id">
                       <rank>40</rank>
                     </item>
-                    <item id="description">
+					<item id="service_id">
                       <rank>50</rank>
                     </item>
-                    <item id="approval_comment">
+					<item id="servicesubcategory_id">
                       <rank>60</rank>
                     </item>
-					<item id="external_id">
+                    <item id="title">
                       <rank>70</rank>
                     </item>
+                    <item id="description">
+                      <rank>80</rank>
+                    </item>
+                    <item id="approval_comment">
+                      <rank>90</rank>
+                    </item>
+					<item id="external_id">
+                      <rank>100</rank>
+                    </item>					
                   </items>
                 </item>
                 <item id="fieldset:Ticket:contact">
@@ -226,6 +282,15 @@
 			<item id="external_id">
               <rank>230</rank>
             </item>
+			<item id="servicefamily_id">
+              <rank>240</rank>
+            </item>
+			<item id="service_id">
+              <rank>250</rank>
+            </item>
+			<item id="servicesubcategory_id">
+              <rank>260</rank>
+            </item>
           </items>
         </search>
         <list>
@@ -253,6 +318,15 @@
             </item>
 			<item id="external_id">
               <rank>80</rank>
+            </item>
+			<item id="servicefamily_id">
+              <rank>90</rank>
+            </item>
+			<item id="service_id">
+              <rank>100</rank>
+            </item>
+			<item id="servicesubcategory_id">
+              <rank>11O</rank>
             </item>
           </items>
         </list>

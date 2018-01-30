@@ -8,5 +8,8 @@
 
 Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
 	'Class:EmergencyChange/Attribute:external_id' => 'ID Externo',
+	'Class:EmergencyChange/Attribute:servicefamily_id' => 'Plataforma',
+	'Class:EmergencyChange/Attribute:service_id' => 'Servicio',
+	'Class:EmergencyChange/Attribute:servicesubcategory_id' => 'Funcionalidad',
 ));
 ?>
