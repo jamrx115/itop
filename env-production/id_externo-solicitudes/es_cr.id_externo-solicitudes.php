@@ -6,7 +6,7 @@
  * @license     http://opensource.org/licenses/AGPL-3.0
  */
 
-Dict::Add('EN US', 'English', 'English', array(
-	'Class:UserRequest/Attribute:external_id' => 'External ID',
+Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
+	'Class:UserRequest/Attribute:external_id' => 'ID Externo',	
 ));
 ?>
