@@ -1,6 +1,6 @@
 <?php
 //
-// File generated on 2018-01-30T08:28:42-0500
+// File generated on 2018-03-01T11:51:10-0500
 // Please do not edit manually
 //
 MetaModel::IncludeModule('env-production/core/main.php');
@@ -40,3 +40,4 @@ MetaModel::IncludeModule('env-production/itop-service-mgmt/model.itop-service-mg
 MetaModel::IncludeModule('env-production/external-id/model.external-id.php');
 MetaModel::IncludeModule('env-production/combodo-coverage-windows-computation-incident/main.combodo-coverage-windows-computation-incident.php');
 MetaModel::IncludeModule('env-production/combodo-coverage-windows-computation/main.combodo-coverage-windows-computation.php');
+MetaModel::IncludeModule('env-production/id_externo-solicitudes/model.id_externo-solicitudes.php');
