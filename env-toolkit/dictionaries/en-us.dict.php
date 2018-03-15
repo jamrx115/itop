@@ -4413,5 +4413,6 @@ When associated with a trigger, each action is given an "order" number, specifyi
 	'Class:lnkCustomerContractToService/Attribute:coveragewindow_id+' => '',
 	'Class:lnkCustomerContractToService/Attribute:coveragewindow_name' => 'Coverage window name',
 	'Class:lnkCustomerContractToService/Attribute:coveragewindow_name+' => '',
+	'Class:Incident/Attribute:external_id' => 'External ID',
 	'Class:UserRequest/Attribute:external_id' => 'External ID',
 ));

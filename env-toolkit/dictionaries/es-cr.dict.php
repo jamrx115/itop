@@ -4374,4 +4374,5 @@ Cuando se asocien con un disparador, cada acción recibe un número de "orden", 
 	'Class:EmergencyChange/Attribute:servicefamily_id' => 'Plataforma',
 	'Class:EmergencyChange/Attribute:service_id' => 'Servicio',
 	'Class:EmergencyChange/Attribute:servicesubcategory_id' => 'Funcionalidad',
+	'Class:Incident/Attribute:external_id' => 'ID Externo',
 ));

@@ -55,3 +55,10 @@ Debug trace:
 #3 D:\servidor\htdocs\itop\application\startup.inc.php(49): MetaModel::Startup('D:\\servidor\\htd...', false, true, false, 'production')
 #4 D:\servidor\htdocs\itop\pages\ajax.render.php(40): require_once('D:\\servidor\\htd...')
 #5 {main}
+2018-03-15 10:16:49 | Error | Limitation: cannot merge two queries if the queried class (Service AS s) is not the first joined class (Organization AS child)
+2018-03-15 10:17:06 | Error | Limitation: cannot merge two queries if the queried class (Service AS s) is not the first joined class (Organization AS child)
+2018-03-15 10:20:00 | Error | Limitation: cannot merge two queries if the queried class (Service AS s) is not the first joined class (Organization AS child)
+2018-03-15 10:23:15 | Error | Limitation: cannot merge two queries if the queried class (Service AS s) is not the first joined class (Organization AS child)
+2018-03-15 10:24:46 | Error | Limitation: cannot merge two queries if the queried class (Service AS s) is not the first joined class (Organization AS child)
+2018-03-15 10:25:20 | Error | Limitation: cannot merge two queries if the queried class (Service AS s) is not the first joined class (Organization AS child)
+2018-03-15 10:32:34 | Error | Limitation: cannot merge two queries if the queried class (Service AS s) is not the first joined class (Organization AS child)
