@@ -1,0 +1,10 @@
+# This is a parameter file
+#
+# If a parameter is given both in the file and in the arguments,
+# then the value given as argument is retained
+# El usuario y contraseña deben ser de autenticación al itop 
+
+auth_user=admin
+auth_pwd=@lltic2017
+verboso=1
+status_only=1

@@ -210,6 +210,8 @@ Dict::Add('EN US', 'English', 'English', array(
 	'Class:Incident/Attribute:user_satisfaction/Value:3+' => 'Rather Dissatified',
 	'Class:Incident/Attribute:user_satisfaction/Value:4' => 'Very Dissatisfied',
 	'Class:Incident/Attribute:user_satisfaction/Value:4+' => 'Very Dissatisfied',
+	'Class:Incident/Attribute:user_satisfaction/Value:5' => 'iTop',
+	'Class:Incident/Attribute:user_satisfaction/Value:5+' => 'iTop',
 	'Class:Incident/Attribute:user_comment' => 'User comment',
 	'Class:Incident/Attribute:user_comment+' => '',
 	'Class:Incident/Attribute:parent_incident_id_friendlyname' => 'parent_incident_id_friendlyname',

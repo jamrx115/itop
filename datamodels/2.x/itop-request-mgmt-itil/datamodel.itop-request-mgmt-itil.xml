@@ -404,6 +404,7 @@
 						<value id="2">2</value>
 						<value id="3">3</value>
 						<value id="4">4</value>
+						<value id="5">5</value>
 					</values>
 					<sql>user_satisfaction</sql>
 					<default_value>1</default_value>

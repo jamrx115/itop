@@ -236,6 +236,8 @@ Dict::Add('EN US', 'English', 'English', array(
 	'Class:UserRequest/Attribute:user_satisfaction/Value:3+' => 'Rather Dissatified',
 	'Class:UserRequest/Attribute:user_satisfaction/Value:4' => 'Very Dissatisfied',
 	'Class:UserRequest/Attribute:user_satisfaction/Value:4+' => 'Very Dissatisfied',
+	'Class:UserRequest/Attribute:user_satisfaction/Value:5' => 'iTop',
+	'Class:UserRequest/Attribute:user_satisfaction/Value:5+' => 'iTop',
 	'Class:UserRequest/Attribute:user_comment' => 'User comment',
 	'Class:UserRequest/Attribute:user_comment+' => '',
 	'Class:UserRequest/Attribute:parent_request_id_friendlyname' => 'parent_request_id_friendlyname',

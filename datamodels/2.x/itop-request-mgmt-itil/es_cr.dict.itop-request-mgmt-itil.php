@@ -239,6 +239,8 @@ Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
 	'Class:UserRequest/Attribute:user_satisfaction/Value:3+' => 'Insatisfecha',
 	'Class:UserRequest/Attribute:user_satisfaction/Value:4' => 'Muy Insatisfecho',
 	'Class:UserRequest/Attribute:user_satisfaction/Value:4+' => 'Muy Insatisfecho',
+	'Class:UserRequest/Attribute:user_satisfaction/Value:5' => 'iTop',
+	'Class:UserRequest/Attribute:user_satisfaction/Value:5+' => 'iTop',
 	'Class:UserRequest/Attribute:user_comment' => 'Comentarios del Usuario',
 	'Class:UserRequest/Attribute:user_comment+' => 'Comentarios del Usuario',
 	'Class:UserRequest/Attribute:parent_request_id_friendlyname' => 'parent_request_id_friendlyname',
