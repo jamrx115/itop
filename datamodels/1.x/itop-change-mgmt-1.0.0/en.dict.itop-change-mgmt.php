@@ -302,7 +302,7 @@ Dict::Add('EN US', 'English', 'English', array(
 //
 
 Dict::Add('EN US', 'English', 'English', array(
-	'Class:EmergencyChange' => 'HDC Change',
+	'Class:EmergencyChange' => 'Hughes Reqm',
 	'Class:EmergencyChange+' => '',
 	'Class:EmergencyChange/Attribute:status/Value:new' => 'New',
 	'Class:EmergencyChange/Attribute:status/Value:new+' => '',

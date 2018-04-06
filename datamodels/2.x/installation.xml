@@ -154,7 +154,7 @@
         </choice>
         <choice>
           <title>ITIL Change Management</title>
-          <description>Select this option to use Normal/Routine/HDC Change tickets.</description>
+          <description>Select this option to use Normal/Routine/Hughes Reqm tickets.</description>
           <modules type="array">
             <module>itop-change-mgmt-itil</module>
           </modules>

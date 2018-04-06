@@ -270,7 +270,7 @@ Dict::Add('EN US', 'English', 'English', array(
 //
 
 Dict::Add('EN US', 'English', 'English', array(
-	'Class:EmergencyChange' => 'HDC Change',
+	'Class:EmergencyChange' => 'Reqm Hughes',
 	'Class:EmergencyChange+' => '',
 	'Class:EmergencyChange/Stimulus:ev_validate' => 'Validate',
 	'Class:EmergencyChange/Stimulus:ev_validate+' => '',

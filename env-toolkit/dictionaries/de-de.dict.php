@@ -3168,7 +3168,7 @@ Wenn Aktionen mit Trigger verknüpft sind, bekommt jede Aktion eine Auftragsnumm
 	'Class:NormalChange/Stimulus:ev_monitor+' => '',
 	'Class:NormalChange/Stimulus:ev_finish' => 'Abschließen',
 	'Class:NormalChange/Stimulus:ev_finish+' => '',
-	'Class:EmergencyChange' => 'HDC Change',
+	'Class:EmergencyChange' => 'Reqm Hughes',
 	'Class:EmergencyChange+' => '',
 	'Class:EmergencyChange/Stimulus:ev_validate' => 'Validieren',
 	'Class:EmergencyChange/Stimulus:ev_validate+' => '',
