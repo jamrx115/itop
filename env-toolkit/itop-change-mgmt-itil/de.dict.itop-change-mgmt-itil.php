@@ -23,7 +23,7 @@
  */
 
 Dict::Add('DE DE', 'German', 'Deutsch', array(
-	'Class:RoutineChange' => 'Routine Change',
+	'Class:RoutineChange' => 'UAT Release',
 	'Class:RoutineChange+' => '',
 	'Class:RoutineChange/Stimulus:ev_validate' => 'Validieren',
 	'Class:RoutineChange/Stimulus:ev_validate+' => '',

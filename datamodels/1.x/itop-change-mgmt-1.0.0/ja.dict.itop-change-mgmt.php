@@ -172,7 +172,7 @@ Dict::Add('JA JP', 'Japanese', '日本語', array (
 //
 
 Dict::Add('JA JP', 'Japanese', '日本語', array (
-	'Class:RoutineChange' => '定期変更', # 'Routine Change',
+	'Class:RoutineChange' => '定期変更', # 'UAT Release',
 	'Class:RoutineChange+' => '', # '',
 	'Class:RoutineChange/Attribute:status/Value:new' => '新規', # 'New',
 	'Class:RoutineChange/Attribute:status/Value:new+' => '', # '',

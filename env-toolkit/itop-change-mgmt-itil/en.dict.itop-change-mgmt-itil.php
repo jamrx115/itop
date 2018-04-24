@@ -169,7 +169,7 @@ Dict::Add('EN US', 'English', 'English', array(
 //
 
 Dict::Add('EN US', 'English', 'English', array(
-	'Class:RoutineChange' => 'Routine Change',
+	'Class:RoutineChange' => 'UAT Release',
 	'Class:RoutineChange+' => '',
 	'Class:RoutineChange/Stimulus:ev_validate' => 'Validate',
 	'Class:RoutineChange/Stimulus:ev_validate+' => '',

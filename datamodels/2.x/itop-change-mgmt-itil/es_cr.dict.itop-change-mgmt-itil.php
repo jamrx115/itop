@@ -168,8 +168,8 @@ Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
 //
 
 Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
-	'Class:RoutineChange' => 'Cambio Rutinario',
-	'Class:RoutineChange+' => 'Cambio Rutinario',
+	'Class:RoutineChange' => 'UAT Release',
+	'Class:RoutineChange+' => 'UAT Release',
 	'Class:RoutineChange/Stimulus:ev_validate' => 'Validar',
 	'Class:RoutineChange/Stimulus:ev_validate+' => 'Validar',
 	'Class:RoutineChange/Stimulus:ev_reject' => 'Rechazar',

@@ -171,7 +171,7 @@ Dict::Add('EN US', 'English', 'English', array(
 //
 
 Dict::Add('EN US', 'English', 'English', array(
-	'Class:RoutineChange' => 'Routine Change',
+	'Class:RoutineChange' => 'UAT Release',
 	'Class:RoutineChange+' => '',
 	'Class:RoutineChange/Attribute:status/Value:new' => 'New',
 	'Class:RoutineChange/Attribute:status/Value:new+' => '',

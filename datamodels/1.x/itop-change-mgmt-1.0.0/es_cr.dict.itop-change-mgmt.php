@@ -164,7 +164,7 @@ Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
 //
 
 Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
-	'Class:RoutineChange' => 'Routine Change',
+	'Class:RoutineChange' => 'UAT Release',
 	'Class:RoutineChange+' => '',
 	'Class:RoutineChange/Attribute:status/Value:new' => 'Nuevo',
 	'Class:RoutineChange/Attribute:status/Value:new+' => '',

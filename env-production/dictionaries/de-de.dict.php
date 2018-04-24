@@ -3116,7 +3116,7 @@ Wenn Aktionen mit Trigger verknüpft sind, bekommt jede Aktion eine Auftragsnumm
 	'Brick:Portal:OngoingRequests:Tab:OnGoing' => 'Offen',
 	'Brick:Portal:OngoingRequests:Tab:Resolved' => 'Gelöst',
 	'Brick:Portal:ClosedRequests:Title' => 'Geschlossene Störungen/Anfragen',
-	'Class:RoutineChange' => 'Routine Change',
+	'Class:RoutineChange' => 'UAT Release',
 	'Class:RoutineChange+' => '',
 	'Class:RoutineChange/Stimulus:ev_validate' => 'Validieren',
 	'Class:RoutineChange/Stimulus:ev_validate+' => '',
