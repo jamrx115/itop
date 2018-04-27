@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itop_design xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0">
+  <constants>
+  </constants>
+  <classes>
+  <class id="Ticket">      
+		<fields>
+        <field id="id_instalador" xsi:type="AttributeString" _delta="define">
+          <sql>id_instalador</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>         
+        </field>
+		<field id="san" xsi:type="AttributeString" _delta="define">
+          <sql>san</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>         
+        </field>
+      </fields>
+	  <presentation>
+				<details>
+					<items>
+						<item id="ref">
+							<rank>10</rank>
+						</item>
+						<item id="org_id">
+							<rank>20</rank>
+						</item>
+						<item id="caller_id">
+							<rank>30</rank>
+						</item>
+						<item id="team_id">
+							<rank>40</rank>
+						</item>
+						<item id="agent_id">
+							<rank>50</rank>
+						</item>
+						<item id="title">
+							<rank>60</rank>
+						</item>
+						<item id="description">
+							<rank>70</rank>
+						</item>
+						<item id="operational_status">
+							<rank>75</rank>
+						</item>
+						<item id="id_instalador">
+							<rank>80</rank>
+						</item>
+						<item id="san">
+							<rank>90</rank>
+						</item>
+						<item id="start_date">
+							<rank>100</rank>
+						</item>
+						<item id="end_date">
+							<rank>110</rank>
+						</item>
+						<item id="last_update">
+							<rank>120</rank>
+						</item>
+						<item id="close_date">
+							<rank>130</rank>
+						</item>
+						<item id="private_log">
+							<rank>140</rank>
+						</item>
+						<item id="contacts_list">
+							<rank>150</rank>
+						</item>
+						<item id="functionalcis_list">
+							<rank>160</rank>
+						</item>
+						<item id="workorders_list">
+							<rank>170</rank>
+						</item>
+					</items>
+				</details>
+				<search>
+					<items>
+						<item id="ref">
+							<rank>10</rank>
+						</item>
+						<item id="title">
+							<rank>20</rank>
+						</item>
+						<item id="description">
+							<rank>30</rank>
+						</item>
+						<item id="operational_status">
+							<rank>35</rank>
+						</item>
+						<item id="id_instalador">
+							<rank>40</rank>
+						</item>
+						<item id="san">
+							<rank>50</rank>
+						</item>
+						<item id="start_date">
+							<rank>60</rank>
+						</item>
+						<item id="end_date">
+							<rank>70</rank>
+						</item>
+						<item id="last_update">
+							<rank>80</rank>
+						</item>
+						<item id="close_date">
+							<rank>90</rank>
+						</item>
+					</items>
+				</search>
+				<list>
+					<items>
+						<item id="ref">
+							<rank>10</rank>
+						</item>
+						<item id="org_id">
+							<rank>20</rank>
+						</item>
+						<item id="title">
+							<rank>30</rank>
+						</item>
+						<item id="caller_id">
+							<rank>40</rank>
+						</item>
+						<item id="team_id">
+							<rank>50</rank>
+						</item>
+						<item id="agent_id">
+							<rank>60</rank>
+						</item>
+						<item id="operational_status">
+							<rank>65</rank>
+						</item>
+						<item id="id_instalador">
+							<rank>70</rank>
+						</item>
+						<item id="san">
+							<rank>80</rank>
+						</item>
+						<item id="start_date">
+							<rank>90</rank>
+						</item>
+					</items>
+				</list>
+			</presentation>
+     </class>
+  </classes>
+</itop_design>

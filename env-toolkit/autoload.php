@@ -1,6 +1,6 @@
 <?php
 //
-// File generated on 2018-04-24T15:51:53-0500
+// File generated on 2018-04-27T09:05:56-0500
 // Please do not edit manually
 //
 MetaModel::IncludeModule('env-toolkit/core/main.php');
@@ -28,6 +28,7 @@ MetaModel::IncludeModule('env-toolkit/itop-tickets/model.itop-tickets.php');
 MetaModel::IncludeModule('env-toolkit/itop-virtualization-mgmt/model.itop-virtualization-mgmt.php');
 MetaModel::IncludeModule('env-toolkit/itop-welcome-itil/main.itop-welcome-itil.php');
 MetaModel::IncludeModule('env-toolkit/itop-welcome-itil/model.itop-welcome-itil.php');
+MetaModel::IncludeModule('env-toolkit/datos-instalador-module/model.datos-instalador-module.php');
 MetaModel::IncludeModule('env-toolkit/combodo-sla-computation/model.combodo-sla-computation.php');
 MetaModel::IncludeModule('env-toolkit/itop-bridge-virtualization-storage/model.itop-bridge-virtualization-storage.php');
 MetaModel::IncludeModule('env-toolkit/itop-change-mgmt-itil/model.itop-change-mgmt-itil.php');

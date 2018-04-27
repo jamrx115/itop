@@ -1343,6 +1343,7 @@
 			$this->Set('resolution_code', $oParentTicket->Get('resolution_code'));
 			$sParent = '[['.get_class($oParentTicket).':'.$oParentTicket->Get('ref').']]';
 			$this->Set('solution', Dict::Format('Tickets:ResolvedFrom', $sParent, MetaModel::GetName(get_class($oParentTicket))));
+
 			$this->ApplyStimulus('ev_autoresolve');
 			$this->DBUpdate();
 		}
@@ -1474,6 +1475,12 @@
 										</item>
 										<item id="description">
 											<rank>60</rank>
+										</item>
+										<item id="id_instalador">
+											<rank>70</rank>
+										</item>
+										<item id="san">
+											<rank>80</rank>
 										</item>
 									</items>
 								</item>
@@ -1642,68 +1649,74 @@
 						<item id="description">
 							<rank>40</rank>
 						</item>
-						<item id="start_date">
+						<item id="id_instalador">
 							<rank>50</rank>
 						</item>
-						<item id="resolution_date">
+						<item id="san">
+							<rank>60</rank>
+						</item>
+						<item id="start_date">
 							<rank>70</rank>
 						</item>
-						<item id="close_date">
+						<item id="resolution_date">
 							<rank>80</rank>
 						</item>
-						<item id="status">
+						<item id="close_date">
 							<rank>90</rank>
 						</item>
-						<item id="operational_status">
-							<rank>95</rank>
-						</item>
-						<item id="caller_id">
+						<item id="status">
 							<rank>100</rank>
 						</item>
-						<item id="origin">
+						<item id="operational_status">
 							<rank>110</rank>
 						</item>
-						<item id="request_type">
+						<item id="caller_id">
 							<rank>120</rank>
 						</item>
-						<item id="impact">
+						<item id="origin">
 							<rank>130</rank>
 						</item>
-						<item id="urgency">
+						<item id="request_type">
 							<rank>140</rank>
 						</item>
-						<item id="priority">
+						<item id="impact">
 							<rank>150</rank>
 						</item>
-						<item id="servicefamily_id">
+						<item id="urgency">
 							<rank>160</rank>
 						</item>
-						<item id="service_id">
+						<item id="priority">
 							<rank>170</rank>
 						</item>
-						<item id="servicesubcategory_id">
+						<item id="servicefamily_id">
 							<rank>180</rank>
 						</item>
-						<item id="team_id">
+						<item id="service_id">
 							<rank>190</rank>
 						</item>
-						<item id="agent_id">
+						<item id="servicesubcategory_id">
 							<rank>200</rank>
 						</item>
-						<item id="escalation_flag">
+						<item id="team_id">
 							<rank>210</rank>
 						</item>
-						<item id="resolution_code">
+						<item id="agent_id">
 							<rank>220</rank>
 						</item>
-						<item id="user_satisfaction">
+						<item id="escalation_flag">
 							<rank>230</rank>
 						</item>
-						<item id="sla_tto_passed">
+						<item id="resolution_code">
 							<rank>240</rank>
 						</item>
-						<item id="sla_ttr_passed">
+						<item id="user_satisfaction">
 							<rank>250</rank>
+						</item>
+						<item id="sla_tto_passed">
+							<rank>260</rank>
+						</item>
+						<item id="sla_ttr_passed">
+							<rank>270</rank>
 						</item>
 					</items>
 				</search>
@@ -1788,6 +1801,7 @@
 							<dashlet id="2" xsi:type="DashletGroupByBars">
 								<rank>0</rank>
 								<title>UI-RequestManagementOverview-Last-14-days</title>
+
 								<query>SELECT UserRequest WHERE DATE_SUB(NOW(), INTERVAL 14 DAY) &lt; start_date</query>
 								<group_by>start_date:day_of_month</group_by>
 								<style>bars</style>

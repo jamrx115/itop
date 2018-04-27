@@ -64,3 +64,17 @@ Debug trace:
 2018-03-15 10:32:34 | Error | Limitation: cannot merge two queries if the queried class (Service AS s) is not the first joined class (Organization AS child)
 2018-04-24 15:21:18 | Error | Failed to issue SQL query: query = INSERT INTO `priv_changeop_setatt_scalar` (`id`,`oldvalue`,`newvalue`) VALUES (12497, 'EN US', 'ES CR'), mysql_error = Duplicate entry '12497' for key 'PRIMARY', mysql_errno = 1062
 2018-04-24 15:43:31 | Error | Failed to issue SQL query: query = INSERT INTO `priv_changeop_setatt` (`id`,`attcode`) VALUES (12532, 'language'), mysql_error = Duplicate entry '12532' for key 'PRIMARY', mysql_errno = 1062
+2018-04-25 18:18:36 | Error | Failed to reload object of class 'CMDBChangeOpSetAttributeText', id = 5038
+Debug trace:
+#0 D:\servidor\htdocs\itop\core\dbobject.class.php(532): DBObject->Reload()
+#1 D:\servidor\htdocs\itop\core\dbobject.class.php(475): DBObject->GetStrict('attcode')
+#2 D:\servidor\htdocs\itop\core\cmdbchangeop.class.inc.php(540): DBObject->Get('attcode')
+#3 D:\servidor\htdocs\itop\application\displayblock.class.inc.php(1291): CMDBChangeOpSetAttributeText->GetDescription()
+#4 D:\servidor\htdocs\itop\application\displayblock.class.inc.php(1259): HistoryBlock->GetHistoryTable(Object(ajax_page), Object(CMDBObjectSet))
+#5 D:\servidor\htdocs\itop\application\displayblock.class.inc.php(245): HistoryBlock->GetRenderContent(Object(ajax_page), Array, 'history')
+#6 D:\servidor\htdocs\itop\application\displayblock.class.inc.php(195): DisplayBlock->GetDisplay(Object(ajax_page), 'history', Array)
+#7 D:\servidor\htdocs\itop\application\cmdbabstract.class.inc.php(315): DisplayBlock->Display(Object(ajax_page), 'history')
+#8 D:\servidor\htdocs\itop\pages\ajax.render.php(1291): cmdbAbstractObject->DisplayBareHistory(Object(ajax_page), false, 50, 0)
+#9 {main}
+2018-04-25 19:21:45 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: 
+2018-04-25 19:29:16 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: 

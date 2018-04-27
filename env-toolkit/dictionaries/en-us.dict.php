@@ -3190,6 +3190,8 @@ When associated with a trigger, each action is given an "order" number, specifyi
 	'Brick:Portal:OngoingRequests:Tab:OnGoing' => 'On going',
 	'Brick:Portal:OngoingRequests:Tab:Resolved' => 'Resolved',
 	'Brick:Portal:ClosedRequests:Title' => 'Closed requests',
+	'Class:Ticket/Attribute:id_instalador' => 'Installer ID',
+	'Class:Ticket/Attribute:san' => 'SAN',
 	'Menu:CoverageWindows' => 'Coverage Windows',
 	'Menu:CoverageWindows+' => 'All Coverage Windows',
 	'Class:CoverageWindow' => 'Coverage Window',
