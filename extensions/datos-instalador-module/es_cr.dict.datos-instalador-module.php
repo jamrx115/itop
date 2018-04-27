@@ -9,5 +9,6 @@
 Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
 	'Class:Ticket/Attribute:id_instalador' => 'ID Instalador',
 	'Class:Ticket/Attribute:san' => 'SAN',	
+	'Class:Ticket/Attribute:nombre_instalador' => 'Nombre Instalador',
 ));
 ?>

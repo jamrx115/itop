@@ -1401,8 +1401,11 @@
 										<item id="id_instalador">
 											<rank>70</rank>
 										</item>
-										<item id="san">
+										<item id="nombre_instalador">
 											<rank>80</rank>
+										</item>
+										<item id="san">
+											<rank>90</rank>
 										</item>
 									</items>
 								</item>
@@ -1562,65 +1565,68 @@
 						<item id="id_instalador">
 						<rank>50</rank>
 						</item>
-						<item id="san">
-							<rank>60</rank>
+						<item id="nombre_instalador">
+						<rank>60</rank>
 						</item>
-						<item id="start_date">
+						<item id="san">
 							<rank>70</rank>
 						</item>
-						<item id="resolution_date">
+						<item id="start_date">
 							<rank>80</rank>
 						</item>
-						<item id="close_date">
+						<item id="resolution_date">
 							<rank>90</rank>
 						</item>
-						<item id="status">
+						<item id="close_date">
 							<rank>100</rank>
 						</item>
-						<item id="operational_status">
+						<item id="status">
 							<rank>110</rank>
 						</item>
-						<item id="caller_id">
+						<item id="operational_status">
 							<rank>120</rank>
 						</item>
-						<item id="origin">
+						<item id="caller_id">
 							<rank>130</rank>
 						</item>
-						<item id="impact">
+						<item id="origin">
 							<rank>140</rank>
 						</item>
-						<item id="urgency">
+						<item id="impact">
 							<rank>150</rank>
 						</item>
-						<item id="priority">
+						<item id="urgency">
 							<rank>160</rank>
 						</item>
-						<item id="service_id">
+						<item id="priority">
 							<rank>170</rank>
 						</item>
-						<item id="servicesubcategory_id">
+						<item id="service_id">
 							<rank>180</rank>
 						</item>
-						<item id="team_id">
+						<item id="servicesubcategory_id">
 							<rank>190</rank>
 						</item>
-						<item id="agent_id">
+						<item id="team_id">
 							<rank>200</rank>
 						</item>
-						<item id="escalation_flag">
+						<item id="agent_id">
 							<rank>210</rank>
 						</item>
-						<item id="resolution_code">
+						<item id="escalation_flag">
 							<rank>220</rank>
 						</item>
-						<item id="user_satisfaction">
+						<item id="resolution_code">
 							<rank>230</rank>
 						</item>
-						<item id="sla_tto_passed">
+						<item id="user_satisfaction">
 							<rank>240</rank>
 						</item>
-						<item id="sla_ttr_passed">
+						<item id="sla_tto_passed">
 							<rank>250</rank>
+						</item>
+						<item id="sla_ttr_passed">
+							<rank>260</rank>
 						</item>
 					</items>
 				</search>

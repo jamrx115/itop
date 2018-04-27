@@ -78,3 +78,19 @@ Debug trace:
 #9 {main}
 2018-04-25 19:21:45 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: 
 2018-04-25 19:29:16 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: 
+2018-04-27 17:52:44 | Error | Include: unable to load the file 'D:\servidor\htdocs\itop//env-production/itop-profiles-itil/model.itop-profiles-itil.php'
+Debug trace:
+#0 D:\servidor\htdocs\itop\env-production\autoload.php(23): MetaModel::IncludeModule('env-production/...')
+#1 D:\servidor\htdocs\itop\core\metamodel.class.php(4244): require_once('D:\\servidor\\htd...')
+#2 D:\servidor\htdocs\itop\core\metamodel.class.php(4148): MetaModel::LoadConfig(Object(Config), true)
+#3 D:\servidor\htdocs\itop\application\startup.inc.php(49): MetaModel::Startup('D:\\servidor\\htd...', false, true, false, 'production')
+#4 D:\servidor\htdocs\itop\pages\ajax.render.php(40): require_once('D:\\servidor\\htd...')
+#5 {main}
+2018-04-27 17:57:08 | Error | Include: unable to load the file 'D:\servidor\htdocs\itop//env-production/itop-profiles-itil/model.itop-profiles-itil.php'
+Debug trace:
+#0 D:\servidor\htdocs\itop\env-production\autoload.php(23): MetaModel::IncludeModule('env-production/...')
+#1 D:\servidor\htdocs\itop\core\metamodel.class.php(4244): require_once('D:\\servidor\\htd...')
+#2 D:\servidor\htdocs\itop\core\metamodel.class.php(4148): MetaModel::LoadConfig(Object(Config), true)
+#3 D:\servidor\htdocs\itop\application\startup.inc.php(49): MetaModel::Startup('D:\\servidor\\htd...', false, true, false, 'production')
+#4 D:\servidor\htdocs\itop\pages\ajax.render.php(40): require_once('D:\\servidor\\htd...')
+#5 {main}
