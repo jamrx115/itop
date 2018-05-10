@@ -14,7 +14,7 @@
             <value id="RQ-VAR PANAMA">RQ-VAR PANAMÁ</value>			     
           </values>
           <sql>pais_ticket</sql>
-          <default_value/>
+          <default_value>RQ-HDC</default_value>
           <is_null_allowed>false</is_null_allowed>
         </field>
       </fields>	  	
