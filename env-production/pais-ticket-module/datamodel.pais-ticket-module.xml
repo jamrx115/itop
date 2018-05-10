@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itop_design xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0">
+  <constants>
+  </constants>
+  <classes>
+  <class id="Ticket">
+      <fields>
+        <field id="pais_ticket" xsi:type="AttributeEnum" _delta="define">
+		<values>
+            <value id="RQ-HDC">RQ-HDC</value>
+            <value id="RQ-HPE">RQ-HPE</value>
+            <value id="RQ-HCL">RQ-HCL</value>
+			<value id="RQ-HCL">RQ-HEC</value>
+            <value id="RQ-VAR PANAMA">RQ-VAR PANAMÁ</value>			     
+          </values>
+          <sql>pais_ticket</sql>
+          <default_value/>
+          <is_null_allowed>false</is_null_allowed>
+        </field>
+      </fields>	  	
+     </class>
+  </classes>
+</itop_design>

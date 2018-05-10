@@ -3193,6 +3193,7 @@ When associated with a trigger, each action is given an "order" number, specifyi
 	'Class:Ticket/Attribute:id_instalador' => 'Installer ID',
 	'Class:Ticket/Attribute:san' => 'SAN',
 	'Class:Ticket/Attribute:nombre_instalador' => 'Installer Name',
+	'Class:Ticket/Attribute:pais_ticket' => 'Country',
 	'Menu:CoverageWindows' => 'Coverage Windows',
 	'Menu:CoverageWindows+' => 'All Coverage Windows',
 	'Class:CoverageWindow' => 'Coverage Window',
