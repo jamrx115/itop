@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itop_design xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0">
+  <constants>
+  </constants>
+  <classes>
+	<class id="Change">
+      <fields>
+        <field id="external_id_cambios" xsi:type="AttributeString" _delta="define">
+          <sql>external_id_cambios</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>
+        </field>
+		<field id="servicefamily_key" xsi:type="AttributeExternalKey" _delta="define">
+					<filter><![CDATA[SELECT ServiceFamily]]></filter>					
+					<sql>servicefamily_key</sql>
+					<target_class>ServiceFamily</target_class>
+					<is_null_allowed>true</is_null_allowed>
+					<on_target_delete>DEL_MANUAL</on_target_delete>
+					<allow_target_creation>false</allow_target_creation>
+				</field>
+		<field id="servicefamily_n" xsi:type="AttributeExternalField" _delta="define">
+					<extkey_attcode>servicefamily_key</extkey_attcode>
+					<target_attcode>name</target_attcode>
+				</field>		
+		<field id="service_key" xsi:type="AttributeExternalKey" _delta="define">
+					<filter><![CDATA[SELECT Service AS s JOIN lnkCustomerContractToService AS l1 ON l1.service_id=s.id JOIN CustomerContract AS cc ON l1.customercontract_id=cc.id WHERE cc.org_id = :this->org_id AND  s.status != 'obsolete' AND servicefamily_id= :this->servicefamily_key]]></filter>
+					<dependencies>
+						<attribute id="org_id"/>
+						<attribute id="servicefamily_key"/>
+					</dependencies>
+					<sql>service_key</sql>
+					<target_class>Service</target_class>
+					<is_null_allowed>true</is_null_allowed>
+					<on_target_delete>DEL_MANUAL</on_target_delete>
+					<allow_target_creation>false</allow_target_creation>
+				</field>
+				<field id="service_n" xsi:type="AttributeExternalField" _delta="define">
+					<extkey_attcode>service_key</extkey_attcode>
+					<target_attcode>name</target_attcode>
+				</field>
+				
+				<field id="servicesubcategory_key" xsi:type="AttributeExternalKey" _delta="define">
+					<filter><![CDATA[SELECT ServiceSubcategory WHERE service_id = :this->service_key  AND status != 'obsolete']]></filter>
+					<dependencies>
+					  <attribute id="service_key"/>
+					</dependencies>
+					<sql>servicesubcategory_key</sql>
+					<target_class>ServiceSubcategory</target_class>
+					<is_null_allowed>true</is_null_allowed>
+					<on_target_delete>DEL_MANUAL</on_target_delete>
+					<allow_target_creation>false</allow_target_creation>
+					<jointype/>
+				</field>
+				<field id="servicesubcategory_n" xsi:type="AttributeExternalField" _delta="define">
+					<extkey_attcode>servicesubcategory_key</extkey_attcode>
+					<target_attcode>name</target_attcode>
+				</field>
+				
+		</fields>	   
+    </class>
+  </classes>  
+</itop_design>

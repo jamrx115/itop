@@ -1005,8 +1005,20 @@
 					<item id="pais_ticket">
                       <rank>50</rank>
                     </item>
-                    <item id="description">
+					<item id="servicefamily_key">
                       <rank>60</rank>
+                    </item>
+					<item id="service_key">
+                      <rank>70</rank>
+                    </item>
+					<item id="servicesubcategory_key">
+                      <rank>80</rank>
+                    </item>
+					<item id="external_id_cambios">
+                      <rank>100</rank>
+                    </item>
+                    <item id="description">
+                      <rank>100</rank>
                     </item>
                   </items>
                 </item>
@@ -1118,53 +1130,65 @@
 			<item id="pais_ticket">
               <rank>60</rank>
             </item>
+			<item id="servicefamily_key">
+			  <rank>70</rank>
+			</item>
+			<item id="service_key">
+			  <rank>80</rank>
+			</item>
+			<item id="servicesubcategory_key">
+			  <rank>90</rank>
+			</item>
+			<item id="external_id_cambios">
+			  <rank>100</rank>
+			</item>
             <item id="caller_id">
-              <rank>70</rank>
-            </item>
-            <item id="team_id">
-              <rank>80</rank>
-            </item>
-            <item id="agent_id">
-              <rank>90</rank>
-            </item>
-            <item id="supervisor_group_id">
               <rank>100</rank>
             </item>
-            <item id="supervisor_id">
+            <item id="team_id">
               <rank>110</rank>
             </item>
-            <item id="manager_group_id">
+            <item id="agent_id">
               <rank>120</rank>
             </item>
-            <item id="manager_id">
+            <item id="supervisor_group_id">
               <rank>130</rank>
             </item>
-            <item id="reason">
+            <item id="supervisor_id">
               <rank>140</rank>
             </item>
-            <item id="impact">
+            <item id="manager_group_id">
               <rank>150</rank>
             </item>
-            <item id="outage">
+            <item id="manager_id">
               <rank>160</rank>
             </item>
-            <item id="parent_id">
+            <item id="reason">
               <rank>170</rank>
             </item>
-            <item id="creation_date">
+            <item id="impact">
               <rank>180</rank>
             </item>
-            <item id="start_date">
+            <item id="outage">
               <rank>190</rank>
             </item>
-            <item id="end_date">
+            <item id="parent_id">
               <rank>200</rank>
             </item>
-            <item id="last_update">
+            <item id="creation_date">
               <rank>210</rank>
             </item>
-            <item id="close_date">
+            <item id="start_date">
               <rank>220</rank>
+            </item>
+            <item id="end_date">
+              <rank>230</rank>
+            </item>
+            <item id="last_update">
+              <rank>240</rank>
+            </item>
+            <item id="close_date">
+              <rank>250</rank>
             </item>
           </items>
         </search>
@@ -1182,17 +1206,29 @@
 			<item id="pais_ticket">
 				<rank>30</rank>
 			</item>
+			<item id="servicefamily_key">
+			  <rank>40</rank>
+			</item>
+			<item id="service_key">
+			  <rank>50</rank>
+			</item>
+			<item id="servicesubcategory_key">
+			  <rank>60</rank>
+			</item>
+			<item id="external_id_cambios">
+			  <rank>70</rank>
+			</item>
             <item id="start_date">
-              <rank>40</rank>
+              <rank>70</rank>
             </item>
             <item id="end_date">
-              <rank>50</rank>
+              <rank>80</rank>
             </item>
             <item id="status">
-              <rank>60</rank>
+              <rank>90</rank>
             </item>
             <item id="agent_id">
-              <rank>70</rank>
+              <rank>100</rank>
             </item>
           </items>
         </list>
@@ -1811,6 +1847,18 @@
 					 <item id="pais_ticket">
                       <rank>60</rank>
                     </item>
+					<item id="servicefamily_key">
+					  <rank>70</rank>
+					</item>
+					<item id="service_key">
+					  <rank>80</rank>
+					</item>
+					<item id="servicesubcategory_key">
+					  <rank>90</rank>
+					</item>
+					<item id="external_id_cambios">
+						<rank>100</rank>
+					</item>
                   </items>
                 </item>
                 <item id="fieldset:Ticket:contact">
@@ -1918,56 +1966,68 @@
             <item id="description">
               <rank>50</rank>
             </item>
-				<item id="pais_ticket">
-                      <rank>60</rank>
-                    </item>
+			<item id="pais_ticket">
+			  <rank>60</rank>
+			</item>
+			<item id="servicefamily_key">
+			  <rank>70</rank>
+			</item>
+			<item id="service_key">
+			  <rank>80</rank>
+			</item>
+			<item id="servicesubcategory_key">
+			  <rank>90</rank>
+			</item>
+			<item id="external_id_cambios">
+			  <rank>100</rank>
+			</item>
             <item id="caller_id">
-              <rank>70</rank>
-            </item>
-            <item id="team_id">
-              <rank>80</rank>
-            </item>
-            <item id="agent_id">
-              <rank>90</rank>
-            </item>
-            <item id="supervisor_group_id">
               <rank>100</rank>
             </item>
-            <item id="supervisor_id">
+            <item id="team_id">
               <rank>110</rank>
             </item>
-            <item id="manager_group_id">
+            <item id="agent_id">
               <rank>120</rank>
             </item>
-            <item id="manager_id">
+            <item id="supervisor_group_id">
               <rank>130</rank>
             </item>
-            <item id="reason">
+            <item id="supervisor_id">
               <rank>140</rank>
             </item>
-            <item id="impact">
+            <item id="manager_group_id">
               <rank>150</rank>
             </item>
-            <item id="outage">
+            <item id="manager_id">
               <rank>160</rank>
             </item>
-            <item id="parent_id">
+            <item id="reason">
               <rank>170</rank>
             </item>
-            <item id="creation_date">
+            <item id="impact">
               <rank>180</rank>
             </item>
-            <item id="start_date">
+            <item id="outage">
               <rank>190</rank>
             </item>
-            <item id="end_date">
+            <item id="parent_id">
               <rank>200</rank>
             </item>
-            <item id="last_update">
+            <item id="creation_date">
               <rank>210</rank>
             </item>
-            <item id="close_date">
+            <item id="start_date">
               <rank>220</rank>
+            </item>
+            <item id="end_date">
+              <rank>230</rank>
+            </item>
+            <item id="last_update">
+              <rank>240</rank>
+            </item>
+            <item id="close_date">
+              <rank>250</rank>
             </item>
           </items>
         </search>
@@ -2657,6 +2717,7 @@
               <attribute id="manager_group_id">
                 <read_only/>
               </attribute>
+
               <attribute id="manager_id">
                 <read_only/>
               </attribute>
@@ -2806,8 +2867,20 @@
 					<item id="pais_ticket">
                       <rank>60</rank>
                     </item>
+					<item id="servicefamily_key">
+					  <rank>70</rank>
+					</item>
+					<item id="service_key">
+					  <rank>80</rank>
+					</item>
+					<item id="servicesubcategory_key">
+					  <rank>90</rank>
+					</item>
+					<item id="external_id_cambios">
+						<rank>100</rank>
+					</item>
                     <item id="approval_comment">
-                      <rank>70</rank>
+                      <rank>100</rank>
                     </item>
                   </items>
                 </item>
@@ -2922,56 +2995,68 @@
 			<item id="pais_ticket">
               <rank>60</rank>
             </item>
+			<item id="servicefamily_key">
+			  <rank>70</rank>
+			</item>
+			<item id="service_key">
+			  <rank>80</rank>
+			</item>
+			<item id="servicesubcategory_key">
+			  <rank>90</rank>
+			</item>
+			<item id="external_id_cambios">
+			  <rank>100</rank>
+			</item>
             <item id="caller_id">
-              <rank>70</rank>
-            </item>
-            <item id="team_id">
-              <rank>80</rank>
-            </item>
-            <item id="agent_id">
-              <rank>90</rank>
-            </item>
-            <item id="supervisor_group_id">
               <rank>100</rank>
             </item>
-            <item id="supervisor_id">
+            <item id="team_id">
               <rank>110</rank>
             </item>
-            <item id="manager_group_id">
+            <item id="agent_id">
               <rank>120</rank>
             </item>
-            <item id="manager_id">
+            <item id="supervisor_group_id">
               <rank>130</rank>
             </item>
-            <item id="reason">
+            <item id="supervisor_id">
               <rank>140</rank>
             </item>
-            <item id="impact">
+            <item id="manager_group_id">
               <rank>150</rank>
             </item>
-            <item id="outage">
+            <item id="manager_id">
               <rank>160</rank>
             </item>
-            <item id="parent_id">
+            <item id="reason">
               <rank>170</rank>
             </item>
-            <item id="creation_date">
+            <item id="impact">
               <rank>180</rank>
             </item>
-            <item id="start_date">
+            <item id="outage">
               <rank>190</rank>
             </item>
-            <item id="end_date">
+            <item id="parent_id">
               <rank>200</rank>
             </item>
-            <item id="last_update">
+            <item id="creation_date">
               <rank>210</rank>
             </item>
-            <item id="approval_date">
+            <item id="start_date">
               <rank>220</rank>
             </item>
-            <item id="close_date">
+            <item id="end_date">
               <rank>230</rank>
+            </item>
+            <item id="last_update">
+              <rank>240</rank>
+            </item>
+            <item id="approval_date">
+              <rank>250</rank>
+            </item>
+            <item id="close_date">
+              <rank>260</rank>
             </item>
           </items>
         </search>
@@ -3496,11 +3581,23 @@
 					<item id="pais_ticket">
                       <rank>60</rank>
                     </item>
+					<item id="servicefamily_key">
+					  <rank>70</rank>
+					</item>
+					<item id="service_key">
+					  <rank>80</rank>
+					</item>
+					<item id="servicesubcategory_key">
+					  <rank>90</rank>
+					</item>
+					<item id="external_id_cambios">
+						<rank>100</rank>
+					</item>
                     <item id="approval_comment">
-                      <rank>70</rank>
+                      <rank>100</rank>
                     </item>
                     <item id="acceptance_comment">
-                      <rank>80</rank>
+                      <rank>110</rank>
                     </item>
                   </items>
                 </item>
@@ -3618,59 +3715,71 @@
 			 <item id="pais_ticket">
               <rank>60</rank>
             </item>
+			<item id="servicefamily_key">
+			  <rank>70</rank>
+			</item>
+			<item id="service_key">
+			  <rank>80</rank>
+			</item>
+			<item id="servicesubcategory_key">
+			  <rank>90</rank>
+			</item>
+			<item id="external_id_cambios">
+			  <rank>100</rank>
+			</item>
             <item id="caller_id">
-              <rank>70</rank>
-            </item>
-            <item id="team_id">
-              <rank>80</rank>
-            </item>
-            <item id="agent_id">
-              <rank>90</rank>
-            </item>
-            <item id="supervisor_group_id">
               <rank>100</rank>
             </item>
-            <item id="supervisor_id">
+            <item id="team_id">
               <rank>110</rank>
             </item>
-            <item id="manager_group_id">
+            <item id="agent_id">
               <rank>120</rank>
             </item>
-            <item id="manager_id">
+            <item id="supervisor_group_id">
               <rank>130</rank>
             </item>
-            <item id="reason">
+            <item id="supervisor_id">
               <rank>140</rank>
             </item>
-            <item id="impact">
+            <item id="manager_group_id">
               <rank>150</rank>
             </item>
-            <item id="outage">
+            <item id="manager_id">
               <rank>160</rank>
             </item>
-            <item id="parent_id">
+            <item id="reason">
               <rank>170</rank>
             </item>
-            <item id="creation_date">
+            <item id="impact">
               <rank>180</rank>
             </item>
-            <item id="start_date">
+            <item id="outage">
               <rank>190</rank>
             </item>
-            <item id="end_date">
+            <item id="parent_id">
               <rank>200</rank>
             </item>
-            <item id="last_update">
+            <item id="creation_date">
               <rank>210</rank>
             </item>
-            <item id="approval_date">
+            <item id="start_date">
               <rank>220</rank>
             </item>
-            <item id="acceptance_date">
+            <item id="end_date">
               <rank>230</rank>
             </item>
-            <item id="close_date">
+            <item id="last_update">
               <rank>240</rank>
+            </item>
+            <item id="approval_date">
+              <rank>250</rank>
+            </item>
+            <item id="acceptance_date">
+              <rank>260</rank>
+            </item>
+            <item id="close_date">
+              <rank>270</rank>
             </item>
           </items>
         </search>
@@ -3701,7 +3810,7 @@
         </list>
       </presentation>
     </class>
-    <class id="EmergencyChange" _delta="define">
+  <class id="EmergencyChange" _delta="define">
       <parent>ApprovedChange</parent>
       <properties>
         <category>bizmodel,searchable,changemgmt</category>
@@ -4245,6 +4354,7 @@
               <rank>80</rank>
               <items>
                 <item id="fieldset:Ticket:baseinfo">
+
                   <rank>10</rank>
                   <items>
                     <item id="ref">
@@ -4259,11 +4369,26 @@
                     <item id="title">
                       <rank>40</rank>
                     </item>
-                    <item id="description">
+					<item id="pais_ticket">
                       <rank>50</rank>
+                    </item>
+					<item id="servicefamily_key">
+                      <rank>60</rank>
+                    </item>
+					<item id="service_key">
+                      <rank>70</rank>
+                    </item>
+					<item id="servicesubcategory_key">
+                      <rank>80</rank>
+                    </item>
+					<item id="description">
+						<rank>90</rank>
+					</item>
+                    <item id="external_id_cambios">
+                      <rank>100</rank>
                     </item>					 
                     <item id="approval_comment">
-                      <rank>60</rank>
+                      <rank>110</rank>
                     </item>
                   </items>
                 </item>
@@ -4372,59 +4497,74 @@
             <item id="title">
               <rank>50</rank>
             </item>
+			<item id="pais_ticket">
+			  <rank>60</rank>
+			</item>
+			<item id="servicefamily_key">
+			  <rank>70</rank>
+			</item>
+			<item id="service_key">
+			  <rank>80</rank>
+			</item>
+			<item id="servicesubcategory_key">
+			  <rank>90</rank>
+			</item>		
             <item id="description">
-              <rank>60</rank>
-            </item>			
-            <item id="caller_id">
-              <rank>70</rank>
-            </item>
-            <item id="team_id">
-              <rank>80</rank>
-            </item>
-            <item id="agent_id">
-              <rank>90</rank>
-            </item>
-            <item id="supervisor_group_id">
-              <rank>100</rank>
-            </item>
-            <item id="supervisor_id">
               <rank>110</rank>
             </item>
-            <item id="manager_group_id">
+			<item id="caller_id">
+			  <rank>110</rank>
+			</item>			
+            <item id="external_id_cambios">
               <rank>120</rank>
             </item>
-            <item id="manager_id">
+            <item id="team_id">
               <rank>130</rank>
             </item>
-            <item id="reason">
+            <item id="agent_id">
               <rank>140</rank>
             </item>
-            <item id="impact">
+            <item id="supervisor_group_id">
               <rank>150</rank>
             </item>
-            <item id="outage">
+            <item id="supervisor_id">
               <rank>160</rank>
             </item>
-            <item id="parent_id">
+            <item id="manager_group_id">
               <rank>170</rank>
             </item>
-            <item id="creation_date">
+            <item id="manager_id">
               <rank>180</rank>
             </item>
-            <item id="start_date">
+            <item id="reason">
               <rank>190</rank>
             </item>
-            <item id="end_date">
+            <item id="impact">
               <rank>200</rank>
             </item>
-            <item id="last_update">
+            <item id="outage">
               <rank>210</rank>
             </item>
-            <item id="approval_date">
+            <item id="parent_id">
               <rank>220</rank>
             </item>
-            <item id="close_date">
+            <item id="creation_date">
               <rank>230</rank>
+            </item>
+            <item id="start_date">
+              <rank>240</rank>
+            </item>
+            <item id="end_date">
+              <rank>250</rank>
+            </item>
+            <item id="last_update">
+              <rank>250</rank>
+            </item>
+            <item id="approval_date">
+              <rank>270</rank>
+            </item>
+            <item id="close_date">
+              <rank>280</rank>
             </item>
           </items>
         </search>
@@ -4436,20 +4576,35 @@
             <item id="title">
               <rank>20</rank>
             </item>
+			<item id="pais_ticket">
+			  <rank>30</rank>
+			</item>
+			<item id="servicefamily_key">
+			  <rank>40</rank>
+			</item>
+			<item id="service_key">
+			  <rank>50</rank>
+			</item>
+			<item id="servicesubcategory_key">
+			  <rank>60</rank>
+			</item>			
             <item id="org_id">
-              <rank>30</rank>
-            </item>			
+              <rank>70</rank>
+            </item>
+			<item id="external_id_cambios">
+				<rank>80</rank>
+			</item>			
             <item id="start_date">
-              <rank>40</rank>
+              <rank>90</rank>
             </item>
             <item id="end_date">
-              <rank>50</rank>
+              <rank>100</rank>
             </item>
             <item id="status">
-              <rank>60</rank>
+              <rank>110</rank>
             </item>			
             <item id="agent_id">
-              <rank>70</rank>
+              <rank>120</rank>
             </item>
           </items>
         </list>
