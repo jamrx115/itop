@@ -11,7 +11,8 @@
             <value id="RQ-HPE">RQ-HPE</value>
             <value id="RQ-HCL">RQ-HCL</value>
 			<value id="RQ-HCL">RQ-HEC</value>
-            <value id="RQ-VAR PANAMA">RQ-VAR PANAMÁ</value>			     
+            <value id="RQ-VAR PANAMA">RQ-VAR PANAMÁ</value>	
+			<value id="RQ-LATAM">RQ-LATAM</value>			
           </values>
           <sql>pais_ticket</sql>
           <default_value></default_value>
