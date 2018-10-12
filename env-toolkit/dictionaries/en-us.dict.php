@@ -4421,7 +4421,6 @@ When associated with a trigger, each action is given an "order" number, specifyi
 	'Class:EmergencyChange/Attribute:servicefamily_id' => 'Platform',
 	'Class:EmergencyChange/Attribute:service_id' => 'Service',
 	'Class:EmergencyChange/Attribute:servicesubcategory_id' => 'Functionality',
-	'Class:EmergencyChange/Attribute:pais_operacion' => 'Country',
 	'Class:RoutineChange/Attribute:tipo_cambio' => 'Type',
 	'Class:lnkCustomerContractToService/Attribute:coveragewindow_id' => 'Coverage window',
 	'Class:lnkCustomerContractToService/Attribute:coveragewindow_id+' => '',

@@ -104,3 +104,44 @@ Debug trace:
 #3 D:\servidor\htdocs\itop\application\startup.inc.php(49): MetaModel::Startup('D:\\servidor\\htd...', false, true, false, 'production')
 #4 D:\servidor\htdocs\itop\pages\ajax.render.php(40): require_once('D:\\servidor\\htd...')
 #5 {main}
+2018-10-11 11:27:43 | Error | Unknown attribute pais_ticket from class UserRequest
+2018-10-11 11:28:09 | Error | Unknown attribute pais_ticket from class UserRequest
+2018-10-11 11:49:06 | Error | No result for the single row query: 'SELECT DISTINCT `Contact_contact`.`id` AS `Contactid`, `Contact_contact`.`name` AS `Contactname`, `Contact_contact`.`status` AS `Contactstatus`, `Contact_contact`.`org_id` AS `Contactorg_id`, `Organization_org_id_organization`.`name` AS `Contactorg_name`, `Contact_contact`.`email` AS `Contactemail`, `Contact_contact`.`phone` AS `Contactphone`, `Contact_contact`.`notify` AS `Contactnotify`, `Contact_contact`.`function` AS `Contactfunction`, `Contact_contact`.`finalclass` AS `Contactfinalclass`, IF((`Contact_contact`.`finalclass` IN ('Team', 'Contact')), CAST(CONCAT(COALESCE(`Contact_contact`.`name`, '')) AS CHAR), CAST(CONCAT(COALESCE(`Contact_fn_Person_person`.`first_name`, ''), COALESCE(' ', ''), COALESCE(`Contact_contact`.`name`, '')) AS CHAR)) AS `Contactfriendlyname`, CAST(CONCAT(COALESCE(`Organization_org_id_organization`.`name`, '')) AS CHAR) AS `Contactorg_id_friendlyname` FROM `contact` AS `Contact_contact`INNER JOIN `organization` AS `Organization_org_id_organization` ON `Contact_contact`.`org_id` = `Organization_org_id_organization`.`id`LEFT JOIN `person` AS `Contact_fn_Person_person` ON `Contact_contact`.`id` = `Contact_fn_Person_person`.`id` WHERE ((`Contact_contact`.`id` = 69) AND (`Contact_contact`.`org_id` IN ('11')))  '
+Debug trace:
+#0 D:\servidor\htdocs\itop\core\metamodel.class.php(4547): MetaModel::MakeSingleRow('Contact', 69, true, false, NULL)
+#1 D:\servidor\htdocs\itop\core\userrights.class.inc.php(250): MetaModel::GetObject('Contact', 69)
+#2 D:\servidor\htdocs\itop\core\userrights.class.inc.php(791): User->GetContactObject()
+#3 D:\servidor\htdocs\itop\core\metamodel.class.php(2508): UserRights::GetContactObject()
+#4 D:\servidor\htdocs\itop\core\dbsearch.class.php(490): MetaModel::PrepareQueryArguments(Array, Array)
+#5 D:\servidor\htdocs\itop\core\dbobjectset.class.php(548): DBSearch->MakeSelectQuery(Array, Array, NULL, NULL)
+#6 D:\servidor\htdocs\itop\core\dbobjectset.class.php(609): DBObjectSet->Load()
+#7 D:\servidor\htdocs\itop\application\user.preferences.class.inc.php(166): DBObjectSet->Fetch()
+#8 D:\servidor\htdocs\itop\application\user.preferences.class.inc.php(72): appUserPreferences::Load()
+#9 D:\servidor\htdocs\itop\pages\ajax.render.php(794): appUserPreferences::SetPref('menu_pane', 'closed')
+#10 {main}
+2018-10-11 11:49:09 | Error | No result for the single row query: 'SELECT DISTINCT `Contact_contact`.`id` AS `Contactid`, `Contact_contact`.`name` AS `Contactname`, `Contact_contact`.`status` AS `Contactstatus`, `Contact_contact`.`org_id` AS `Contactorg_id`, `Organization_org_id_organization`.`name` AS `Contactorg_name`, `Contact_contact`.`email` AS `Contactemail`, `Contact_contact`.`phone` AS `Contactphone`, `Contact_contact`.`notify` AS `Contactnotify`, `Contact_contact`.`function` AS `Contactfunction`, `Contact_contact`.`finalclass` AS `Contactfinalclass`, IF((`Contact_contact`.`finalclass` IN ('Team', 'Contact')), CAST(CONCAT(COALESCE(`Contact_contact`.`name`, '')) AS CHAR), CAST(CONCAT(COALESCE(`Contact_fn_Person_person`.`first_name`, ''), COALESCE(' ', ''), COALESCE(`Contact_contact`.`name`, '')) AS CHAR)) AS `Contactfriendlyname`, CAST(CONCAT(COALESCE(`Organization_org_id_organization`.`name`, '')) AS CHAR) AS `Contactorg_id_friendlyname` FROM `contact` AS `Contact_contact`INNER JOIN `organization` AS `Organization_org_id_organization` ON `Contact_contact`.`org_id` = `Organization_org_id_organization`.`id`LEFT JOIN `person` AS `Contact_fn_Person_person` ON `Contact_contact`.`id` = `Contact_fn_Person_person`.`id` WHERE ((`Contact_contact`.`id` = 69) AND (`Contact_contact`.`org_id` IN ('11')))  '
+Debug trace:
+#0 D:\servidor\htdocs\itop\core\metamodel.class.php(4547): MetaModel::MakeSingleRow('Contact', 69, true, false, NULL)
+#1 D:\servidor\htdocs\itop\core\userrights.class.inc.php(250): MetaModel::GetObject('Contact', 69)
+#2 D:\servidor\htdocs\itop\core\userrights.class.inc.php(791): User->GetContactObject()
+#3 D:\servidor\htdocs\itop\core\metamodel.class.php(2508): UserRights::GetContactObject()
+#4 D:\servidor\htdocs\itop\core\dbsearch.class.php(490): MetaModel::PrepareQueryArguments(Array, Array)
+#5 D:\servidor\htdocs\itop\core\dbobjectset.class.php(548): DBSearch->MakeSelectQuery(Array, Array, NULL, NULL)
+#6 D:\servidor\htdocs\itop\core\dbobjectset.class.php(609): DBObjectSet->Load()
+#7 D:\servidor\htdocs\itop\application\user.preferences.class.inc.php(166): DBObjectSet->Fetch()
+#8 D:\servidor\htdocs\itop\application\user.preferences.class.inc.php(72): appUserPreferences::Load()
+#9 D:\servidor\htdocs\itop\pages\ajax.render.php(794): appUserPreferences::SetPref('menu_size', '300')
+#10 {main}
+2018-10-11 11:49:09 | Error | No result for the single row query: 'SELECT DISTINCT `Contact_contact`.`id` AS `Contactid`, `Contact_contact`.`name` AS `Contactname`, `Contact_contact`.`status` AS `Contactstatus`, `Contact_contact`.`org_id` AS `Contactorg_id`, `Organization_org_id_organization`.`name` AS `Contactorg_name`, `Contact_contact`.`email` AS `Contactemail`, `Contact_contact`.`phone` AS `Contactphone`, `Contact_contact`.`notify` AS `Contactnotify`, `Contact_contact`.`function` AS `Contactfunction`, `Contact_contact`.`finalclass` AS `Contactfinalclass`, IF((`Contact_contact`.`finalclass` IN ('Team', 'Contact')), CAST(CONCAT(COALESCE(`Contact_contact`.`name`, '')) AS CHAR), CAST(CONCAT(COALESCE(`Contact_fn_Person_person`.`first_name`, ''), COALESCE(' ', ''), COALESCE(`Contact_contact`.`name`, '')) AS CHAR)) AS `Contactfriendlyname`, CAST(CONCAT(COALESCE(`Organization_org_id_organization`.`name`, '')) AS CHAR) AS `Contactorg_id_friendlyname` FROM `contact` AS `Contact_contact`INNER JOIN `organization` AS `Organization_org_id_organization` ON `Contact_contact`.`org_id` = `Organization_org_id_organization`.`id`LEFT JOIN `person` AS `Contact_fn_Person_person` ON `Contact_contact`.`id` = `Contact_fn_Person_person`.`id` WHERE ((`Contact_contact`.`id` = 69) AND (`Contact_contact`.`org_id` IN ('11')))  '
+Debug trace:
+#0 D:\servidor\htdocs\itop\core\metamodel.class.php(4547): MetaModel::MakeSingleRow('Contact', 69, true, false, NULL)
+#1 D:\servidor\htdocs\itop\core\userrights.class.inc.php(250): MetaModel::GetObject('Contact', 69)
+#2 D:\servidor\htdocs\itop\core\userrights.class.inc.php(791): User->GetContactObject()
+#3 D:\servidor\htdocs\itop\core\metamodel.class.php(2508): UserRights::GetContactObject()
+#4 D:\servidor\htdocs\itop\core\dbsearch.class.php(490): MetaModel::PrepareQueryArguments(Array, Array)
+#5 D:\servidor\htdocs\itop\core\dbobjectset.class.php(548): DBSearch->MakeSelectQuery(Array, Array, NULL, NULL)
+#6 D:\servidor\htdocs\itop\core\dbobjectset.class.php(609): DBObjectSet->Load()
+#7 D:\servidor\htdocs\itop\application\user.preferences.class.inc.php(166): DBObjectSet->Fetch()
+#8 D:\servidor\htdocs\itop\application\user.preferences.class.inc.php(72): appUserPreferences::Load()
+#9 D:\servidor\htdocs\itop\pages\ajax.render.php(794): appUserPreferences::SetPref('menu_pane', 'open')
+#10 {main}

@@ -286,6 +286,9 @@
 						<value id="hardware repair">hardware repair</value>
 						<value id="system update">system update</value>
 						<value id="bug fixed">bug fixed</value>
+						<value id="data modified">data modified</value>
+						<value id="test drills">test drills</value>
+						<value id="documented">documented</value>
 					</values>
 					<sql>resolution_code</sql>
 					<default_value>assistance</default_value>
