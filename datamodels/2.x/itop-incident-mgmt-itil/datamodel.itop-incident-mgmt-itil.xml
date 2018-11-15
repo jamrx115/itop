@@ -291,7 +291,7 @@
 						<value id="documented">documented</value>
 					</values>
 					<sql>resolution_code</sql>
-					<default_value>assistance</default_value>
+					<default_value></default_value>
 					<is_null_allowed>true</is_null_allowed>
 					<display_style>list</display_style>
 				</field>
