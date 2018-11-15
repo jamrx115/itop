@@ -327,7 +327,7 @@
 						<value id="data modified">data modified</value>
 						<value id="test drills">test drills</value>
 						<value id="documented">documented</value>
-						<value id="assistance">assistance</value>
+						
 						<value id="other">other</value>
 					</values>
 					<sql>resolution_code</sql>
