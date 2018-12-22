@@ -1405,6 +1405,9 @@
 										<item id="pais_ticket">
 											<rank>70</rank>
 										</item>
+											<item id="sales_model">
+											<rank>70</rank>
+										</item>
 										<item id="id_instalador">
 											<rank>80</rank>
 										</item>
@@ -1574,6 +1577,9 @@
 						</item>
 						<item id="pais_ticket">
 						 <rank>60</rank>
+						</item>
+						<item id="sales_model">
+							<rank>60</rank>
 						</item>
 						<item id="nombre_instalador">
 						<rank>70</rank>

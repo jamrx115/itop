@@ -326,8 +326,7 @@
 						<value id="bug fixed">bug fixed</value>
 						<value id="data modified">data modified</value>
 						<value id="test drills">test drills</value>
-						<value id="documented">documented</value>
-						
+						<value id="documented">documented</value>						
 						<value id="other">other</value>
 					</values>
 					<sql>resolution_code</sql>
@@ -1482,6 +1481,9 @@
 										<item id="pais_ticket">
 											<rank>70</rank>
 										</item>
+										<item id="sales_model">
+											<rank>70</rank>
+										</item>
 										<item id="id_instalador">
 											<rank>80</rank>
 										</item>
@@ -1659,6 +1661,9 @@
 							<rank>40</rank>
 						</item>
 						<item id="pais_ticket">
+							<rank>50</rank>
+						</item>
+						<item id="sales_model">
 							<rank>50</rank>
 						</item>
 						<item id="id_instalador">
