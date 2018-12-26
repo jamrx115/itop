@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itop_design xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0">
+  <constants>
+  </constants>
+  <classes>
+	<class id="KnownError">
+      <fields>
+        <field id="step_by_step" xsi:type="AttributeHTML" _delta="define">
+          <sql>step_by_step</sql>
+          <default_value/>          
+		  <is_null_allowed>true</is_null_allowed>
+		  <width>800px</width>
+		  <height>200px</height>
+		  <always_load_in_tables>true</always_load_in_tables>
+        </field>						
+	</fields>
+	<presentation>
+        <details>
+          <items>
+            <item id="name">
+              <rank>10</rank>
+            </item>
+            <item id="org_id">
+              <rank>20</rank>
+            </item>
+            <item id="problem_id">
+              <rank>30</rank>
+            </item>
+            <item id="error_code">
+              <rank>40</rank>
+            </item>
+            <item id="domain">
+              <rank>50</rank>
+            </item>
+            <item id="vendor">
+              <rank>60</rank>
+            </item>
+            <item id="model">
+              <rank>70</rank>
+            </item>
+            <item id="version">
+              <rank>80</rank>
+            </item>
+            <item id="symptom">
+              <rank>90</rank>
+            </item>
+            <item id="root_cause">
+              <rank>100</rank>
+            </item>
+            <item id="workaround">
+              <rank>110</rank>
+            </item>
+            <item id="solution">
+              <rank>120</rank>
+            </item>
+			<item id="step_by_step">
+              <rank>130</rank>
+            </item>
+            <item id="ci_list">
+              <rank>140</rank>
+            </item>
+            <item id="document_list">
+              <rank>150</rank>
+            </item>
+          </items>
+        </details>
+        <search>
+          <items>
+            <item id="name">
+              <rank>10</rank>
+            </item>
+            <item id="org_id">
+              <rank>20</rank>
+            </item>
+            <item id="problem_id">
+              <rank>30</rank>
+            </item>
+            <item id="error_code">
+              <rank>40</rank>
+            </item>
+            <item id="domain">
+              <rank>50</rank>
+            </item>
+            <item id="symptom">
+              <rank>60</rank>
+            </item>
+          </items>
+        </search>
+        <list>
+          <items>
+            <item id="org_id">
+              <rank>10</rank>
+            </item>
+            <item id="problem_id">
+              <rank>20</rank>
+            </item>
+            <item id="error_code">
+              <rank>30</rank>
+            </item>
+            <item id="symptom">
+              <rank>40</rank>
+            </item>
+          </items>
+        </list>
+      </presentation>   
+    </class>
+  </classes>  
+</itop_design>
