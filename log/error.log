@@ -211,3 +211,4 @@ Debug trace:
 #6 D:\servidor\htdocs\itop\application\loginwebpage.class.inc.php(727): LoginWebPage::Login(0)
 #7 D:\servidor\htdocs\itop\pages\ajax.render.php(44): LoginWebPage::DoLoginEx(NULL, false)
 #8 {main}
+2018-12-26 19:49:59 | Error | Error: estimulo invalido "ev_resolve" en objeto R-001983 en estado "Solucionado".
