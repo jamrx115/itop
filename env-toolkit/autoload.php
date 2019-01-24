@@ -1,6 +1,6 @@
 <?php
 //
-// File generated on 2019-01-21T10:58:20-0500
+// File generated on 2019-01-24T10:07:38-0500
 // Please do not edit manually
 //
 MetaModel::IncludeModule('env-toolkit/core/main.php');
@@ -42,6 +42,7 @@ MetaModel::IncludeModule('env-toolkit/itop-request-mgmt-itil/main.itop-request-m
 MetaModel::IncludeModule('env-toolkit/itop-service-mgmt/model.itop-service-mgmt.php');
 MetaModel::IncludeModule('env-toolkit/step-by-step-module/model.step-by-step-module.php');
 MetaModel::IncludeModule('env-toolkit/campos cambios-module/model.campos cambios-module.php');
+MetaModel::IncludeModule('env-toolkit/correo_instalador-module/model.correo_instalador-module.php');
 MetaModel::IncludeModule('env-toolkit/external-id/model.external-id.php');
 MetaModel::IncludeModule('env-toolkit/pais-cambio-module/model.pais-cambio-module.php');
 MetaModel::IncludeModule('env-toolkit/pais_in_change-module/model.pais_in_change-module.php');

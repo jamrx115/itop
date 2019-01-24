@@ -4418,6 +4418,7 @@ When associated with a trigger, each action is given an "order" number, specifyi
 	'Class:Change/Attribute:servicefamily_key' => 'Platform',
 	'Class:Change/Attribute:service_key' => 'Service',
 	'Class:Change/Attribute:servicesubcategory_key' => 'Service subcategory',
+	'Class:Incident/Attribute:correo_instalador' => 'Installer Mail',
 	'Class:EmergencyChange/Attribute:external_id' => 'External ID',
 	'Class:EmergencyChange/Attribute:servicefamily_id' => 'Platform',
 	'Class:EmergencyChange/Attribute:service_id' => 'Service',
