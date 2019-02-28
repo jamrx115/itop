@@ -279,7 +279,6 @@
 				</field>
 				<field id="resolution_code" xsi:type="AttributeEnum">
 					<values>
-						
 						<value id="software patch">software patch</value>
 						<value id="training">training</value>
 						<value id="hardware repair">hardware repair</value>
@@ -287,8 +286,9 @@
 						<value id="bug fixed">bug fixed</value>
 						<value id="data modified">data modified</value>
 						<value id="test drills">test drills</value>
-						<value id="documented">documented</value>
-						<value id="assistance">assistance</value>
+						<value id="documented">documented</value>	
+						<value id="assistance">assistance</value>	
+						<value id="work-around">work-around</value>
 						<value id="other">other</value>
 					</values>
 					<sql>resolution_code</sql>
