@@ -208,18 +208,18 @@ $MySettings = array(
  */
 $MyModuleSettings = array(
 	'authent-ldap' => array (
-		'host' => 'localhost',
+		'host' => '3.16.200.46',
 		'port' => 389,
-		'default_user' => '',
-		'default_pwd' => '',
-		'base_dn' => 'dc=yourcompany,dc=com',
-		'user_query' => '(&(uid=%1$s)(inetuserstatus=ACTIVE))',
+		'default_user' => 'CN=Conexion Aplicaciones,CN=Users,DC=alltic,DC=local',
+		'default_pwd' => '@lltic2019',
+		'base_dn' => 'CN=Users,DC=alltic,DC=local',
+		'user_query' => '(sAMAccountName=%s)',
 		'options' => array (
 		  17 => 3,
 		  8 => 0,
 		),
 		'start_tls' => false,
-		'debug' => false,
+		'debug' => true,
 	),
 	'itop-attachments' => array (
 		'allowed_classes' => array (
@@ -241,6 +241,7 @@ $MyModuleSettings = array(
 		'holidays_oql' => 'SELECT Holiday',
 		'deadline_format' => '$date$ ($difference$)',
 	),
+	
 );
 
 /**
