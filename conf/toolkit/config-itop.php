@@ -208,12 +208,12 @@ $MySettings = array(
  */
 $MyModuleSettings = array(
 	'authent-ldap' => array (
-		'host' => '192.168.1.15',
+		'host' => '3.16.200.46',
 		'port' => 389,
-		'default_user' => 'CN=jmartinez,CN=Users,DC=alltic,DC=local',
-		'default_pwd' => 'S1stem@s',
+		'default_user' => 'CN=Conexion Aplicaciones,CN=Users,DC=alltic,DC=local',
+		'default_pwd' => '@lltic2019',
 		'base_dn' => 'CN=Users,DC=alltic,DC=local',
-		'user_query' => '(&(uid=%1$s)(inetuserstatus=ACTIVE))',
+		'user_query' => '(sAMAccountName=%s)',
 		'options' => array (
 		  17 => 3,
 		  8 => 0,
@@ -240,20 +240,6 @@ $MyModuleSettings = array(
 		'coverage_oql' => 'SELECT CoverageWindow AS cw JOIN lnkCustomerContractToService AS l1 ON l1.coveragewindow_id = cw.id JOIN CustomerContract AS cc ON l1.customercontract_id = cc.id WHERE cc.org_id= :this->org_id AND l1.service_id = :this->service_id',
 		'holidays_oql' => 'SELECT Holiday',
 		'deadline_format' => '$date$ ($difference$)',
-	),
-	'authent-ldap2' => array (
-		'host' => 'localhost',
-		'port' => 389,
-		'default_user' => '',
-		'default_pwd' => '',
-		'base_dn' => 'dc=yourcompany,dc=com',
-		'user_query' => '(&(uid=%1$s)(inetuserstatus=ACTIVE))',
-		'options' => array (
-		  17 => 3,
-		  8 => 0,
-		),
-		'start_tls' => false,
-		'debug' => false,
 	),
 );
 

@@ -329,7 +329,7 @@
 						<value id="documented">documented</value>	
 						<value id="assistance">assistance</value>	
 						<value id="work-around">work-around</value>
-						<value id="other">other</value>
+						<value id="unknown">unknown</value>
 					</values>
 					<sql>resolution_code</sql>
 					<default_value/>
