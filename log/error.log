@@ -34,3 +34,17 @@
 2019-03-15 16:39:35 | Error | ldap_authentication: wrong password for user: 'CN=Ivan Barona,CN=Users,DC=alltic,DC=local'.
 2019-03-15 16:43:42 | Error | ldap_set_option('17', '3') returned true
 2019-03-15 16:43:42 | Error | ldap_set_option('8', '0') returned true
+2019-03-28 15:31:16 | Error | Could not connect to the DB server: host = localhost, user = alltic_alltic_2, mysql_error = 1045, mysql_errno = Access denied for user 'alltic_alltic_2'@'localhost' (using password: YES)
+Debug trace:
+#0 C:\xampp\htdocs\itop\core\metamodel.class.php(4336): CMDBSource::Init('localhost', 'alltic_alltic_2', 'Alltic2017')
+#1 C:\xampp\htdocs\itop\core\metamodel.class.php(4148): MetaModel::LoadConfig(Object(Config), true)
+#2 C:\xampp\htdocs\itop\application\startup.inc.php(49): MetaModel::Startup('C:\\xampp\\htdocs...', false, true, false, 'production')
+#3 C:\xampp\htdocs\itop\pages\ajax.render.php(40): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+2019-03-28 17:08:53 | Error | ldap_set_option('17', '3') returned true
+2019-03-28 17:08:53 | Error | ldap_set_option('8', '0') returned true
+2019-03-28 17:08:53 | Error | ldap_authentication: wrong password for user: 'CN=Jorge Andres jaa. Avendaño,CN=Users,DC=alltic,DC=local'.
+2019-03-28 17:08:57 | Error | ldap_set_option('17', '3') returned true
+2019-03-28 17:08:58 | Error | ldap_set_option('8', '0') returned true
+2019-03-28 18:05:00 | Error | ldap_set_option('17', '3') returned true
+2019-03-28 18:05:00 | Error | ldap_set_option('8', '0') returned true

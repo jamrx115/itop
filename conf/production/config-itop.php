@@ -29,7 +29,7 @@ $MySettings = array(
 
 	// app_root_url: Root URL used for navigating within the application, or from an email to the application (you can put $SERVER_NAME$ as a placeholder for the server's name)
 	//	default: ''
-	'app_root_url' => 'https://alltic.co/itop/',
+	'app_root_url' => 'http://localhost/itop/',
 
 	// buttons_position: Position of the forms buttons: bottom | top | both
 	//	default: 'both'
@@ -80,11 +80,11 @@ $MySettings = array(
 
 	'db_name' => 'itop_demo',
 
-	'db_pwd' => 'Alltic2017',
+	'db_pwd' => '',
 
 	'db_subname' => '',
 
-	'db_user' => 'alltic_alltic_2',
+	'db_user' => 'root',
 
 	// deadline_format: The format used for displaying "deadline" attributes: any string with the following placeholders: $date$, $difference$
 	//	default: '$difference$'
@@ -208,7 +208,7 @@ $MySettings = array(
  */
 $MyModuleSettings = array(
 	'authent-ldap' => array (
-		'host' => '3.16.200.46',
+		'host' => '192.168.1.5',
 		'port' => 389,
 		'default_user' => 'CN=Conexion Aplicaciones,CN=Users,DC=alltic,DC=local',
 		'default_pwd' => '@lltic2019',
@@ -241,7 +241,6 @@ $MyModuleSettings = array(
 		'holidays_oql' => 'SELECT Holiday',
 		'deadline_format' => '$date$ ($difference$)',
 	),
-	
 );
 
 /**
