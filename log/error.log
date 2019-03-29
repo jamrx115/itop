@@ -48,3 +48,6 @@ Debug trace:
 2019-03-28 17:08:58 | Error | ldap_set_option('8', '0') returned true
 2019-03-28 18:05:00 | Error | ldap_set_option('17', '3') returned true
 2019-03-28 18:05:00 | Error | ldap_set_option('8', '0') returned true
+2019-03-29 09:16:00 | Error | ldap_set_option('17', '3') returned true
+2019-03-29 09:16:00 | Error | ldap_set_option('8', '0') returned true
+2019-03-29 09:19:22 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: hdc-fa-qa@alltic.co, jmartinez@alltic.co, mleal@alltic.co
