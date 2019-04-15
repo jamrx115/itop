@@ -80,7 +80,7 @@ $MySettings = array(
 
 	'db_name' => 'itop_demo',
 
-	'db_pwd' => '',
+	'db_pwd' => 'temporal',
 
 	'db_subname' => '',
 
@@ -208,7 +208,7 @@ $MySettings = array(
  */
 $MyModuleSettings = array(
 	'authent-ldap' => array (
-		'host' => '192.168.1.5',
+		'host' => 'ldap://190.145.215.202 ldap://3.16.200.46',
 		'port' => 389,
 		'default_user' => 'CN=Conexion Aplicaciones,CN=Users,DC=alltic,DC=local',
 		'default_pwd' => '@lltic2019',

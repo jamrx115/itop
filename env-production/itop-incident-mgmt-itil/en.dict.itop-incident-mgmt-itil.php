@@ -132,6 +132,8 @@ Dict::Add('EN US', 'English', 'English', array(
 	'Class:Incident/Attribute:servicesubcategory_id+' => '',
 	'Class:Incident/Attribute:servicesubcategory_name' => 'Service subcategory name',
 	'Class:Incident/Attribute:servicesubcategory_name+' => '',
+	'Class:Incident/Attribute:situacion_actual' => 'Current situation',
+	'Class:Incident/Attribute:situacion_actual+' => 'Current situation',
 	'Class:Incident/Attribute:escalation_flag' => 'Hot Flag',
 	'Class:Incident/Attribute:escalation_flag+' => '',
 	'Class:Incident/Attribute:escalation_flag/Value:no' => 'No',

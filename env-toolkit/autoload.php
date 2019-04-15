@@ -1,11 +1,10 @@
 <?php
 //
-// File generated on 2019-03-29T09:18:13-0500
+// File generated on 2019-04-10T19:46:58-0500
 // Please do not edit manually
 //
 MetaModel::IncludeModule('env-toolkit/core/main.php');
 MetaModel::IncludeModule('env-toolkit/authent-external/model.authent-external.php');
-MetaModel::IncludeModule('env-toolkit/authent-ldap/model.authent-ldap.php');
 MetaModel::IncludeModule('env-toolkit/authent-local/model.authent-local.php');
 MetaModel::IncludeModule('env-toolkit/itop-attachments/model.itop-attachments.php');
 MetaModel::IncludeModule('env-toolkit/itop-attachments/main.attachments.php');
@@ -41,6 +40,7 @@ MetaModel::IncludeModule('env-toolkit/itop-problem-mgmt/model.itop-problem-mgmt.
 MetaModel::IncludeModule('env-toolkit/itop-request-mgmt-itil/model.itop-request-mgmt-itil.php');
 MetaModel::IncludeModule('env-toolkit/itop-request-mgmt-itil/main.itop-request-mgmt-itil.php');
 MetaModel::IncludeModule('env-toolkit/itop-service-mgmt/model.itop-service-mgmt.php');
+MetaModel::IncludeModule('env-toolkit/situacion_actual/model.situacion_actual.php');
 MetaModel::IncludeModule('env-toolkit/step-by-step-module/model.step-by-step-module.php');
 MetaModel::IncludeModule('env-toolkit/campos cambios-module/model.campos cambios-module.php');
 MetaModel::IncludeModule('env-toolkit/correo_instalador-module/model.correo_instalador-module.php');

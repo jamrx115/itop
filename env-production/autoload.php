@@ -1,11 +1,10 @@
 <?php
 //
-// File generated on 2019-03-29T15:18:25+0100
+// File generated on 2019-04-11T00:47:09+0000
 // Please do not edit manually
 //
 MetaModel::IncludeModule('env-production/core/main.php');
 MetaModel::IncludeModule('env-production/authent-external/model.authent-external.php');
-MetaModel::IncludeModule('env-production/authent-ldap/model.authent-ldap.php');
 MetaModel::IncludeModule('env-production/authent-local/model.authent-local.php');
 MetaModel::IncludeModule('env-production/itop-attachments/model.itop-attachments.php');
 MetaModel::IncludeModule('env-production/itop-attachments/main.attachments.php');
@@ -41,6 +40,7 @@ MetaModel::IncludeModule('env-production/itop-problem-mgmt/model.itop-problem-mg
 MetaModel::IncludeModule('env-production/itop-request-mgmt-itil/model.itop-request-mgmt-itil.php');
 MetaModel::IncludeModule('env-production/itop-request-mgmt-itil/main.itop-request-mgmt-itil.php');
 MetaModel::IncludeModule('env-production/itop-service-mgmt/model.itop-service-mgmt.php');
+MetaModel::IncludeModule('env-production/situacion_actual/model.situacion_actual.php');
 MetaModel::IncludeModule('env-production/step-by-step-module/model.step-by-step-module.php');
 MetaModel::IncludeModule('env-production/campos cambios-module/model.campos cambios-module.php');
 MetaModel::IncludeModule('env-production/correo_instalador-module/model.correo_instalador-module.php');

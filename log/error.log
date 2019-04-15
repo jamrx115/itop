@@ -51,3 +51,14 @@ Debug trace:
 2019-03-29 09:16:00 | Error | ldap_set_option('17', '3') returned true
 2019-03-29 09:16:00 | Error | ldap_set_option('8', '0') returned true
 2019-03-29 09:19:22 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: hdc-fa-qa@alltic.co, jmartinez@alltic.co, mleal@alltic.co
+2019-04-10 19:08:03 | Error | Could not connect to the DB server: host = localhost, user = alltic_itop_2, mysql_error = 1045, mysql_errno = Access denied for user 'alltic_itop_2'@'localhost' (using password: YES)
+Debug trace:
+#0 C:\AppServ\www\itop\core\metamodel.class.php(4336): CMDBSource::Init('localhost', 'alltic_itop_2', 'Alltic2017')
+#1 C:\AppServ\www\itop\core\metamodel.class.php(4148): MetaModel::LoadConfig(Object(Config), true)
+#2 C:\AppServ\www\itop\application\startup.inc.php(49): MetaModel::Startup('C:\\AppServ\\www\\...', false, true, false, 'production')
+#3 C:\AppServ\www\itop\pages\ajax.render.php(40): require_once('C:\\AppServ\\www\\...')
+#4 {main}
+2019-04-11 02:10:25 | Error | BackupHandler::OnMetaModelStarted Failed to check if a backup/restore is running: Access denied for user 'alltic_itop_2'@'localhost' (using password: YES)
+2019-04-10 19:37:34 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: hdc-fa-qa@alltic.co, jmartinez@alltic.co, mleal@alltic.co
+2019-04-10 19:39:05 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: criascos@alltic.co, mario.ayala@hughes.com, jmartinez@alltic.co, mleal@alltic.co
+2019-04-10 19:39:32 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: mario.ayala@hughes.com, criascos@alltic.co, jmartinez@alltic.co, mleal@alltic.co

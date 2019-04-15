@@ -61,10 +61,10 @@ td.menucontainer {
 }
 table.listResults {
   padding: 0px;
-  border-top: 3px solid #044967;
-  border-left: 3px solid #044967;
-  border-bottom: 3px solid #044967;
-  border-right: 3px solid #044967;
+  border-top: 3px solid #f1f1f1;
+  border-left: 3px solid #f1f1f1;
+  border-bottom: 3px solid #e6e6e1;
+  border-right: 3px solid #e6e6e1;
   width: 100%;
   background-color: #fff;
 }
@@ -822,13 +822,13 @@ td.dashboard {
 div#top-left {
   width: 28px;
   height: 70px;
-  background: #044967;
+  background: #f1f1f1;
   float: left;
 }
 div#header-logo {
   width: 100%;
   height: 70px;
-  background: #044967;
+  background: #f1f1f1;
 }
 .ui-layout-pane-west {
   background: #f1f1f1;
@@ -865,7 +865,7 @@ div#logo div {
   overflow: hidden;
 }
 #top-bar {
-  background: #044967;
+  background: #f1f1f1;
   text-align: right;
 }
 #admin-banner {
@@ -1663,7 +1663,7 @@ span.refresh-button {
 #itop-breadcrumb {
   overflow: hidden;
   float: left;
-  background: #044967;
+  background: #f1f1f1;
 }
 #itop-breadcrumb .breadcrumb-item {
   float: left;
@@ -1681,7 +1681,7 @@ span.refresh-button {
 }
 #itop-breadcrumb .breadcrumb-item a {
   text-decoration: none;
-  color #FFFFFF;
+  color: #555;
   font-size: 9pt;
   padding: 0;
   background: none;
@@ -1716,7 +1716,7 @@ span.refresh-button {
 }
 #itop-breadcrumb .breadcrumb-item.breadcrumb-current {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #555;
   font-size: 9pt;
   padding: 0;
   background: none;

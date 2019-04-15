@@ -157,6 +157,8 @@ Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
 	'Class:UserRequest/Attribute:servicesubcategory_id+' => 'Subcategoría',
 	'Class:UserRequest/Attribute:servicesubcategory_name' => 'Subcategoría',
 	'Class:UserRequest/Attribute:servicesubcategory_name+' => 'Subcategoría de Servicio',
+	'Class:UserRequest/Attribute:situacion_actual' => 'Situacion actual',
+	'Class:UserRequest/Attribute:situacion_actual+' => 'Situacion actual',
 	'Class:UserRequest/Attribute:escalation_flag' => 'Bandera de Escalamiento',
 	'Class:UserRequest/Attribute:escalation_flag+' => 'Bandera de Escalamiento',
 	'Class:UserRequest/Attribute:escalation_flag/Value:no' => 'No',
