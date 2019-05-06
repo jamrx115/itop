@@ -80,7 +80,7 @@ $MySettings = array(
 
 	'db_name' => 'itop_demo',
 
-	'db_pwd' => 'temporal',
+	'db_pwd' => '',
 
 	'db_subname' => '',
 

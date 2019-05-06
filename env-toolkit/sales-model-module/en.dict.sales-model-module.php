@@ -9,5 +9,6 @@
 Dict::Add('EN US', 'English', 'English', array(
 	// Dictionary entries go here
 	'Class:Ticket/Attribute:sales_model' => 'Sales Model',
+	'Class:Ticket/Attribute:sales_model+' => 'Sales Model',
 ));
 ?>

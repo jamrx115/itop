@@ -1,10 +1,11 @@
 <?php
 //
-// File generated on 2019-04-10T19:46:58-0500
+// File generated on 2019-05-05T23:31:04-0500
 // Please do not edit manually
 //
 MetaModel::IncludeModule('env-toolkit/core/main.php');
 MetaModel::IncludeModule('env-toolkit/authent-external/model.authent-external.php');
+MetaModel::IncludeModule('env-toolkit/authent-ldap/model.authent-ldap.php');
 MetaModel::IncludeModule('env-toolkit/authent-local/model.authent-local.php');
 MetaModel::IncludeModule('env-toolkit/itop-attachments/model.itop-attachments.php');
 MetaModel::IncludeModule('env-toolkit/itop-attachments/main.attachments.php');
@@ -40,8 +41,12 @@ MetaModel::IncludeModule('env-toolkit/itop-problem-mgmt/model.itop-problem-mgmt.
 MetaModel::IncludeModule('env-toolkit/itop-request-mgmt-itil/model.itop-request-mgmt-itil.php');
 MetaModel::IncludeModule('env-toolkit/itop-request-mgmt-itil/main.itop-request-mgmt-itil.php');
 MetaModel::IncludeModule('env-toolkit/itop-service-mgmt/model.itop-service-mgmt.php');
+MetaModel::IncludeModule('env-toolkit/location/model.location.php');
+MetaModel::IncludeModule('env-toolkit/odu/model.odu.php');
 MetaModel::IncludeModule('env-toolkit/situacion_actual/model.situacion_actual.php');
+MetaModel::IncludeModule('env-toolkit/sqf/model.sqf.php');
 MetaModel::IncludeModule('env-toolkit/step-by-step-module/model.step-by-step-module.php');
+MetaModel::IncludeModule('env-toolkit/version/model.version.php');
 MetaModel::IncludeModule('env-toolkit/campos cambios-module/model.campos cambios-module.php');
 MetaModel::IncludeModule('env-toolkit/correo_instalador-module/model.correo_instalador-module.php');
 MetaModel::IncludeModule('env-toolkit/external-id/model.external-id.php');
@@ -49,7 +54,14 @@ MetaModel::IncludeModule('env-toolkit/pais-cambio-module/model.pais-cambio-modul
 MetaModel::IncludeModule('env-toolkit/pais_in_change-module/model.pais_in_change-module.php');
 MetaModel::IncludeModule('env-toolkit/tipo-release-module/model.tipo-release-module.php');
 MetaModel::IncludeModule('env-toolkit/apellido_instalador-module/model.apellido_instalador-module.php');
+MetaModel::IncludeModule('env-toolkit/attempts/model.attempts.php');
+MetaModel::IncludeModule('env-toolkit/beam/model.beam.php');
 MetaModel::IncludeModule('env-toolkit/combodo-coverage-windows-computation-incident/main.combodo-coverage-windows-computation-incident.php');
 MetaModel::IncludeModule('env-toolkit/combodo-coverage-windows-computation/main.combodo-coverage-windows-computation.php');
+MetaModel::IncludeModule('env-toolkit/equipment_state_cod/model.equipment_state_cod.php');
+MetaModel::IncludeModule('env-toolkit/fso/model.fso.php');
 MetaModel::IncludeModule('env-toolkit/id_external-incident/model.id_external-incident.php');
 MetaModel::IncludeModule('env-toolkit/id_externo-solicitudes/model.id_externo-solicitudes.php');
+MetaModel::IncludeModule('env-toolkit/idu/model.idu.php');
+MetaModel::IncludeModule('env-toolkit/idu_odu_status/model.idu_odu_status.php');
+MetaModel::IncludeModule('env-toolkit/idu_software_version/model.idu_software_version.php');

@@ -289,6 +289,12 @@
 						<value id="documented">documented</value>	
 						<value id="assistance">assistance</value>	
 						<value id="work-around">work-around</value>
+						<value id="change odu">change odu</value>
+						<value id="change idu">change idu</value>
+						<value id="change idu and odu">change idu and odu</value>
+						<value id="change satellite to echostart 19">change satellite to echostart 19</value>
+						<value id="change satellite to hughes 63w">change satellite to hughes 63w</value>
+						<value id="nmc solution">nmc solution</value>
 						<value id="unknown">unknown</value>
 					</values>
 					<sql>resolution_code</sql>
@@ -1458,8 +1464,41 @@
 										<item id="nombre_instalador">
 											<rank>90</rank>
 										</item>
-										<item id="san">
+									    <item id="san">
 											<rank>100</rank>
+										</item>
+										<item id="fso">
+											<rank>110</rank>
+										</item>
+										<item id="beam">
+											<rank>120</rank>
+										</item>
+										<item id="location">
+											<rank>130</rank>
+										</item>
+										<item id="sqf">
+											<rank>140</rank>
+										</item>
+										<item id="version">
+											<rank>150</rank>
+										</item>
+										<item id="equipment_state_cod">
+											<rank>160</rank>
+										</item>
+										<item id="attempts">
+											<rank>170</rank>
+										</item>
+										<item id="idu">
+											<rank>180</rank>
+										</item>
+										<item id="odu">
+											<rank>190</rank>
+										</item>
+										<item id="idu_odu_status">
+											<rank>200</rank>
+										</item>
+										<item id="idu_software_version">
+											<rank>210</rank>
 										</item>
 									</items>
 								</item>
@@ -1635,67 +1674,100 @@
 							<rank>60</rank>
 						</item>
 						<item id="nombre_instalador">
-						<rank>70</rank>
+							<rank>70</rank>
 						</item>
-						<item id="san">
+				     	<item id="san">
 							<rank>80</rank>
 						</item>
-						<item id="start_date">
+						<item id="fso">
 							<rank>90</rank>
 						</item>
-						<item id="resolution_date">
+						<item id="beam">
 							<rank>100</rank>
 						</item>
-						<item id="close_date">
+						<item id="location">
 							<rank>110</rank>
 						</item>
-						<item id="status">
+						<item id="sqf">
 							<rank>120</rank>
 						</item>
-						<item id="operational_status">
+						<item id="version">
 							<rank>130</rank>
 						</item>
-						<item id="caller_id">
+						<item id="equipment_state_cod">
 							<rank>140</rank>
 						</item>
-						<item id="origin">
+						<item id="attempts">
 							<rank>150</rank>
 						</item>
-						<item id="impact">
+						<item id="idu">
 							<rank>160</rank>
 						</item>
-						<item id="urgency">
+						<item id="odu">
 							<rank>170</rank>
 						</item>
-						<item id="priority">
+						<item id="idu_odu_status">
 							<rank>180</rank>
 						</item>
-						<item id="service_id">
+						<item id="idu_software_version">
 							<rank>190</rank>
-						</item>
-						<item id="servicesubcategory_id">
+						</item>						
+						<item id="start_date">
 							<rank>200</rank>
 						</item>
-						<item id="team_id">
+						<item id="resolution_date">
 							<rank>210</rank>
 						</item>
-						<item id="agent_id">
+						<item id="close_date">
 							<rank>220</rank>
 						</item>
-						<item id="escalation_flag">
+						<item id="status">
 							<rank>230</rank>
 						</item>
-						<item id="resolution_code">
+						<item id="operational_status">
 							<rank>240</rank>
 						</item>
-						<item id="user_satisfaction">
+						<item id="caller_id">
 							<rank>250</rank>
 						</item>
-						<item id="sla_tto_passed">
+						<item id="origin">
 							<rank>260</rank>
 						</item>
-						<item id="sla_ttr_passed">
+						<item id="impact">
 							<rank>270</rank>
+						</item>
+						<item id="urgency">
+							<rank>280</rank>
+						</item>
+						<item id="priority">
+							<rank>290</rank>
+						</item>
+						<item id="service_id">
+							<rank>300</rank>
+						</item>
+						<item id="servicesubcategory_id">
+							<rank>310</rank>
+						</item>
+						<item id="team_id">
+							<rank>320</rank>
+						</item>
+						<item id="agent_id">
+							<rank>330</rank>
+						</item>
+						<item id="escalation_flag">
+							<rank>340</rank>
+						</item>
+						<item id="resolution_code">
+							<rank>350</rank>
+						</item>
+						<item id="user_satisfaction">
+							<rank>360</rank>
+						</item>
+						<item id="sla_tto_passed">
+							<rank>370</rank>
+						</item>
+						<item id="sla_ttr_passed">
+							<rank>380</rank>
 						</item>
 					</items>
 				</search>

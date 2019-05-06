@@ -514,14 +514,32 @@
                     <item id="priority">
                       <rank>50</rank>
                     </item>
-                    <item id="service_id">
+					<item id="pais_ticket">
                       <rank>60</rank>
                     </item>
-                    <item id="servicesubcategory_id">
+					<item id="sales_model">
                       <rank>70</rank>
                     </item>
-                    <item id="product">
+					<item id="fso">
                       <rank>80</rank>
+                    </item>
+					<item id="beam">
+                      <rank>90</rank>
+                    </item>
+					<item id="idu">
+                      <rank>100</rank>
+                    </item>
+					<item id="odu">
+                      <rank>110</rank>
+                    </item>
+					<item id="service_id">
+                      <rank>120</rank>
+                    </item>
+                    <item id="servicesubcategory_id">
+                      <rank>130</rank>
+                    </item>
+                    <item id="product">
+                      <rank>140</rank>
                     </item>
                   </items>
                 </item>

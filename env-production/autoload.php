@@ -1,10 +1,11 @@
 <?php
 //
-// File generated on 2019-04-11T00:47:09+0000
+// File generated on 2019-05-06T06:29:28+0200
 // Please do not edit manually
 //
 MetaModel::IncludeModule('env-production/core/main.php');
 MetaModel::IncludeModule('env-production/authent-external/model.authent-external.php');
+MetaModel::IncludeModule('env-production/authent-ldap/model.authent-ldap.php');
 MetaModel::IncludeModule('env-production/authent-local/model.authent-local.php');
 MetaModel::IncludeModule('env-production/itop-attachments/model.itop-attachments.php');
 MetaModel::IncludeModule('env-production/itop-attachments/main.attachments.php');
@@ -40,8 +41,12 @@ MetaModel::IncludeModule('env-production/itop-problem-mgmt/model.itop-problem-mg
 MetaModel::IncludeModule('env-production/itop-request-mgmt-itil/model.itop-request-mgmt-itil.php');
 MetaModel::IncludeModule('env-production/itop-request-mgmt-itil/main.itop-request-mgmt-itil.php');
 MetaModel::IncludeModule('env-production/itop-service-mgmt/model.itop-service-mgmt.php');
+MetaModel::IncludeModule('env-production/location/model.location.php');
+MetaModel::IncludeModule('env-production/odu/model.odu.php');
 MetaModel::IncludeModule('env-production/situacion_actual/model.situacion_actual.php');
+MetaModel::IncludeModule('env-production/sqf/model.sqf.php');
 MetaModel::IncludeModule('env-production/step-by-step-module/model.step-by-step-module.php');
+MetaModel::IncludeModule('env-production/version/model.version.php');
 MetaModel::IncludeModule('env-production/campos cambios-module/model.campos cambios-module.php');
 MetaModel::IncludeModule('env-production/correo_instalador-module/model.correo_instalador-module.php');
 MetaModel::IncludeModule('env-production/external-id/model.external-id.php');
@@ -49,7 +54,14 @@ MetaModel::IncludeModule('env-production/pais-cambio-module/model.pais-cambio-mo
 MetaModel::IncludeModule('env-production/pais_in_change-module/model.pais_in_change-module.php');
 MetaModel::IncludeModule('env-production/tipo-release-module/model.tipo-release-module.php');
 MetaModel::IncludeModule('env-production/apellido_instalador-module/model.apellido_instalador-module.php');
+MetaModel::IncludeModule('env-production/attempts/model.attempts.php');
+MetaModel::IncludeModule('env-production/beam/model.beam.php');
 MetaModel::IncludeModule('env-production/combodo-coverage-windows-computation-incident/main.combodo-coverage-windows-computation-incident.php');
 MetaModel::IncludeModule('env-production/combodo-coverage-windows-computation/main.combodo-coverage-windows-computation.php');
+MetaModel::IncludeModule('env-production/equipment_state_cod/model.equipment_state_cod.php');
+MetaModel::IncludeModule('env-production/fso/model.fso.php');
 MetaModel::IncludeModule('env-production/id_external-incident/model.id_external-incident.php');
 MetaModel::IncludeModule('env-production/id_externo-solicitudes/model.id_externo-solicitudes.php');
+MetaModel::IncludeModule('env-production/idu/model.idu.php');
+MetaModel::IncludeModule('env-production/idu_odu_status/model.idu_odu_status.php');
+MetaModel::IncludeModule('env-production/idu_software_version/model.idu_software_version.php');
