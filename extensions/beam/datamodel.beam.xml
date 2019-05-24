@@ -8,7 +8,7 @@
         <field id="beam" xsi:type="AttributeString" _delta="define">
           <sql>beam</sql>
           <default_value/>
-          <is_null_allowed>false</is_null_allowed>
+          <is_null_allowed>true</is_null_allowed>
         </field>						
 	</fields>
     </class>

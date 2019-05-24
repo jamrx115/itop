@@ -80,3 +80,18 @@ Debug trace:
 2019-05-05 23:14:07 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: Gustavo.Guzman@hughes.com, jmartinez@alltic.co, mleal@alltic.co
 2019-05-05 23:15:27 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: hdc-fa-qa@alltic.co, jmartinez@alltic.co, mleal@alltic.co
 2019-05-05 23:16:49 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: mario.ayala@hughes.com, caaparicio@alltic.co, ibarona@alltic.co, jmartinez@alltic.co, mleal@alltic.co
+2019-05-23 08:38:46 | Error | ldap_set_option('17', '3') returned true
+2019-05-23 08:38:46 | Error | ldap_set_option('8', '0') returned true
+2019-05-23 17:30:42 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: hdc-fa-qa@alltic.co, ibarona@alltic.co, javendano@alltic.co, mleal@alltic.co
+2019-05-23 17:31:23 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: ncaicedo@alltic.co, mario.ayala@hughes.com, jmartinez@alltic.co, mleal@alltic.co
+2019-05-23 17:35:06 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: mario.ayala@hughes.com, ncaicedo@alltic.co, jmartinez@alltic.co, mleal@alltic.co
+2019-05-23 17:35:30 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: ncaicedo@alltic.co, mario.ayala@hughes.com, jmartinez@alltic.co, mleal@alltic.co
+2019-05-24 07:59:26 | Error | ldap_set_option('17', '3') returned true
+2019-05-24 07:59:26 | Error | ldap_set_option('8', '0') returned true
+2019-05-24 08:00:16 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: hdc-fa-qa@alltic.co, jmartinez@alltic.co, mleal@alltic.co
+2019-05-24 08:01:09 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: mario.ayala@hughes.com, Gustavo.Guzman@hughes.com, jmartinez@alltic.co, mleal@alltic.co
+2019-05-24 08:01:28 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: Gustavo.Guzman@hughes.com, mario.ayala@hughes.com, jmartinez@alltic.co, mleal@alltic.co
+2019-05-24 08:02:05 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: hdc-fa-qa@alltic.co, ibarona@alltic.co, javendano@alltic.co, mleal@alltic.co
+2019-05-24 08:02:11 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: mario.ayala@hughes.com, caaparicio@alltic.co, jmartinez@alltic.co, mleal@alltic.co
+2019-05-24 08:02:26 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: caaparicio@alltic.co, mario.ayala@hughes.com, jmartinez@alltic.co, mleal@alltic.co
+2019-05-24 08:03:51 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: hdc-fa-qa@alltic.co, jmartinez@alltic.co, mleal@alltic.co

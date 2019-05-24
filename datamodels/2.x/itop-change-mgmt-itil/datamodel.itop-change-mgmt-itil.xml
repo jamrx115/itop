@@ -1005,19 +1005,19 @@
 					<item id="sales_model">
 						<rank>50</rank>
 					</item>
+					<item id="id_instalador">
+						<rank>60</rank>
+					</item>
+					<item id="nombre_instalador">
+						<rank>70</rank>
+					</item>
+					<item id="san">
+						<rank>80</rank>
+					</item>
 					<item id="pais_ticket">
-                      <rank>60</rank>
-                    </item>
-					<item id="fso">
-                      <rank>70</rank>
-                    </item>
-					<item id="beam">
-                      <rank>80</rank>
-                    </item>
-					<item id="idu">
                       <rank>90</rank>
                     </item>
-					<item id="odu">
+					<item id="fso">
                       <rank>100</rank>
                     </item>
 					<item id="servicefamily_key">
@@ -1145,19 +1145,19 @@
 			<item id="sales_model">
 				<rank>60</rank>
 			</item>
+			<item id="id_instalador">
+			<rank>70</rank>
+			</item>
+			<item id="nombre_instalador">
+			<rank>80</rank>
+			</item>
+			<item id="san">
+			<rank>90</rank>
+			</item>
 			<item id="pais_ticket">
-              <rank>70</rank>
+              <rank>100</rank>
             </item>
 			<item id="fso">
-				<rank>80</rank>
-            </item>
-			<item id="beam">
-                <rank>90</rank>
-            </item>
-			<item id="idu">
-                <rank>100</rank>
-            </item>
-			<item id="odu">
 				<rank>110</rank>
             </item>
 			<item id="servicefamily_key">
@@ -1234,46 +1234,46 @@
               <rank>30</rank>
             </item>
 			<item id="sales_model">
-				<rank>30</rank>
-			</item>
-			<item id="pais_ticket">
 				<rank>40</rank>
 			</item>
+			<item id="id_instalador">
+			<rank>50</rank>
+			</item>
+			<item id="nombre_instalador">
+			<rank>60</rank>
+			</item>
+			<item id="san">
+			<rank>70</rank>
+			</item>
+			<item id="pais_ticket">
+				<rank>80</rank>
+			</item>
 			<item id="fso">
-                <rank>50</rank>
-            </item>
-			<item id="beam">
-                <rank>60</rank>
-            </item>
-		    <item id="idu">
-				<rank>70</rank>
-            </item>
-			<item id="odu">
-                <rank>80</rank>
+                <rank>90</rank>
             </item>
 			<item id="servicefamily_key">
-			  <rank>90</rank>
-			</item>
-			<item id="service_key">
 			  <rank>100</rank>
 			</item>
-			<item id="servicesubcategory_key">
+			<item id="service_key">
 			  <rank>110</rank>
 			</item>
-			<item id="external_id_cambios">
+			<item id="servicesubcategory_key">
 			  <rank>120</rank>
 			</item>
+			<item id="external_id_cambios">
+			  <rank>130</rank>
+			</item>
             <item id="start_date">
-              <rank>130</rank>
-            </item>
-            <item id="end_date">
               <rank>140</rank>
             </item>
-            <item id="status">
+            <item id="end_date">
               <rank>150</rank>
             </item>
-            <item id="agent_id">
+            <item id="status">
               <rank>160</rank>
+            </item>
+            <item id="agent_id">
+              <rank>170</rank>
             </item>
           </items>
         </list>
@@ -1892,19 +1892,19 @@
 					<item id="sales_model">
 						<rank>60</rank>
 					</item>
+					<item id="id_instalador">
+						<rank>70</rank>
+					</item>
+					<item id="nombre_instalador">
+						<rank>80</rank>
+					</item>
+					<item id="san">
+						<rank>90</rank>
+					</item>
 					 <item id="pais_ticket">
-                      <rank>70</rank>
-                    </item>
-					<item id="fso">
-                      <rank>80</rank>
-                    </item>
-					<item id="beam">
-                      <rank>90</rank>
-                    </item>
-					<item id="idu">
                       <rank>100</rank>
                     </item>
-					<item id="odu">
+					<item id="fso">
                       <rank>110</rank>
                     </item>
 					<item id="servicefamily_key">
@@ -2029,20 +2029,20 @@
 			<item id="sales_model">
 				<rank>60</rank>
 			</item>
+			<item id="id_instalador">
+			<rank>70</rank>
+			</item>
+			<item id="nombre_instalador">
+			<rank>80</rank>
+			</item>
+			<item id="san">
+			<rank>90</rank>
+			</item>
 			<item id="pais_ticket">
-			  <rank>70</rank>
+			  <rank>100</rank>
 			</item>
 			<item id="fso">
-              <rank>80</rank>
-            </item>
-			<item id="beam">
-                <rank>90</rank>
-            </item>
-			<item id="idu">
-                <rank>100</rank>
-            </item>
-		    <item id="odu">
-                <rank>110</rank>
+              <rank>110</rank>
             </item>
 			<item id="servicefamily_key">
 			  <rank>120</rank>
@@ -2942,20 +2942,20 @@
 					<item id="sales_model">
 						<rank>60</rank>
 					</item>
+					<item id="id_instalador">
+						<rank>70</rank>
+					</item>
+					<item id="nombre_instalador">
+						<rank>80</rank>
+					</item>
+					<item id="san">
+						<rank>90</rank>
+					</item>
 					<item id="pais_ticket">
-                      <rank>60</rank>
+                      <rank>100</rank>
                     </item>
 					<item id="fso">
-                      <rank>70</rank>
-                    </item>
-					<item id="beam">
-                      <rank>80</rank>
-                    </item>
-					<item id="idu">
-                      <rank>90</rank>
-                    </item>
-					<item id="odu">
-                      <rank>100</rank>
+                      <rank>110</rank>
                     </item>
 					<item id="servicefamily_key">
 					  <rank>110</rank>
@@ -3085,21 +3085,21 @@
 			<item id="sales_model">
 				<rank>60</rank>
 			</item>
+			<item id="id_instalador">
+			<rank>70</rank>
+			</item>
+			<item id="nombre_instalador">
+			<rank>80</rank>
+			</item>
+			<item id="san">
+			<rank>90</rank>
+			</item>
 			<item id="pais_ticket">
-              <rank>70</rank>
+              <rank>100</rank>
             </item>
 			<item id="fso">
-                <rank>80</rank>
-            </item>
-			<item id="beam">
-                <rank>90</rank>
-            </item>
-			<item id="idu">
-                <rank>100</rank>
-            </item>
-			<item id="odu">
                 <rank>110</rank>
-            </item>	
+            </item>
 			<item id="servicefamily_key">
 			  <rank>120</rank>
 			</item>
@@ -3686,19 +3686,19 @@
 					<item id="sales_model">
 						<rank>60</rank>
 					</item>
+					<item id="id_instalador">
+						<rank>70</rank>
+					</item>
+					<item id="nombre_instalador">
+						<rank>80</rank>
+					</item>
+					<item id="san">
+						<rank>90</rank>
+					</item>
 					<item id="pais_ticket">
-                      <rank>70</rank>
-                    </item>
-					<item id="fso">
-                      <rank>80</rank>
-                    </item>
-					<item id="beam">
-                      <rank>90</rank>
-                    </item>
-					<item id="idu">
                       <rank>100</rank>
                     </item>
-					<item id="odu">
+					<item id="fso">
                       <rank>110</rank>
                     </item>
 					<item id="servicefamily_key">
@@ -3833,21 +3833,21 @@
               <rank>50</rank>
             </item>
 			<item id="sales_model">
-					<rank>60</rank>
-				</item>
+			<rank>60</rank>
+			</item>
+			<item id="id_instalador">
+			<rank>70</rank>
+			</item>
+			<item id="nombre_instalador">
+			<rank>80</rank>
+			</item>
+			<item id="san">
+			<rank>90</rank>
+			</item>
 			 <item id="pais_ticket">
-              <rank>70</rank>
+              <rank>100</rank>
             </item>
 			<item id="fso">
-                <rank>80</rank>
-            </item>
-			<item id="beam">
-                <rank>90</rank>
-            </item>
-			<item id="idu">
-                <rank>100</rank>
-            </item>
-		     <item id="odu">
                 <rank>110</rank>
             </item>
 			<item id="servicefamily_key">
@@ -4507,19 +4507,19 @@
 					<item id="sales_model">
 					<rank>50</rank>
 					</item>
+					<item id="id_instalador">
+					<rank>60</rank>
+					</item>
+					<item id="nombre_instalador">
+					<rank>70</rank>
+					</item>
+					<item id="san">
+					<rank>80</rank>
+					</item>
 					<item id="pais_ticket">
-                      <rank>60</rank>
-                    </item>
-					<item id="fso">
-                      <rank>70</rank>
-                    </item>
-					<item id="beam">
-                      <rank>80</rank>
-                    </item>
-					<item id="idu">
                       <rank>90</rank>
                     </item>
-					<item id="odu">
+					<item id="fso">
                       <rank>100</rank>
                     </item>
 					<item id="servicefamily_key">
@@ -4650,20 +4650,20 @@
 			<item id="sales_model">
 				<rank>60</rank>
 			</item>
+			<item id="id_instalador">
+			<rank>70</rank>
+			</item>
+			<item id="nombre_instalador">
+			<rank>80</rank>
+			</item>
+			<item id="san">
+			<rank>90</rank>
+			</item>
 			<item id="pais_ticket">
-			  <rank>70</rank>
+			  <rank>100</rank>
 			</item>
 			<item id="fso">
-               <rank>80</rank>
-            </item>
-			<item id="beam">
-               <rank>90</rank>
-            </item>
-				<item id="idu">
-            <rank>100</rank>
-            </item>
-			<item id="odu">
-              <rank>110</rank>
+               <rank>110</rank>
             </item>
 			<item id="servicefamily_key">
 			  <rank>120</rank>
@@ -4744,20 +4744,20 @@
 			<item id="sales_model">
 				<rank>30</rank>
 			</item>
+			<item id="id_instalador">
+			<rank>40</rank>
+			</item>
+			<item id="nombre_instalador">
+			<rank>50</rank>
+			</item>
+			<item id="san">
+			<rank>60</rank>
+			</item>
 			<item id="pais_ticket">
-			  <rank>40</rank>
+			  <rank>70</rank>
 			</item>
 			<item id="fso">
-              <rank>50</rank>
-            </item>
-			<item id="beam">
-               <rank>60</rank>
-            </item>
-			<item id="idu">
-               <rank>70</rank>
-            </item>
-			<item id="odu">
-               <rank>80</rank>
+              <rank>80</rank>
             </item>
 			<item id="servicefamily_key">
 			  <rank>90</rank>
