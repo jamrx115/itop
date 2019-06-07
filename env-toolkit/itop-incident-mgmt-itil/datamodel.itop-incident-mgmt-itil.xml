@@ -296,6 +296,7 @@
 						<value id="change satellite to hughes 63w">change satellite to hughes 63w</value>
 						<value id="nmc solution">nmc solution</value>
 						<value id="unknown">unknown</value>
+						<value id="troubleshooting">troubleshooting</value>
 					</values>
 					<sql>resolution_code</sql>
 					<default_value/>

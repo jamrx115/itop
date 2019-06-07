@@ -95,3 +95,7 @@ Debug trace:
 2019-05-24 08:02:11 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: mario.ayala@hughes.com, caaparicio@alltic.co, jmartinez@alltic.co, mleal@alltic.co
 2019-05-24 08:02:26 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: caaparicio@alltic.co, mario.ayala@hughes.com, jmartinez@alltic.co, mleal@alltic.co
 2019-05-24 08:03:51 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: hdc-fa-qa@alltic.co, jmartinez@alltic.co, mleal@alltic.co
+2019-06-07 08:26:40 | Error | ldap_set_option('17', '3') returned true
+2019-06-07 08:26:40 | Error | ldap_set_option('8', '0') returned true
+2019-06-07 08:27:59 | Error | ldap_set_option('17', '3') returned true
+2019-06-07 08:27:59 | Error | ldap_set_option('8', '0') returned true

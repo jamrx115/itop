@@ -178,6 +178,8 @@ Dict::Add('EN US', 'English', 'English', array(
 	'Class:Incident/Attribute:resolution_code/Value:hardware repair+' => 'hardware repair',
 	'Class:Incident/Attribute:resolution_code/Value:unknown' => 'Unknown',
 	'Class:Incident/Attribute:resolution_code/Value:unknown+' => 'Unknown',
+	'Class:Incident/Attribute:resolution_code/Value:troubleshooting' => 'Troubleshooting',
+	'Class:Incident/Attribute:resolution_code/Value:troubleshooting+' => 'Troubleshooting',
 	'Class:Incident/Attribute:resolution_code/Value:work-around' => 'Work-around',
 	'Class:Incident/Attribute:resolution_code/Value:work-around+' => 'Work-around',
 	'Class:Incident/Attribute:resolution_code/Value:change odu' => 'Change odu',
