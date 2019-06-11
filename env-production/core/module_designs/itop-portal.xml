@@ -111,6 +111,7 @@
                         <rule id="contact-to-userrequest"/>
                         <rule id="servicesubcategory-to-userrequest"/>
                         <rule id="go-to-open-request-on-submit"/>
+                        <rule id="servicefamily-to-userrequest" _altered_in="itop-request-mgmt-itil"/>
                       </rules>
                       <factory_method _altered_in="itop-full-itil"><![CDATA[\Ticket::CreateFromServiceSubcategory]]></factory_method>
                     </action>
@@ -313,36 +314,54 @@
     <form id="ticket-create">
       <class>Ticket</class>
       <fields/>
-      <twig>
+      <twig _altered_in="itop-request-mgmt-itil">
         <div class="row">
-          <div class="col-sm-6">
-            <div class="form_field" data-field-id="service_id" data-field-flags="mandatory">
-								</div>
+          <!-- Add the service family field -->
+          <div class="col-sm-4">
+            <div class="form_field" data-field-id="servicefamily_id" data-field-flags="mandatory"/>
           </div>
-          <div class="col-sm-6">
-            <div class="form_field" data-field-id="servicesubcategory_id" data-field-flags="mandatory">
-								</div>
+          <div class="col-sm-4">
+            <div class="form_field" data-field-id="service_id" data-field-flags="mandatory"/>
+          </div>
+          <div class="col-sm-4">
+            <div class="form_field" data-field-id="servicesubcategory_id" data-field-flags="mandatory"/>
           </div>
         </div>
-        <div id="service_details_placeholder">
-						</div>
+        <div id="service_details_placeholder"/>
         <div class="row">
           <div class="col-sm-6">
-            <div class="form_field" data-field-id="impact">
-								</div>
+            <div class="form_field" data-field-id="impact"/>
           </div>
           <div class="col-sm-6">
-            <div class="form_field" data-field-id="urgency">
-								</div>
+            <div class="form_field" data-field-id="urgency"/>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="form_field" data-field-id="pais_ticket"/>
+          </div>
+          <div class="col-sm-4">
+            <div class="form_field" data-field-id="sales_model"/>
+          </div>
+          <div class="col-sm-4">
+            <div class="form_field" data-field-id="id_instalador"/>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="form_field" data-field-id="nombre_instalador"/>
+          </div>
+          <div class="col-sm-4">
+            <div class="form_field" data-field-id="san"/>
+          </div>
+          <div class="col-sm-4">
+            <div class="form_field" data-field-id="fso"/>
           </div>
         </div>
         <div>
-          <div class="form_field" data-field-id="title">
-							</div>
-          <div class="form_field" data-field-id="description">
-							</div>
-          <div class="form_field" data-field-id="contacts_list">
-							</div>
+          <div class="form_field" data-field-id="title"/>
+          <div class="form_field" data-field-id="description"/>
+          <div class="form_field" data-field-id="contacts_list"/>
         </div>
       </twig>
       <modes>
@@ -603,6 +622,7 @@
       <source_class>Service</source_class>
       <presets>
         <preset id="1">copy(id, service_id)</preset>
+        <preset id="2" _altered_in="itop-request-mgmt-itil">copy(servicefamily_id, servicefamily_id)</preset>
       </presets>
     </action_rule>
     <action_rule id="servicesubcategory-to-userrequest">
@@ -616,6 +636,12 @@
       <submit xsi:type="goto">
         <brick>ongoing-tickets-for-portal-user</brick>
       </submit>
+    </action_rule>
+    <action_rule id="servicefamily-to-userrequest" _altered_in="itop-request-mgmt-itil">
+      <source_class>ServiceFamily</source_class>
+      <presets>
+        <preset id="1">copy(id, servicefamily_id)</preset>
+      </presets>
     </action_rule>
   </action_rules>
 </module_design>

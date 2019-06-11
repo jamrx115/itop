@@ -99,3 +99,16 @@ Debug trace:
 2019-06-07 08:26:40 | Error | ldap_set_option('8', '0') returned true
 2019-06-07 08:27:59 | Error | ldap_set_option('17', '3') returned true
 2019-06-07 08:27:59 | Error | ldap_set_option('8', '0') returned true
+2019-06-10 10:38:13 | Error | Oops! An error has occured. : Context creator : Could not find "servicefamily-to-userrequest" in the rules list
+2019-06-10 10:52:44 | Error | Combodo\iTop\Portal\Form\ObjectFormManager::OnSubmit at line 895 : Rollback during submit (Object not following integrity rules: issues = Unexpected value for attribute 'id_instalador': Null not allowed, Unexpected value for attribute 'san': Null not allowed, Unexpected value for attribute 'nombre_instalador': Null not allowed, Unexpected value for attribute 'pais_ticket': Null not allowed, Unexpected value for attribute 'sales_model': Null not allowed, Unexpected value for attribute 'fso': Null not allowed, class = UserRequest, id = )
+2019-06-10 11:15:47 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: hdc-fa-qa@alltic.co, ibarona@alltic.co, javendano@alltic.co, mleal@alltic.co
+2019-06-10 16:39:18 | Error | ldap_set_option('17', '3') returned true
+2019-06-10 16:39:18 | Error | ldap_set_option('8', '0') returned true
+2019-06-10 16:45:13 | Error | ldap_set_option('17', '3') returned true
+2019-06-10 16:45:13 | Error | ldap_set_option('8', '0') returned true
+2019-06-10 17:20:06 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: hdc-fa-qa@alltic.co, ibarona@alltic.co, javendano@alltic.co, mleal@alltic.co
+2019-06-11 08:42:58 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: hdc-fa-qa@alltic.co, ibarona@alltic.co, javendano@alltic.co, mleal@alltic.co
+2019-06-11 08:47:18 | Error | ldap_set_option('17', '3') returned true
+2019-06-11 08:47:18 | Error | ldap_set_option('8', '0') returned true
+2019-06-11 09:19:38 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: hdc-fa-qa@alltic.co, ibarona@alltic.co, javendano@alltic.co, mleal@alltic.co
+2019-06-11 09:22:14 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: jlozano@alltic.co, jmartinez@alltic.co, mleal@alltic.co
