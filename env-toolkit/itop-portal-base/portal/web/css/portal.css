@@ -607,7 +607,7 @@ table .group-actions {
   content: "\002a";
   position: relative;
   left: 3px;
-  color: #ea7d1e;
+  color: #337ab7;
   font-size: 0.9em;
 }
 /* InlineImage */
@@ -665,7 +665,7 @@ table .group-actions {
 .form_linkedset_toggler > .glyphicon {
   margin-left: 0.5em;
   font-size: 0.85em;
-  color: #ea7d1e;
+  color: #337ab7;
   transition: transform 0.2s linear;
 }
 .form_linkedset_toggler > .glyphicon.collapsed {

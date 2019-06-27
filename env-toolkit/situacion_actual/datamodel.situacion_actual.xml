@@ -5,9 +5,62 @@
   <classes>
 	<class id="Ticket">
       <fields>
-        <field id="situacion_actual" xsi:type="AttributeString" _delta="define">
+        <field id="situacion_actual" xsi:type="AttributeEnum" _delta="define">
+		    <display>list</display>
+			<values>
+<value id="FSO not released">FSO not released</value>
+<value id="Reissue payment coupon">Reissue payment coupon</value>
+<value id="Payment coupon not generated or not sent">Payment coupon not generated or not sent</value>
+<value id="Wrong application of Payment">Wrong application of Payment</value>
+<value id="Payment applied but not reflected">Payment applied but not reflected</value>
+<value id="Payment not refleted in payment coupon">Payment not refleted in payment coupon</value>
+<value id="Failure PSE site">Failure PSE site</value>
+<value id="Payment Portal Down">Payment Portal Down</value>
+<value id="Payment Credit Card Fail">Payment Credit Card Fail</value>
+<value id="Upload photos for close FSO">Upload photos for close FSO</value>
+<value id="Close FSO Fail">Close FSO Fail</value>
+<value id="Re Schedule FSO">Re Schedule FSO</value>
+<value id="Can't launch OVT">Can't launch OVT</value>
+<value id="Can´t get a sign off code.">Can´t get a sign off code.</value>
+<value id="Upload photos and customer sign">Upload photos and customer sign</value>
+<value id="Upload Workflow Fail">Upload Workflow Fail</value>
+<value id="Departure complete Fail">Departure complete Fail</value>
+<value id="Line of sight issue">Line of sight issue</value>
+<value id="Install Parameters Data fail">Install Parameters Data fail</value>
+<value id="Low SQF">Low SQF</value>
+<value id="Low SQF after the terminal activation ">Low SQF after the terminal activation </value>
+<value id="Terminal registration/activation fail">Terminal registration/activation fail</value>
+<value id="Wrong Beam">Wrong Beam</value>
+<value id="Service activation fail">Service activation fail</value>
+<value id="Wrong satellite">Wrong satellite</value>
+<value id="Wrong Oasis version">Wrong Oasis version</value>
+<value id="Wrong install parameters (outroute/polarity)">Wrong install parameters (outroute/polarity)</value>
+<value id="SBC file issue">SBC file issue</value>
+<value id="FSO blocked after multiple terminal activations">FSO blocked after multiple terminal activations</value>
+<value id="Service failed after new IDU is activated">Service failed after new IDU is activated</value>
+<value id="Training Install">Training Install</value>
+<value id="Validate FSO">Validate FSO</value>
+<value id="IDU is failing">IDU is failing</value>
+<value id="ODU is failing">ODU is failing</value>
+<value id="IDU AND ODU are failing">IDU AND ODU are failing</value>
+<value id="No change Equipment">No change Equipment</value>
+<value id="Service failed after new IDU is activated">Service failed after new IDU is activated</value>
+<value id="Install Parameters Data fail">Install Parameters Data fail</value>
+<value id="Training Repair ">Training Repair </value>
+<value id="Training De-Install ">Training De-Install </value>
+<value id="Offer creation">Offer creation</value>
+<value id="Offer coverage">Offer coverage</value>
+<value id="Real Customer">Real Customer</value>
+<value id="Change address">Change address</value>
+<value id="Change condition">Change condition</value>
+<value id="Data management">Data management</value>
+<value id="Data maintenance">Data maintenance</value>
+<value id="Change email">Change email</value>
+<value id="POW Fail">POW Fail</value>
+
+			</values>
           <sql>situacion_actual</sql>
-          <default_value/>
+          <default_value></default_value>
           <is_null_allowed>true</is_null_allowed>
         </field>						
 	</fields>

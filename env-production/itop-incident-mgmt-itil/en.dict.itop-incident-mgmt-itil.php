@@ -180,6 +180,8 @@ Dict::Add('EN US', 'English', 'English', array(
 	'Class:Incident/Attribute:resolution_code/Value:unknown+' => 'Unknown',
 	'Class:Incident/Attribute:resolution_code/Value:troubleshooting' => 'Troubleshooting',
 	'Class:Incident/Attribute:resolution_code/Value:troubleshooting+' => 'Troubleshooting',
+	'Class:Incident/Attribute:situacion_actual/Value:RQ-HDC' => 'algo',
+	'Class:Incident/Attribute:situacion_actual/Value:RQ-HDC+' => 'alguien',
 	'Class:Incident/Attribute:resolution_code/Value:work-around' => 'Work-around',
 	'Class:Incident/Attribute:resolution_code/Value:work-around+' => 'Work-around',
 	'Class:Incident/Attribute:resolution_code/Value:change odu' => 'Change odu',

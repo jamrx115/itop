@@ -112,3 +112,8 @@ Debug trace:
 2019-06-11 08:47:18 | Error | ldap_set_option('8', '0') returned true
 2019-06-11 09:19:38 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: hdc-fa-qa@alltic.co, ibarona@alltic.co, javendano@alltic.co, mleal@alltic.co
 2019-06-11 09:22:14 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: jlozano@alltic.co, jmartinez@alltic.co, mleal@alltic.co
+2019-06-26 08:41:40 | Error | ldap_set_option('17', '3') returned true
+2019-06-26 08:41:40 | Error | ldap_set_option('8', '0') returned true
+2019-06-26 08:47:39 | Error | ldap_set_option('17', '3') returned true
+2019-06-26 08:47:39 | Error | ldap_set_option('8', '0') returned true
+2019-06-26 10:27:35 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: hdc-fa-qa@alltic.co, jmartinez@alltic.co, mleal@alltic.co
