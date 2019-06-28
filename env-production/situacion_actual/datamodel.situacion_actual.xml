@@ -9,7 +9,7 @@
 		    <display>list</display>
 			<values>
 <value id="FSO not released">FSO not released</value>
-<value id="Error-id customer">error id customer</value>
+<value id="Error-id customer">Error-id customer</value>
 <value id="Reissue payment coupon">Reissue payment coupon</value>
 <value id="Payment coupon not generated or not sent">Payment coupon not generated or not sent</value>
 <value id="Wrong application of Payment">Wrong application of Payment</value>
