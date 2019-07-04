@@ -7,7 +7,6 @@
  */
 
 Dict::Add('EN US', 'English', 'English', array(
-    'Class:ticket/Attribute:RQ-HDC/Value:RQ-HDC' => 'algo',
-	'Class:ticket/Attribute:RQ-HDC/Value:RQ-HDC+' => 'alguien',
+  
 ));
 ?>

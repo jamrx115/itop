@@ -4511,8 +4511,6 @@ When associated with a trigger, each action is given an "order" number, specifyi
 	'Class:Ticket/Attribute:location+' => 'Coordinates/Beam/Outroute',
 	'Class:Ticket/Attribute:odu' => 'ODU',
 	'Class:Ticket/Attribute:odu+' => 'Esn ODU , * Esn second ODU (if the first one was swaped) , etc.',
-	'Class:ticket/Attribute:RQ-HDC/Value:RQ-HDC' => 'algo',
-	'Class:ticket/Attribute:RQ-HDC/Value:RQ-HDC+' => 'alguien',
 	'Class:Ticket/Attribute:sqf' => 'SQF',
 	'Class:Ticket/Attribute:sqf+' => 'SQF',
 	'Class:Ticket/Attribute:version' => 'Version',
