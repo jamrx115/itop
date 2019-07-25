@@ -7,13 +7,13 @@
       <fields>
         <field id="pais_ticket" xsi:type="AttributeEnum" _delta="define">
 		<values>
-            <value id="RQ-HDC">RQ-HDC</value>
-            <value id="RQ-HPE">RQ-HPE</value>
-            <value id="RQ-HCL">RQ-HCL</value>
-			<value id="RQ-HCL">RQ-HEC</value>
-			<value id="RQ-ARG">RQ-ARG</value>
-            <value id="RQ-VAR PANAMA">RQ-VAR PANAMÁ</value>	
-			<value id="RQ-LATAM">RQ-LATAM</value>			
+            <value id="RQ-HDC">Colombia</value>
+            <value id="RQ-HPE">Peru</value>
+            <value id="RQ-HCL">Chile</value>
+			<value id="RQ-HEC">Ecuador</value>
+			<value id="RQ-ARG">Argentina</value>
+            <value id="RQ-VAR PANAMA">Panama</value>	
+			<value id="RQ-LATAM">Latinoamerica</value>			
           </values>
           <sql>pais_ticket</sql>
           <default_value></default_value>
