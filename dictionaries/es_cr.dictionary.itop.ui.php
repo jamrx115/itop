@@ -312,10 +312,10 @@ Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
 	'BooleanLabel:yes' => 'si',
 	'BooleanLabel:no' => 'no',
 	'Menu:WelcomeMenu' => 'Bienvenido', // Duplicated into itop-welcome-itil (will be removed from here...)
-	'Menu:WelcomeMenu+' => 'Mesa de Servicio Alltic', // Duplicated into itop-welcome-itil (will be removed from here...)
+	'Menu:WelcomeMenu+' => 'Mesa de Servicio Hughes Latinoamerica', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'Menu:WelcomeMenuPage' => 'Bienvenido', // Duplicated into itop-welcome-itil (will be removed from here...)
-	'Menu:WelcomeMenuPage+' => 'Mesa de Servicio Alltic', // Duplicated into itop-welcome-itil (will be removed from here...)
-	'UI:WelcomeMenu:Title' => 'Mesa de Servicio Alltic',
+	'Menu:WelcomeMenuPage+' => 'Mesa de Servicio Hughes Latinoamerica', // Duplicated into itop-welcome-itil (will be removed from here...)
+	'UI:WelcomeMenu:Title' => 'Mesa de Servicio Hughes Latinoamerica',
 
 	'UI:WelcomeMenu:LeftBlock' => '<p>iTop es un completo portal de administración de servicios de TI basado en código abierto.</p>
 <p>Incluye:</p>
@@ -474,7 +474,7 @@ Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
 	'UI:SearchValue:CheckAll' => 'Seleccionar Todo',
 	'UI:SearchValue:UncheckAll' => 'Deseleccionar Todo',
 	'UI:SelectOne' => '-- Seleccione uno --',
-	'UI:Login:Welcome' => 'Mesa de Servicio Alltic',
+	'UI:Login:Welcome' => 'Mesa de Servicio Hughes Latinoamerica',
 	'UI:Login:IncorrectLoginPassword' => 'Usuario/Contrase&ntilde;a incorrecto, por favor intente otra vez.',
 	'UI:Login:IdentifyYourself' => 'Identifiquese antes de continuar',
 	'UI:Login:UserNamePrompt' => 'Usuario   ',
@@ -756,7 +756,7 @@ Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
 	'UI:Delete:PleaseDoTheManualOperations' => 'Por favor ejecute las operaciones manuales antes de eliminar este objeto',
 	'UI:Delect:Confirm_Object' => 'Por favor confirme que quiere borrar %1$s.',
 	'UI:Delect:Confirm_Count_ObjectsOf_Class' => 'Por favor confirme que quiere eliminar los siguientes %1$d objeto de la clase %2$s.',
-	'UI:WelcomeToITop' => 'Mesa de Servicio Alltic',
+	'UI:WelcomeToITop' => 'Mesa de Servicio Hughes Latinoamerica',
 	'UI:DetailsPageTitle' => 'iTop - %1$s - Detalles %2$s',
 	'UI:ErrorPageTitle' => 'iTop - Error',
 	'UI:ObjectDoesNotExist' => 'Disculpe, este objeto no existe (o no está autorizado para verlo).',
