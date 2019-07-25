@@ -129,3 +129,12 @@ Debug trace:
 2019-07-04 08:20:39 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: hdc-fa-qa@alltic.co, ibarona@alltic.co, javendano@alltic.co, mleal@alltic.co
 2019-07-04 08:21:35 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: hdc-fa-qa@alltic.co, ibarona@alltic.co, javendano@alltic.co, mleal@alltic.co
 2019-07-04 08:22:13 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: hdc-fa-qa@alltic.co, ibarona@alltic.co, javendano@alltic.co, mleal@alltic.co
+2019-07-24 17:37:37 | Error | ¡Vaya! Ha ocurrido un error. : Action: copy(id, servicefamily_id) - Unknown attribute servicefamily_id from class Incident
+2019-07-24 17:37:55 | Error | ¡Vaya! Ha ocurrido un error. : Action: copy(id, servicefamily_id) - Unknown attribute servicefamily_id from class Incident
+2019-07-24 17:37:59 | Error | ¡Vaya! Ha ocurrido un error. : Action: copy(id, servicefamily_id) - Unknown attribute servicefamily_id from class Incident
+2019-07-24 17:38:25 | Error | ¡Vaya! Ha ocurrido un error. : Action: copy(id, servicefamily_id) - Unknown attribute servicefamily_id from class Incident
+2019-07-25 09:34:40 | Error | ldap_set_option('17', '3') returned true
+2019-07-25 09:34:40 | Error | ldap_set_option('8', '0') returned true
+2019-07-25 09:34:40 | Error | ldap_authentication: wrong password for user: 'CN=Jorge Andres jaa. Avendaño,CN=Users,DC=alltic,DC=local'.
+2019-07-25 09:34:44 | Error | ldap_set_option('17', '3') returned true
+2019-07-25 09:34:44 | Error | ldap_set_option('8', '0') returned true

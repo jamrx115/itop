@@ -2050,79 +2050,18 @@
 			<auto_reload>fast</auto_reload>
 		</menu>
 	</menus>
-	    <module_designs>
-        <module_design id="itop-portal" _delta="must_exist">
-            <bricks>
-                <brick id="services" _delta="must_exist">
-                    <levels>
-                        <level id="1">
-                            <levels>
-                                <level id="1">
-                                    <levels>
-                                        <level id="1">
-                                            <actions>
-                                                <action id="create_from_this">
-                                                    <rules>
-                                                        <!-- Call the rule to auto-fill the service family -->
-                                                        <rule id="servicefamily-to-userrequest" _delta="define"/>
-                                                    </rules>
-                                                </action>
-                                            </actions>
-                                        </level>
-                                    </levels>
-                                </level>
-                            </levels>
-                        </level>
-                    </levels>
-                </brick>
-            </bricks>
-            <forms>
-                <form id="ticket-create" _delta="must_exist">
-                    <twig _delta="redefine">
-                        <div class="row">
-                            <!-- Add the service family field -->
-                            <div class="col-sm-4"><div class="form_field" data-field-id="servicefamily_id" data-field-flags="mandatory"></div></div>
-                            <div class="col-sm-4"><div class="form_field" data-field-id="service_id" data-field-flags="mandatory"></div></div>
-                            <div class="col-sm-4"><div class="form_field" data-field-id="servicesubcategory_id" data-field-flags="mandatory"></div></div>
-                        </div>
-                        <div id="service_details_placeholder"></div>
-                        <div class="row">
-                            <div class="col-sm-6"><div class="form_field" data-field-id="impact"></div></div>
-                            <div class="col-sm-6"><div class="form_field" data-field-id="urgency"></div></div>
-                        </div>
-						<div class="row">
-						  <div class="col-sm-4"><div class="form_field" data-field-id="pais_ticket"></div></div>
-						  <div class="col-sm-4"><div class="form_field" data-field-id="sales_model"></div></div>
-						  <div class="col-sm-4"><div class="form_field" data-field-id="id_instalador"></div></div>
-						  </div>
-						<div class="row">
-						  <div class="col-sm-4"><div class="form_field" data-field-id="nombre_instalador"></div></div>
-						  <div class="col-sm-4"><div class="form_field" data-field-id="san"></div></div>
-						  <div class="col-sm-4"><div class="form_field" data-field-id="fso"></div></div>
-</div>
-                        <div>
-                            <div class="form_field" data-field-id="title"></div>
-                            <div class="form_field" data-field-id="description"></div>
-                            <div class="form_field" data-field-id="contacts_list"></div>
-                        </div>
-                    </twig>
-                </form>
-            </forms>
-            <action_rules>
-                <action_rule id="service-to-userrequest" _delta="must_exist">
-                    <presets>
-                        <!-- Don't know if necessary (I tried with and with out) -->
-                        <preset id="2" _delta="define">copy(servicefamily_id, servicefamily_id)</preset>
-                    </presets>
-                </action_rule>
-                <!-- Define the rule to auto-fill the service family -->
-                <action_rule id="servicefamily-to-userrequest" _delta="define">
-                    <source_class>ServiceFamily</source_class>
-                    <presets>
-                        <preset id="1">copy(id, servicefamily_id)</preset>
-                    </presets>
-                </action_rule>
-            </action_rules>
-        </module_design>
-    </module_designs>
+	<module_designs>
+		<module_design id="itop-portal">
+			<classes>
+				<class id="ServiceSubcategory">
+					<scopes>
+						<scope id="all">
+							<oql_view _delta="redefine"><![CDATA[SELECT ServiceSubcategory WHERE status != 'obsolete' AND request_type = 'service_request']]></oql_view>
+						</scope>
+					</scopes>
+				</class>
+			</classes>
+		</module_design>
+	</module_designs>
 </itop_design>
+

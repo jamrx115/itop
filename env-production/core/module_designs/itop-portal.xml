@@ -111,7 +111,7 @@
                         <rule id="contact-to-userrequest"/>
                         <rule id="servicesubcategory-to-userrequest"/>
                         <rule id="go-to-open-request-on-submit"/>
-                        <rule id="servicefamily-to-userrequest" _altered_in="itop-request-mgmt-itil"/>
+                        <rule id="servicefamily-to-userrequest" _altered_in="service-family-request"/>
                       </rules>
                       <factory_method _altered_in="itop-full-itil"><![CDATA[\Ticket::CreateFromServiceSubcategory]]></factory_method>
                     </action>
@@ -314,7 +314,7 @@
     <form id="ticket-create">
       <class>Ticket</class>
       <fields/>
-      <twig _altered_in="itop-request-mgmt-itil">
+      <twig _altered_in="service-family-request">
         <div class="row">
           <!-- Add the service family field -->
           <div class="col-sm-4">
@@ -622,7 +622,7 @@
       <source_class>Service</source_class>
       <presets>
         <preset id="1">copy(id, service_id)</preset>
-        <preset id="2" _altered_in="itop-request-mgmt-itil">copy(servicefamily_id, servicefamily_id)</preset>
+        <preset id="2" _altered_in="service-family-request">copy(servicefamily_id, servicefamily_id)</preset>
       </presets>
     </action_rule>
     <action_rule id="servicesubcategory-to-userrequest">
@@ -637,7 +637,7 @@
         <brick>ongoing-tickets-for-portal-user</brick>
       </submit>
     </action_rule>
-    <action_rule id="servicefamily-to-userrequest" _altered_in="itop-request-mgmt-itil">
+    <action_rule id="servicefamily-to-userrequest" _altered_in="service-family-request">
       <source_class>ServiceFamily</source_class>
       <presets>
         <preset id="1">copy(id, servicefamily_id)</preset>
