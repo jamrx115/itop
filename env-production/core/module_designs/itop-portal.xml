@@ -330,34 +330,14 @@
         <div id="service_details_placeholder"/>
         <div class="row">
           <div class="col-sm-6">
-            <div class="form_field" data-field-id="impact"/>
-          </div>
-          <div class="col-sm-6">
-            <div class="form_field" data-field-id="urgency"/>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-4">
             <div class="form_field" data-field-id="pais_ticket"/>
           </div>
-          <div class="col-sm-4">
-            <div class="form_field" data-field-id="sales_model"/>
-          </div>
-          <div class="col-sm-4">
-            <div class="form_field" data-field-id="id_instalador"/>
+          <div class="col-sm-6">
+            <div class="form_field" data-field-id="san"/>
           </div>
         </div>
         <div class="row">
-          <div class="col-sm-4">
-            <div class="form_field" data-field-id="nombre_instalador"/>
-          </div>
-          <div class="col-sm-4">
-            <div class="form_field" data-field-id="san"/>
-          </div>
-          <div class="col-sm-4">
-            <div class="form_field" data-field-id="fso"/>
-          </div>
-        </div>
+						 </div>
         <div>
           <div class="form_field" data-field-id="title"/>
           <div class="form_field" data-field-id="description"/>

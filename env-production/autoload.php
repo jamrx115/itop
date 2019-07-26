@@ -1,6 +1,6 @@
 <?php
 //
-// File generated on 2019-07-26T16:59:11+0200
+// File generated on 2019-07-26T17:52:46+0200
 // Please do not edit manually
 //
 MetaModel::IncludeModule('env-production/core/main.php');

@@ -156,3 +156,11 @@ Debug trace:
 2019-07-26 09:27:05 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: hdc-fa-qa@alltic.co, jmartinez@alltic.co, mleal@alltic.co
 2019-07-26 09:32:36 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: hdc-fa-qa@alltic.co, ibarona@alltic.co, javendano@alltic.co, mleal@alltic.co
 2019-07-26 09:33:24 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: hdc-fa-qa@alltic.co, jmartinez@alltic.co, mleal@alltic.co
+2019-07-26 10:53:32 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: hdc-fa-qa@alltic.co, ibarona@alltic.co, javendano@alltic.co, mleal@alltic.co
+2019-07-26 10:53:53 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: hdc-fa-qa@alltic.co, jmartinez@alltic.co, mleal@alltic.co
+2019-07-26 10:55:06 | Error | ldap_set_option('17', '3') returned true
+2019-07-26 10:55:06 | Error | ldap_set_option('8', '0') returned true
+2019-07-26 10:57:05 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: hdc-fa-qa@alltic.co, ibarona@alltic.co, javendano@alltic.co, mleal@alltic.co
+2019-07-26 10:57:35 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: mario.ayala@hughes.com, jmartinez@alltic.co, mleal@alltic.co
+2019-07-26 10:57:49 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: mario.ayala@hughes.com, jmartinez@alltic.co, mleal@alltic.co
+2019-07-26 10:59:05 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: hdc-fa-qa@alltic.co, jmartinez@alltic.co, mleal@alltic.co

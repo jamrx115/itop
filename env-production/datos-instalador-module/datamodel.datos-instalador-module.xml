@@ -8,7 +8,7 @@
         <field id="id_instalador" xsi:type="AttributeString" _delta="define">
           <sql>id_instalador</sql>
           <default_value></default_value>
-          <is_null_allowed>false</is_null_allowed>         
+          <is_null_allowed>true</is_null_allowed>         
         </field>
 		<field id="san" xsi:type="AttributeString" _delta="define">
           <sql>san</sql>
@@ -18,7 +18,7 @@
 		<field id="nombre_instalador" xsi:type="AttributeString" _delta="define">
           <sql>nombre_instalador</sql>
           <default_value></default_value>
-          <is_null_allowed>false</is_null_allowed>         
+          <is_null_allowed>true</is_null_allowed>         
         </field>
       </fields>
 	  <presentation>
