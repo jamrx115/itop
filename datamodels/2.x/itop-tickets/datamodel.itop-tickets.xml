@@ -1293,12 +1293,15 @@
 							<div class="col-sm-6">
 								<div class="form_field" data-field-id="status" data-field-flags="read_only">
 								</div>
-								<div class="form_field" data-field-id="impact" data-field-flags="read_only">
+								<div class="form_field" data-field-id="san" data-field-flags="read_only">
+								</div>
+								
+								<!--<div class="form_field" data-field-id="impact" data-field-flags="read_only">
 								</div>
 								<div class="form_field" data-field-id="urgency" data-field-flags="read_only">
 								</div>
 								<div class="form_field" data-field-id="priority" data-field-flags="read_only">
-								</div>
+								</div>-->
 								<div class="form_field" data-field-id="start_date" data-field-flags="read_only">
 								</div>
 								<div class="form_field" data-field-id="last_update" data-field-flags="read_only">

@@ -34482,3 +34482,4 @@ Executing query: UPDATE `ticket` JOIN `ticket_request` ON `ticket_request`.id = 
 2019-07-27 01:23:58 - Info - operation 'async_action', peak memory usage. 30503872
 2019-07-27 01:23:59 - Info - MetaModel::Startup from C:\xampp\htdocs\itop//conf/production/config-itop.php (ModelOnly = 1)
 2019-07-26 18:24:00 - Info - operation 'async_action', peak memory usage. 31536536
+2019-07-27 01:37:36 - Error - <b>Error:</b> the configuration file 'C:\xampp\htdocs\itop/conf/production/config-itop.php' already exists and cannot be overwritten.
