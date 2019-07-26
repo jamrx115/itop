@@ -1258,8 +1258,8 @@
 							</div>
 							<div class="form_field" data-field-id="description">
 							</div>
-							<div class="form_field" data-field-id="contacts_list">
-							</div>
+							<!-- <div class="form_field" data-field-id="contacts_list">
+							</div>   se quita la lista de contactos -->
 						</div>
 					</twig>
 					<modes>
@@ -1310,8 +1310,6 @@
 							</div>
 						</div>
 						<div>
-							<div class="form_field" data-field-id="contacts_list">
-							</div>
 							<div class="form_field" data-field-id="public_log">
 							</div>
 						</div>
