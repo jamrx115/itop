@@ -1,6 +1,6 @@
 <?php
 //
-// File generated on 2019-07-26T17:52:46+0200
+// File generated on 2019-07-27T00:36:37+0200
 // Please do not edit manually
 //
 MetaModel::IncludeModule('env-production/core/main.php');
@@ -29,6 +29,7 @@ MetaModel::IncludeModule('env-production/itop-tickets/model.itop-tickets.php');
 MetaModel::IncludeModule('env-production/itop-virtualization-mgmt/model.itop-virtualization-mgmt.php');
 MetaModel::IncludeModule('env-production/itop-welcome-itil/main.itop-welcome-itil.php');
 MetaModel::IncludeModule('env-production/itop-welcome-itil/model.itop-welcome-itil.php');
+MetaModel::IncludeModule('env-production/portal-categories-filter/model.portal-categories-filter.php');
 MetaModel::IncludeModule('env-production/datos-instalador-module/model.datos-instalador-module.php');
 MetaModel::IncludeModule('env-production/pais-ticket-module/model.pais-ticket-module.php');
 MetaModel::IncludeModule('env-production/sales-model-module/model.sales-model-module.php');

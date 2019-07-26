@@ -8,7 +8,5 @@
 
 Dict::Add('EN US', 'English', 'English', array(
 	// Dictionary entries go here
-	'Class:Incident/Attribute:servicefamily_id' => 'platform',
-	'Class:Incident/Attribute:servicefamily_id+' => 'platform',
 ));
 ?>

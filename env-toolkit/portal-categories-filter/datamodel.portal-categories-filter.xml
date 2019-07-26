@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itop_design xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0">
+	<classes>
+		<class id="PortalServiceFamily" _delta="define">
+			<parent>PhysicalDevice</parent>
+			<properties>
+				<category>bizmodel,searchable</category>
+				<abstract>false</abstract>
+				<key_type>autoincrement</key_type>
+				<db_table>portalservicefamily</db_table>
+				<db_key_field>id</db_key_field>
+				<db_final_class_field/>
+				<naming>
+					<attributes>
+						<attribute id="sf_name"/>
+					</attributes>
+				</naming>
+				<display_template/>
+				<icon/>
+				<reconciliation>
+					<attributes>
+						<attribute id="sf_name"/>
+					</attributes>
+				</reconciliation>
+			</properties>
+			<methods />
+			<fields>
+				<field id="id_sf" xsi:type="AttributeExternalKey" _delta="define">
+					<sql>id_sf</sql>
+					<target_class>ServiceFamily</target_class>
+					<is_null_allowed>false</is_null_allowed>
+					<on_target_delete>DEL_AUTO</on_target_delete>
+				</field>
+				<field id="sf_name" xsi:type="AttributeString" _delta="define">
+					<sql>sf_name</sql>
+					<is_null_allowed>false</is_null_allowed>
+				</field>
+			</fields>
+			<presentation>
+				<details>
+					<items>
+						<item id="id_sf">
+						  <rank>10</rank>
+						</item>
+						<item id="sf_name">
+						  <rank>70</rank>
+						</item>
+					</items>
+				</details>
+			</presentation>
+		</class>
+	</classes>
+  <module_designs>
+		<module_design id="itop-portal" _delta="must_exist">
+			<classes>
+				<class id="ServiceFamily" _delta="redefine">
+					<scopes>
+						<scope id="all">
+							<oql_view><![CDATA[SELECT ServiceFamily AS sf JOIN Service AS s ON s.servicefamily_id = sf.id JOIN lnkCustomerContractToService AS l1 ON l1.service_id=s.id JOIN CustomerContract AS cc ON l1.customercontract_id=cc.id JOIN PortalServiceFamily AS psf ON psf.id_sf = sf.id WHERE cc.org_id = :current_contact->org_id]]></oql_view>
+							<ignore_silos>true</ignore_silos>
+						</scope>
+					</scopes>
+				</class>
+			</classes>
+		</module_design>
+	</module_designs>
+</itop_design>
