@@ -129,3 +129,30 @@ Debug trace:
 2019-07-04 08:20:39 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: hdc-fa-qa@alltic.co, ibarona@alltic.co, javendano@alltic.co, mleal@alltic.co
 2019-07-04 08:21:35 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: hdc-fa-qa@alltic.co, ibarona@alltic.co, javendano@alltic.co, mleal@alltic.co
 2019-07-04 08:22:13 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: hdc-fa-qa@alltic.co, ibarona@alltic.co, javendano@alltic.co, mleal@alltic.co
+2019-07-25 17:50:24 | Error | Unknown class [alias] - found 'service_id' at 7 in 'SELECT service_id FROM Organization AS child JOIN Organization AS root ON child.parent_id BELOW root.id JOIN CustomerContract AS cc ON cc.org_id = root.id JOIN lnkCustomerContractToService AS l1 ON l1.customercontract_id = cc.id JOIN Service AS s ON l1.service_id = s.id WHERE child.id=:this->org_id', expecting {child, root, cc, l1, s}, I would suggest to use ''
+2019-07-25 18:02:55 | Error | ¡Vaya! Ha ocurrido un error. : Action: copy(id, servicefamily_id) - Unknown attribute servicefamily_id from class Incident
+2019-07-25 18:19:02 | Error | ¡Vaya! Ha ocurrido un error. : Action: copy(id, servicefamily_id) - Unknown attribute servicefamily_id from class Incident
+2019-07-25 18:22:03 | Error | ldap_set_option('17', '3') returned true
+2019-07-25 18:22:03 | Error | ldap_set_option('8', '0') returned true
+2019-07-25 18:41:53 | Error | ¡Vaya! Ha ocurrido un error. : Unexpected token GT - found '>' at 283 in 'SELECT s FROM Organization AS child JOIN Organization AS root ON child.parent_id BELOW root.id JOIN CustomerContract AS cc ON cc.org_id = root.id JOIN lnkCustomerContractToService AS l1 ON l1.customercontract_id = cc.id JOIN Service AS s ON l1.service_id = s.id WHERE child.id=:this->4'
+2019-07-25 18:43:52 | Error | ldap_set_option('17', '3') returned true
+2019-07-25 18:43:52 | Error | ldap_set_option('8', '0') returned true
+2019-07-25 18:56:39 | Error | ¡Vaya! Ha ocurrido un error. : Limitation: cannot merge two queries if the queried class (Service AS s) is not the first joined class (Organization AS child)
+2019-07-25 19:27:02 | Error | ldap_set_option('17', '3') returned true
+2019-07-25 19:27:02 | Error | ldap_set_option('8', '0') returned true
+2019-07-25 19:29:42 | Error | Combodo\iTop\Portal\Form\ObjectFormManager::OnSubmit at line 895 : Rollback during submit (Object not following integrity rules: issues = Unexpected value for attribute 'id_instalador': Null not allowed, Unexpected value for attribute 'san': Null not allowed, Unexpected value for attribute 'nombre_instalador': Null not allowed, Unexpected value for attribute 'pais_ticket': Null not allowed, Unexpected value for attribute 'sales_model': Null not allowed, Unexpected value for attribute 'fso': Null not allowed, class = Incident, id = )
+2019-07-25 19:39:21 | Error | ¡Vaya! Ha ocurrido un error. : Action: copy(id, servicefamily_id) - Unknown attribute servicefamily_id from class Incident
+2019-07-25 19:41:08 | Error | ¡Vaya! Ha ocurrido un error. : Unknown attribute servicefamily_id from class Incident
+2019-07-25 19:46:19 | Error | ¡Vaya! Ha ocurrido un error. : Unknown attribute servicefamily_id from class Incident
+2019-07-25 19:48:43 | Error | ldap_set_option('17', '3') returned true
+2019-07-25 19:48:43 | Error | ldap_set_option('8', '0') returned true
+2019-07-25 19:54:35 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: hdc-fa-qa@alltic.co, jmartinez@alltic.co, mleal@alltic.co
+2019-07-25 20:13:16 | Error | ldap_set_option('17', '3') returned true
+2019-07-25 20:13:16 | Error | ldap_set_option('8', '0') returned true
+2019-07-26 08:50:26 | Error | ldap_set_option('17', '3') returned true
+2019-07-26 08:50:26 | Error | ldap_set_option('8', '0') returned true
+2019-07-26 09:26:11 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: hdc-fa-qa@alltic.co, jmartinez@alltic.co, mleal@alltic.co
+2019-07-26 09:26:23 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: jmartinez@alltic.co, mleal@alltic.co
+2019-07-26 09:27:05 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: hdc-fa-qa@alltic.co, jmartinez@alltic.co, mleal@alltic.co
+2019-07-26 09:32:36 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: hdc-fa-qa@alltic.co, ibarona@alltic.co, javendano@alltic.co, mleal@alltic.co
+2019-07-26 09:33:24 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: hdc-fa-qa@alltic.co, jmartinez@alltic.co, mleal@alltic.co

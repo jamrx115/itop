@@ -2050,7 +2050,7 @@
 			<auto_reload>fast</auto_reload>
 		</menu>
 	</menus>
-	    <module_designs>
+ <module_designs>
         <module_design id="itop-portal" _delta="must_exist">
             <bricks>
                 <brick id="services" _delta="must_exist">

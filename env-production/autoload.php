@@ -1,6 +1,6 @@
 <?php
 //
-// File generated on 2019-07-25T23:12:48+0200
+// File generated on 2019-07-26T16:59:11+0200
 // Please do not edit manually
 //
 MetaModel::IncludeModule('env-production/core/main.php');
@@ -43,6 +43,7 @@ MetaModel::IncludeModule('env-production/itop-request-mgmt-itil/main.itop-reques
 MetaModel::IncludeModule('env-production/itop-service-mgmt/model.itop-service-mgmt.php');
 MetaModel::IncludeModule('env-production/location/model.location.php');
 MetaModel::IncludeModule('env-production/odu/model.odu.php');
+MetaModel::IncludeModule('env-production/service-family-incident/model.service-family-incident.php');
 MetaModel::IncludeModule('env-production/situacion_actual/model.situacion_actual.php');
 MetaModel::IncludeModule('env-production/sqf/model.sqf.php');
 MetaModel::IncludeModule('env-production/step-by-step-module/model.step-by-step-module.php');
@@ -56,7 +57,6 @@ MetaModel::IncludeModule('env-production/tipo-release-module/model.tipo-release-
 MetaModel::IncludeModule('env-production/apellido_instalador-module/model.apellido_instalador-module.php');
 MetaModel::IncludeModule('env-production/attempts/model.attempts.php');
 MetaModel::IncludeModule('env-production/beam/model.beam.php');
-MetaModel::IncludeModule('env-production/combodo-coverage-windows-computation-incident/main.combodo-coverage-windows-computation-incident.php');
 MetaModel::IncludeModule('env-production/combodo-coverage-windows-computation/main.combodo-coverage-windows-computation.php');
 MetaModel::IncludeModule('env-production/equipment_state_cod/model.equipment_state_cod.php');
 MetaModel::IncludeModule('env-production/fso/model.fso.php');
