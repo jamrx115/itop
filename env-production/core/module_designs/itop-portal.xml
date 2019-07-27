@@ -341,7 +341,7 @@
         <div>
           <div class="form_field" data-field-id="title"/>
           <div class="form_field" data-field-id="description"/>
-          <div class="form_field" data-field-id="contacts_list"/>
+          <!-- <div class="form_field" data-field-id="contacts_list"></div> -->
         </div>
       </twig>
       <modes>
