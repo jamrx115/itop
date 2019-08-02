@@ -494,7 +494,7 @@ Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
 	'UI:ResetPwd-Error-Send' => 'Falla al envar un correo. Por favor contacte al administrador.',
 	'UI:ResetPwd-EmailSent' => 'Por favor verifique su buzón de correo y siga las instrucciones...',
 	'UI:ResetPwd-EmailSubject' => 'Restablecer contraseña de iTop',
-	'UI:ResetPwd-EmailBody' => '<body><p>Ha solicitado restablecer su contraseña en iTop.</p><p>Por favor de click en la siguiente liga: <a href="%1$s">proporcione una nueva contraseña</a></p>.',
+	'UI:ResetPwd-EmailBody' => '<body><p>Ha solicitado restablecer su contraseña en iTop.</p><p>Por favor de click en el siguiente enlace: <a href="%1$s">proporcione una nueva contraseña</a> <br> <img title="hughes" src="images/itop-logo-external.png"</a> </p>.',
 
 	'UI:ResetPwd-Title' => 'Restablecer Contrase&ntilde;a',
 	'UI:ResetPwd-Error-InvalidToken' => 'Lo siento, tal vez su contraseña ya ha sido cambiada, o ha recibido varios correos electrónicos. Por favor asegurese de haber dado click a la liga del último correo recibido.',

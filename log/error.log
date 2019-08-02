@@ -171,3 +171,19 @@ Debug trace:
 2019-07-26 18:26:05 | Error | ldap_authentication: wrong password for user: 'CN=Jorge Andres jaa. Avendaño,CN=Users,DC=alltic,DC=local'.
 2019-07-26 18:26:09 | Error | ldap_set_option('17', '3') returned true
 2019-07-26 18:26:09 | Error | ldap_set_option('8', '0') returned true
+2019-07-30 17:00:22 | Error | ldap_set_option('17', '3') returned true
+2019-07-30 17:00:22 | Error | ldap_set_option('8', '0') returned true
+2019-07-30 17:00:54 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: ibarona@alltic.co, jmartinez@alltic.co, mleal@alltic.co
+2019-07-30 17:01:22 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: ibarona@alltic.co, jmartinez@alltic.co, mleal@alltic.co
+2019-07-30 17:01:44 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: ibarona@alltic.co, jmartinez@alltic.co, mleal@alltic.co
+2019-07-30 17:07:53 | Error | ldap_set_option('17', '3') returned true
+2019-07-30 17:07:53 | Error | ldap_set_option('8', '0') returned true
+2019-07-30 17:07:53 | Error | ldap_authentication: wrong password for user: 'CN=Jorge Andres jaa. Avendaño,CN=Users,DC=alltic,DC=local'.
+2019-07-30 17:07:56 | Error | ldap_set_option('17', '3') returned true
+2019-07-30 17:07:56 | Error | ldap_set_option('8', '0') returned true
+2019-07-30 17:10:03 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: ibarona@alltic.co, jmartinez@alltic.co, mleal@alltic.co
+2019-07-30 17:10:42 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: ibarona@alltic.co, jmartinez@alltic.co, mleal@alltic.co
+2019-08-02 11:02:03 | Error | ldap_set_option('17', '3') returned true
+2019-08-02 11:02:03 | Error | ldap_set_option('8', '0') returned true
+2019-08-02 16:51:16 | Error | ldap_set_option('17', '3') returned true
+2019-08-02 16:51:16 | Error | ldap_set_option('8', '0') returned true

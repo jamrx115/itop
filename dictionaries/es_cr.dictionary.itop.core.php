@@ -849,9 +849,9 @@ Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
 	'Core:BulkExport:XLSXOptions' => 'Excel Options~~',
 	'Core:BulkExport:TextFormat' => 'Text fields containing some HTML markup~~',
 	'Core:Validator:Default' => 'Wrong format~~',
-	'Core:Validator:Mandatory' => 'Please, fill this field~~',
-	'Core:Validator:MustBeInteger' => 'Must be an integer~~',
-	'Core:Validator:MustSelectOne' => 'Please, select one~~',
+	'Core:Validator:Mandatory' => 'Por favor, complete este campo~~',
+	'Core:Validator:MustBeInteger' => 'Debe ingresar un numero~~',
+	'Core:Validator:MustSelectOne' => 'Por favor, seleccione uno~~',
 ));
 
 ?>

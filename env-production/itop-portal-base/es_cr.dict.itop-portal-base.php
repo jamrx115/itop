@@ -26,11 +26,11 @@
 // Portal
 Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
 	'Page:DefaultTitle' => 'iTop User portal',
-	'Page:PleaseWait' => 'Please wait...',
+	'Page:PleaseWait' => 'Espere por favor...',
 	'Page:Home' => 'Bienvenido',
 	'Page:GoPortalHome' => 'Regresar a bienvenida',
 	'Page:GoPreviousPage' => 'página anterior',
-	'Portal:Button:Submit' => 'Enviar',
+	'Portal:Button:Submit' => 'Guardar',
 	'Portal:Button:Cancel' => 'Cancelar',
 	'Portal:Button:Close' => 'Cerrar',
 	'Portal:Button:Add' => 'Añadir',
@@ -100,11 +100,11 @@ Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
 // ObjectBrick brick
 Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
 	'Brick:Portal:Object:Name' => 'Object',
-	'Brick:Portal:Object:Form:Create:Title' => 'New %1$s',
-	'Brick:Portal:Object:Form:Edit:Title' => 'Updating %2$s (%1$s)',
+	'Brick:Portal:Object:Form:Create:Title' => '%1$s',
+	'Brick:Portal:Object:Form:Edit:Title' => 'Actualizar %2$s (%1$s)',
 	'Brick:Portal:Object:Form:View:Title' => '%1$s : %2$s',
-	'Brick:Portal:Object:Form:Stimulus:Title' => 'Please, fill the following informations:',
-	'Brick:Portal:Object:Form:Message:Saved' => 'Saved',
+	'Brick:Portal:Object:Form:Stimulus:Title' => 'Por favor, diligencie la información:',
+	'Brick:Portal:Object:Form:Message:Saved' => 'Informacion actualizada',
 	'Brick:Portal:Object:Search:Regular:Title' => 'Select %1$s (%2$s)',
 	'Brick:Portal:Object:Search:Hierarchy:Title' => 'Select %1$s (%2$s)',
 ));
