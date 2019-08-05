@@ -1008,8 +1008,8 @@
 							</div>
 							<div class="form_field" data-field-id="name" data-field-flags="read_only">
 							</div>
-							<div class="form_field" data-field-id="org_id" data-field-flags="read_only">
-							</div>
+							<!--<div class="form_field" data-field-id="org_id" data-field-flags="read_only">
+							</div>-->
 							<div class="form_field" data-field-id="email" data-field-flags="read_only">
 							</div>
 							<div class="form_field" data-field-id="phone">
@@ -1286,6 +1286,10 @@
 								<div class="form_field" data-field-id="solution" data-field-flags="read_only">
 								</div>
 								<div class="form_field" data-field-id="user_satisfaction" data-field-flags="read_only">
+								</div>
+								<div class="form_field" data-field-id="clarity_information" data-field-flags="read_only">
+								</div>
+								<div class="form_field" data-field-id="time_required" data-field-flags="read_only">
 								</div>
 								<div class="form_field" data-field-id="user_comment" data-field-flags="read_only">
 								</div>

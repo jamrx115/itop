@@ -212,7 +212,7 @@ $MyModuleSettings = array(
 		'port' => 389,
 		'default_user' => 'CN=Conexion Aplicaciones,CN=Users,DC=alltic,DC=local',
 		'default_pwd' => '@lltic2019',
-		'base_dn' => 'CN=Users,DC=alltic,DC=local',
+		'base_dn' => 'DC=alltic,DC=local',
 		'user_query' => '(sAMAccountName=%s)',
 		'options' => array (
 		  17 => 3,

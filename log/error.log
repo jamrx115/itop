@@ -187,3 +187,10 @@ Debug trace:
 2019-08-02 11:02:03 | Error | ldap_set_option('8', '0') returned true
 2019-08-02 16:51:16 | Error | ldap_set_option('17', '3') returned true
 2019-08-02 16:51:16 | Error | ldap_set_option('8', '0') returned true
+2019-08-05 14:23:46 | Error | ldap_set_option('17', '3') returned true
+2019-08-05 14:23:46 | Error | ldap_set_option('8', '0') returned true
+2019-08-05 15:52:30 | Error | ldap_set_option('17', '3') returned true
+2019-08-05 15:52:30 | Error | ldap_set_option('8', '0') returned true
+2019-08-05 16:19:55 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: ibarona@alltic.co, jmartinez@alltic.co, mleal@alltic.co
+2019-08-05 16:23:23 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: agomez@alltic.co, jmartinez@alltic.co, mleal@alltic.co
+2019-08-05 16:23:37 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: agomez@alltic.co, jmartinez@alltic.co, mleal@alltic.co
