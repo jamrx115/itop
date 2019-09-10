@@ -68,6 +68,8 @@
 <value id="FSO not generated">FSO not generated</value>
 <value id="Partner setup">Partner setup</value>
 <value id="Credit Scoring verification fail">Credit Scoring verification fail</value>
+<value id="Limit sales by">Limit sales by ID</value>
+<value id="Black list">Black list</value>
 			</values>
           <sql>situacion_actual</sql>
           <default_value></default_value>

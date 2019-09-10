@@ -541,12 +541,12 @@ class ItopPortalPortalScopesValues
   ),
   '12_Ticket_r' => 
   array (
-    'allow' => 'SELECT `T` FROM Ticket AS `T` WHERE ((`T`.`caller_id` = :current_contact_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) UNION SELECT `T` FROM Ticket AS `T` WHERE ((`T`.`org_id` = :current_contact->org_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\')))',
+    'allow' => 'SELECT `T` FROM Ticket AS `T` WHERE ((`T`.`caller_id` = :current_contact_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) UNION SELECT `T` FROM Ticket AS `T` JOIN Team AS `G` ON `T`.team_id = `G`.id JOIN lnkPersonToTeam AS `l` ON `l`.team_id = `G`.id WHERE (((`T`.`org_id` = :current_contact->org_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) AND (`l`.`person_id` = :current_contact->id))',
     'ignore_silos' => false,
   ),
   '12_Ticket_w' => 
   array (
-    'allow' => 'SELECT `T` FROM Ticket AS `T` WHERE ((`T`.`caller_id` = :current_contact_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) UNION SELECT `T` FROM Ticket AS `T` WHERE ((`T`.`org_id` = :current_contact->org_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\')))',
+    'allow' => 'SELECT `T` FROM Ticket AS `T` WHERE ((`T`.`caller_id` = :current_contact_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) UNION SELECT `T` FROM Ticket AS `T` JOIN Team AS `G` ON `T`.team_id = `G`.id JOIN lnkPersonToTeam AS `l` ON `l`.team_id = `G`.id WHERE (((`T`.`org_id` = :current_contact->org_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) AND (`l`.`person_id` = :current_contact->id))',
     'ignore_silos' => false,
   ),
   '1_FAQCategory_r' => 
@@ -1141,12 +1141,12 @@ class ItopPortalPortalScopesValues
   ),
   '12_Change_r' => 
   array (
-    'allow' => 'SELECT `T` FROM Change AS `T` WHERE ((`T`.`caller_id` = :current_contact_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) UNION SELECT `T` FROM Change AS `T` WHERE ((`T`.`org_id` = :current_contact->org_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\')))',
+    'allow' => 'SELECT `T` FROM Change AS `T` WHERE ((`T`.`caller_id` = :current_contact_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) UNION SELECT `T` FROM Change AS `T` JOIN Team AS `G` ON `T`.team_id = `G`.id JOIN lnkPersonToTeam AS `l` ON `l`.team_id = `G`.id WHERE (((`T`.`org_id` = :current_contact->org_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) AND (`l`.`person_id` = :current_contact->id))',
     'ignore_silos' => false,
   ),
   '12_Change_w' => 
   array (
-    'allow' => 'SELECT `T` FROM Change AS `T` WHERE ((`T`.`caller_id` = :current_contact_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) UNION SELECT `T` FROM Change AS `T` WHERE ((`T`.`org_id` = :current_contact->org_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\')))',
+    'allow' => 'SELECT `T` FROM Change AS `T` WHERE ((`T`.`caller_id` = :current_contact_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) UNION SELECT `T` FROM Change AS `T` JOIN Team AS `G` ON `T`.team_id = `G`.id JOIN lnkPersonToTeam AS `l` ON `l`.team_id = `G`.id WHERE (((`T`.`org_id` = :current_contact->org_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) AND (`l`.`person_id` = :current_contact->id))',
     'ignore_silos' => false,
   ),
   '1_RoutineChange_r' => 
@@ -1261,12 +1261,12 @@ class ItopPortalPortalScopesValues
   ),
   '12_RoutineChange_r' => 
   array (
-    'allow' => 'SELECT `T` FROM RoutineChange AS `T` WHERE ((`T`.`caller_id` = :current_contact_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) UNION SELECT `T` FROM RoutineChange AS `T` WHERE ((`T`.`org_id` = :current_contact->org_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\')))',
+    'allow' => 'SELECT `T` FROM RoutineChange AS `T` WHERE ((`T`.`caller_id` = :current_contact_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) UNION SELECT `T` FROM RoutineChange AS `T` JOIN Team AS `G` ON `T`.team_id = `G`.id JOIN lnkPersonToTeam AS `l` ON `l`.team_id = `G`.id WHERE (((`T`.`org_id` = :current_contact->org_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) AND (`l`.`person_id` = :current_contact->id))',
     'ignore_silos' => false,
   ),
   '12_RoutineChange_w' => 
   array (
-    'allow' => 'SELECT `T` FROM RoutineChange AS `T` WHERE ((`T`.`caller_id` = :current_contact_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) UNION SELECT `T` FROM RoutineChange AS `T` WHERE ((`T`.`org_id` = :current_contact->org_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\')))',
+    'allow' => 'SELECT `T` FROM RoutineChange AS `T` WHERE ((`T`.`caller_id` = :current_contact_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) UNION SELECT `T` FROM RoutineChange AS `T` JOIN Team AS `G` ON `T`.team_id = `G`.id JOIN lnkPersonToTeam AS `l` ON `l`.team_id = `G`.id WHERE (((`T`.`org_id` = :current_contact->org_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) AND (`l`.`person_id` = :current_contact->id))',
     'ignore_silos' => false,
   ),
   '1_ApprovedChange_r' => 
@@ -1381,12 +1381,12 @@ class ItopPortalPortalScopesValues
   ),
   '12_ApprovedChange_r' => 
   array (
-    'allow' => 'SELECT `T` FROM ApprovedChange AS `T` WHERE ((`T`.`caller_id` = :current_contact_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) UNION SELECT `T` FROM ApprovedChange AS `T` WHERE ((`T`.`org_id` = :current_contact->org_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\')))',
+    'allow' => 'SELECT `T` FROM ApprovedChange AS `T` WHERE ((`T`.`caller_id` = :current_contact_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) UNION SELECT `T` FROM ApprovedChange AS `T` JOIN Team AS `G` ON `T`.team_id = `G`.id JOIN lnkPersonToTeam AS `l` ON `l`.team_id = `G`.id WHERE (((`T`.`org_id` = :current_contact->org_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) AND (`l`.`person_id` = :current_contact->id))',
     'ignore_silos' => false,
   ),
   '12_ApprovedChange_w' => 
   array (
-    'allow' => 'SELECT `T` FROM ApprovedChange AS `T` WHERE ((`T`.`caller_id` = :current_contact_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) UNION SELECT `T` FROM ApprovedChange AS `T` WHERE ((`T`.`org_id` = :current_contact->org_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\')))',
+    'allow' => 'SELECT `T` FROM ApprovedChange AS `T` WHERE ((`T`.`caller_id` = :current_contact_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) UNION SELECT `T` FROM ApprovedChange AS `T` JOIN Team AS `G` ON `T`.team_id = `G`.id JOIN lnkPersonToTeam AS `l` ON `l`.team_id = `G`.id WHERE (((`T`.`org_id` = :current_contact->org_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) AND (`l`.`person_id` = :current_contact->id))',
     'ignore_silos' => false,
   ),
   '1_NormalChange_r' => 
@@ -1501,12 +1501,12 @@ class ItopPortalPortalScopesValues
   ),
   '12_NormalChange_r' => 
   array (
-    'allow' => 'SELECT `T` FROM NormalChange AS `T` WHERE ((`T`.`caller_id` = :current_contact_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) UNION SELECT `T` FROM NormalChange AS `T` WHERE ((`T`.`org_id` = :current_contact->org_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\')))',
+    'allow' => 'SELECT `T` FROM NormalChange AS `T` WHERE ((`T`.`caller_id` = :current_contact_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) UNION SELECT `T` FROM NormalChange AS `T` JOIN Team AS `G` ON `T`.team_id = `G`.id JOIN lnkPersonToTeam AS `l` ON `l`.team_id = `G`.id WHERE (((`T`.`org_id` = :current_contact->org_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) AND (`l`.`person_id` = :current_contact->id))',
     'ignore_silos' => false,
   ),
   '12_NormalChange_w' => 
   array (
-    'allow' => 'SELECT `T` FROM NormalChange AS `T` WHERE ((`T`.`caller_id` = :current_contact_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) UNION SELECT `T` FROM NormalChange AS `T` WHERE ((`T`.`org_id` = :current_contact->org_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\')))',
+    'allow' => 'SELECT `T` FROM NormalChange AS `T` WHERE ((`T`.`caller_id` = :current_contact_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) UNION SELECT `T` FROM NormalChange AS `T` JOIN Team AS `G` ON `T`.team_id = `G`.id JOIN lnkPersonToTeam AS `l` ON `l`.team_id = `G`.id WHERE (((`T`.`org_id` = :current_contact->org_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) AND (`l`.`person_id` = :current_contact->id))',
     'ignore_silos' => false,
   ),
   '1_EmergencyChange_r' => 
@@ -1621,12 +1621,12 @@ class ItopPortalPortalScopesValues
   ),
   '12_EmergencyChange_r' => 
   array (
-    'allow' => 'SELECT `T` FROM EmergencyChange AS `T` WHERE ((`T`.`caller_id` = :current_contact_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) UNION SELECT `T` FROM EmergencyChange AS `T` WHERE ((`T`.`org_id` = :current_contact->org_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\')))',
+    'allow' => 'SELECT `T` FROM EmergencyChange AS `T` WHERE ((`T`.`caller_id` = :current_contact_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) UNION SELECT `T` FROM EmergencyChange AS `T` JOIN Team AS `G` ON `T`.team_id = `G`.id JOIN lnkPersonToTeam AS `l` ON `l`.team_id = `G`.id WHERE (((`T`.`org_id` = :current_contact->org_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) AND (`l`.`person_id` = :current_contact->id))',
     'ignore_silos' => false,
   ),
   '12_EmergencyChange_w' => 
   array (
-    'allow' => 'SELECT `T` FROM EmergencyChange AS `T` WHERE ((`T`.`caller_id` = :current_contact_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) UNION SELECT `T` FROM EmergencyChange AS `T` WHERE ((`T`.`org_id` = :current_contact->org_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\')))',
+    'allow' => 'SELECT `T` FROM EmergencyChange AS `T` WHERE ((`T`.`caller_id` = :current_contact_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) UNION SELECT `T` FROM EmergencyChange AS `T` JOIN Team AS `G` ON `T`.team_id = `G`.id JOIN lnkPersonToTeam AS `l` ON `l`.team_id = `G`.id WHERE (((`T`.`org_id` = :current_contact->org_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) AND (`l`.`person_id` = :current_contact->id))',
     'ignore_silos' => false,
   ),
   '1_Incident_r' => 
@@ -1741,12 +1741,12 @@ class ItopPortalPortalScopesValues
   ),
   '12_Incident_r' => 
   array (
-    'allow' => 'SELECT `T` FROM Incident AS `T` WHERE ((`T`.`caller_id` = :current_contact_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) UNION SELECT `T` FROM Incident AS `T` WHERE ((`T`.`org_id` = :current_contact->org_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\')))',
+    'allow' => 'SELECT `T` FROM Incident AS `T` WHERE ((`T`.`caller_id` = :current_contact_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) UNION SELECT `T` FROM Incident AS `T` JOIN Team AS `G` ON `T`.team_id = `G`.id JOIN lnkPersonToTeam AS `l` ON `l`.team_id = `G`.id WHERE (((`T`.`org_id` = :current_contact->org_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) AND (`l`.`person_id` = :current_contact->id))',
     'ignore_silos' => false,
   ),
   '12_Incident_w' => 
   array (
-    'allow' => 'SELECT `T` FROM Incident AS `T` WHERE ((`T`.`caller_id` = :current_contact_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) UNION SELECT `T` FROM Incident AS `T` WHERE ((`T`.`org_id` = :current_contact->org_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\')))',
+    'allow' => 'SELECT `T` FROM Incident AS `T` WHERE ((`T`.`caller_id` = :current_contact_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) UNION SELECT `T` FROM Incident AS `T` JOIN Team AS `G` ON `T`.team_id = `G`.id JOIN lnkPersonToTeam AS `l` ON `l`.team_id = `G`.id WHERE (((`T`.`org_id` = :current_contact->org_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) AND (`l`.`person_id` = :current_contact->id))',
     'ignore_silos' => false,
   ),
   '1_Problem_r' => 
@@ -1861,12 +1861,12 @@ class ItopPortalPortalScopesValues
   ),
   '12_Problem_r' => 
   array (
-    'allow' => 'SELECT `T` FROM Problem AS `T` WHERE ((`T`.`caller_id` = :current_contact_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) UNION SELECT `T` FROM Problem AS `T` WHERE ((`T`.`org_id` = :current_contact->org_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\')))',
+    'allow' => 'SELECT `T` FROM Problem AS `T` WHERE ((`T`.`caller_id` = :current_contact_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) UNION SELECT `T` FROM Problem AS `T` JOIN Team AS `G` ON `T`.team_id = `G`.id JOIN lnkPersonToTeam AS `l` ON `l`.team_id = `G`.id WHERE (((`T`.`org_id` = :current_contact->org_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) AND (`l`.`person_id` = :current_contact->id))',
     'ignore_silos' => false,
   ),
   '12_Problem_w' => 
   array (
-    'allow' => 'SELECT `T` FROM Problem AS `T` WHERE ((`T`.`caller_id` = :current_contact_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) UNION SELECT `T` FROM Problem AS `T` WHERE ((`T`.`org_id` = :current_contact->org_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\')))',
+    'allow' => 'SELECT `T` FROM Problem AS `T` WHERE ((`T`.`caller_id` = :current_contact_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) UNION SELECT `T` FROM Problem AS `T` JOIN Team AS `G` ON `T`.team_id = `G`.id JOIN lnkPersonToTeam AS `l` ON `l`.team_id = `G`.id WHERE (((`T`.`org_id` = :current_contact->org_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) AND (`l`.`person_id` = :current_contact->id))',
     'ignore_silos' => false,
   ),
   '1_UserRequest_r' => 
@@ -1981,12 +1981,12 @@ class ItopPortalPortalScopesValues
   ),
   '12_UserRequest_r' => 
   array (
-    'allow' => 'SELECT `T` FROM UserRequest AS `T` WHERE ((`T`.`caller_id` = :current_contact_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) UNION SELECT `T` FROM UserRequest AS `T` WHERE ((`T`.`org_id` = :current_contact->org_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\')))',
+    'allow' => 'SELECT `T` FROM UserRequest AS `T` WHERE ((`T`.`caller_id` = :current_contact_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) UNION SELECT `T` FROM UserRequest AS `T` JOIN Team AS `G` ON `T`.team_id = `G`.id JOIN lnkPersonToTeam AS `l` ON `l`.team_id = `G`.id WHERE (((`T`.`org_id` = :current_contact->org_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) AND (`l`.`person_id` = :current_contact->id))',
     'ignore_silos' => false,
   ),
   '12_UserRequest_w' => 
   array (
-    'allow' => 'SELECT `T` FROM UserRequest AS `T` WHERE ((`T`.`caller_id` = :current_contact_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) UNION SELECT `T` FROM UserRequest AS `T` WHERE ((`T`.`org_id` = :current_contact->org_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\')))',
+    'allow' => 'SELECT `T` FROM UserRequest AS `T` WHERE ((`T`.`caller_id` = :current_contact_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) UNION SELECT `T` FROM UserRequest AS `T` JOIN Team AS `G` ON `T`.team_id = `G`.id JOIN lnkPersonToTeam AS `l` ON `l`.team_id = `G`.id WHERE (((`T`.`org_id` = :current_contact->org_id) AND (`T`.`finalclass` IN (\'UserRequest\', \'Incident\'))) AND (`l`.`person_id` = :current_contact->id))',
     'ignore_silos' => false,
   ),
 );
