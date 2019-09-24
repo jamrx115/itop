@@ -70,6 +70,10 @@
 <value id="Credit Scoring verification fail">Credit Scoring verification fail</value>
 <value id="Limit sales by">Limit sales by ID</value>
 <value id="Black list">Black list</value>
+<value id="Bypass credit score">Bypass Credit Score</value>
+<value id="Disability law">Disability Law</value>
+<value id="Disability law and bypass credit score">Disability Law and Bypass Credit Score</value>
+
 			</values>
           <sql>situacion_actual</sql>
           <default_value></default_value>

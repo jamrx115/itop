@@ -198,3 +198,5 @@ Debug trace:
 2019-09-10 09:54:44 | Error | ldap_set_option('8', '0') returned true
 2019-09-10 09:56:39 | Error | ldap_set_option('17', '3') returned true
 2019-09-10 09:56:39 | Error | ldap_set_option('8', '0') returned true
+2019-09-24 00:08:11 | Error | ldap_set_option('17', '3') returned true
+2019-09-24 00:08:11 | Error | ldap_set_option('8', '0') returned true
