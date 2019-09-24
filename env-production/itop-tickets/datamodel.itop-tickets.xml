@@ -1457,7 +1457,7 @@
 							<oql_edit><![CDATA[SELECT Ticket AS T]]></oql_edit>
 						</scope>
 						<scope id="portal-power-user">
-							<oql_view><![CDATA[SELECT Ticket AS T JOIN Team AS G ON T.team_id = G.id JOIN lnkPersonToTeam AS l ON l.team_id = G.id WHERE T.org_id = :current_contact->org_id AND T.finalclass IN ('UserRequest', 'Incident') AND l.person_id = :current_contact->id]]></oql_view> 
+								<oql_view><![CDATA[SELECT Ticket AS T WHERE T.org_id = :current_contact->org_id AND T.finalclass IN ('UserRequest', 'Incident')]]></oql_view>
 							<!-- se modifica el query para filtrar solo los casos escalados al grupo, el query original es:<![CDATA[SELECT Ticket AS T WHERE T.org_id = :current_contact->org_id AND T.finalclass IN ('UserRequest', 'Incident')]]> -->
 							<oql_edit><![CDATA[SELECT Ticket AS T]]></oql_edit>
 							<allowed_profiles>
