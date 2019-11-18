@@ -1590,19 +1590,19 @@
 											<rank>20</rank>
 										</item>
 										<item id="servicesubcategory_id">
-											<rank>20</rank>
-										</item>
-										<item id="situacion_actual">
 											<rank>30</rank>
 										</item>
-										<item id="escalation_flag">
+										<item id="situacion_actual">
 											<rank>40</rank>
 										</item>
-										<item id="escalation_reason">
+										<item id="escalation_flag">
 											<rank>50</rank>
 										</item>
-										<item id="pending_reason">
+										<item id="escalation_reason">
 											<rank>60</rank>
+										</item>
+										<item id="pending_reason">
+											<rank>70</rank>
 										</item>
 									</items>
 								</item>
