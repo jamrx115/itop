@@ -8,7 +8,8 @@
         <field id="sales_model" xsi:type="AttributeEnum" _delta="define">
 		<values>
             <value id="Retail">Retail</value>
-            <value id="VAR">VAR</value>           		
+            <value id="VAR">VAR</value>
+			<value id="express_wifi">Express Wifi</value>	
           </values>
           <sql>sales_model</sql>
           <default_value>Retail</default_value>

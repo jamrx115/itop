@@ -36226,3 +36226,542 @@ Executing query: UPDATE `ticket` JOIN `ticket_request` ON `ticket_request`.id = 
 2019-11-14 21:18:24 - Info - operation 'async_action', peak memory usage. 35642744
 2019-11-14 21:18:25 - Info - MetaModel::Startup from C:\xampp\htdocs\itop//conf/production/config-itop.php (ModelOnly = 1)
 2019-11-14 15:18:26 - Info - operation 'async_action', peak memory usage. 36525576
+2019-12-26 14:45:39 - Info - CheckPHPVersion
+2019-12-26 14:45:39 - Info - php.ini file(s): 'C:\wamp64\bin\apache\apache2.4.41\bin\php.ini'
+2019-12-26 14:45:39 - Info - Temporary directory for files upload (c:/wamp64/tmp) is writable.
+2019-12-26 14:45:39 - Info - upload_max_filesize: 2M
+2019-12-26 14:45:39 - Info - post_max_size: 8M
+2019-12-26 14:45:39 - Info - max_file_uploads: 20
+2019-12-26 14:45:39 - Info - memory_limit is 134217728, ok.
+2019-12-26 14:45:39 - Info - session.save_path is: 'c:/wamp64/tmp'.
+2019-12-26 14:45:39 - Ok - The current PHP Version (5.6.40) is greater than the minimum version required to run iTop, which is (5.3.6)
+2019-12-26 14:45:39 - Ok - Required PHP extension(s): dom, hash, iconv, json, mysqli, pcre, session, simplexml, soap, zip.
+2019-12-26 14:45:39 - Ok - Optional PHP extension(s): gd, ldap, mcrypt.
+2019-12-26 14:45:39 - Ok - Loaded php.ini files: C:\wamp64\bin\apache\apache2.4.41\bin\php.ini
+2019-12-26 14:45:39 - Ok - The value for session.save_path (c:/wamp64/tmp) is writable for the web server.
+2019-12-26 14:45:41 - Info - CheckBackupPrerequisites
+2019-12-26 14:45:41 - Info - PHP functions disabled: 
+2019-12-26 14:45:41 - Info - mysqldump -V said: "mysqldump" no se reconoce como un comando interno o externo,
+2019-12-26 14:45:41 - Info - mysqldump -V said: programa o archivo por lotes ejecutable.
+2019-12-26 14:45:41 - Info - operation 'async_action', peak memory usage. 12624720
+2019-12-26 14:45:43 - Info - GetApplicationVersion returns: product_name: iTop, product_version: 2.3.4.3302
+2019-12-26 14:45:45 - Info - CheckGraphviz
+2019-12-26 14:45:45 - Info - PHP functions disabled: 
+2019-12-26 14:45:45 - Info - ./usr/bin/dot -V said: El sistema no puede encontrar la ruta especificada.
+2019-12-26 14:45:45 - Info - operation 'async_action', peak memory usage. 12614520
+2019-12-26 14:46:03 - Info - ======= Installation starts =======
+Parameters:
+<?xml version="1.0" encoding="UTF-8"?>
+<installation>
+  <mode>upgrade</mode>
+  <preinstall>
+    <copies type="array"/>
+  </preinstall>
+  <source_dir>datamodels/2.x/</source_dir>
+  <datamodel_version>2.3.0</datamodel_version>
+  <previous_configuration_file>C:\wamp64\www\itop//conf/production/config-itop.php</previous_configuration_file>
+  <extensions_dir>extensions</extensions_dir>
+  <target_env>production</target_env>
+  <workspace_dir></workspace_dir>
+  <database>
+    <server>localhost</server>
+    <user>root</user>
+    <pwd>**removed**</pwd>
+    <name>itop</name>
+    <prefix></prefix>
+  </database>
+  <url>http://localhost/itop/</url>
+  <graphviz_path>./usr/bin/dot</graphviz_path>
+  <admin_account>
+    <user></user>
+    <pwd>**removed**</pwd>
+    <language></language>
+  </admin_account>
+  <language></language>
+  <selected_modules type="array">
+    <item>authent-external</item>
+    <item>authent-ldap</item>
+    <item>authent-local</item>
+    <item>itop-backup</item>
+    <item>itop-config</item>
+    <item>itop-profiles-itil</item>
+    <item>itop-sla-computation</item>
+    <item>itop-tickets</item>
+    <item>itop-welcome-itil</item>
+    <item>combodo-sla-computation</item>
+    <item>itop-config-mgmt</item>
+    <item>itop-attachments</item>
+    <item>itop-datacenter-mgmt</item>
+    <item>itop-endusers-devices</item>
+    <item>itop-storage-mgmt</item>
+    <item>itop-virtualization-mgmt</item>
+    <item>itop-bridge-virtualization-storage</item>
+    <item>itop-service-mgmt</item>
+    <item>itop-request-mgmt-itil</item>
+    <item>itop-incident-mgmt-itil</item>
+    <item>itop-portal</item>
+    <item>itop-portal-base</item>
+    <item>itop-full-itil</item>
+    <item>itop-change-mgmt-itil</item>
+    <item>itop-knownerror-mgmt</item>
+    <item>itop-problem-mgmt</item>
+    <item>portal-categories-filter</item>
+    <item>Datos-Instalador-module</item>
+    <item>Pais-ticket-module</item>
+    <item>Sales-model-module</item>
+    <item>location</item>
+    <item>odu</item>
+    <item>service-family-incident</item>
+    <item>situacion_actual</item>
+    <item>sqf</item>
+    <item>step-by-step-module</item>
+    <item>version</item>
+    <item>Campos Cambios-module</item>
+    <item>Correo_Instalador-module</item>
+    <item>External-id</item>
+    <item>Pais-cambio-module</item>
+    <item>Pais_in_change-module</item>
+    <item>Tipo-Release-module</item>
+    <item>apellido_instalador-module</item>
+    <item>attempts</item>
+    <item>beam</item>
+    <item>combodo-coverage-windows-computation</item>
+    <item>equipment_state_cod</item>
+    <item>fso</item>
+    <item>id_external-incident</item>
+    <item>id_externo-solicitudes</item>
+    <item>idu</item>
+    <item>idu_odu_status</item>
+    <item>idu_software_version</item>
+  </selected_modules>
+  <sample_data></sample_data>
+  <old_addon></old_addon>
+  <options type="array"/>
+</installation>
+
+
+2019-12-26 14:46:03 - Info - operation 'async_action', peak memory usage. 12661096
+2019-12-26 14:46:03 - Info - operation 'async_action', peak memory usage. 12630912
+2019-12-26 14:46:03 - Info - Compiling data model.
+2019-12-26 14:46:11 - Info - Data model successfully compiled to 'C:\wamp64\www\itop/env-production'.
+2019-12-26 14:46:11 - Info - operation 'async_action', peak memory usage. 43009744
+2019-12-26 14:46:11 - Info - Update Database Schema for environment 'production'.
+2019-12-26 14:46:11 - Info - MetaModel::Startup (ModelOnly = 1)
+2019-12-26 14:46:12 - Info - Renaming 'priv_internalUser' into 'priv_internaluser' (lowercase)
+2019-12-26 14:46:12 - Info - Cleanup of 'priv_change' to remove orphan records
+2019-12-26 14:46:12 - Info - There is a total of 47054 records in priv_change.
+2019-12-26 14:46:12 - Info - There are 51 useless records in priv_change (0.11%)
+2019-12-26 14:46:12 - Info - Removing the orphan records...
+2019-12-26 14:46:12 - Info - Cleanup completed successfully.
+2019-12-26 14:46:12 - Info - Calling Module Handler: AttachmentInstaller::BeforeDatabaseCreation(oConfig, 2.3.0, 2.3.0)
+2019-12-26 14:46:12 - Info - No orphan attachment found.
+2019-12-26 14:46:12 - Info - Calling Module Handler: ConfigMgmtInstaller::BeforeDatabaseCreation(oConfig, 2.3.0, 2.3.0)
+2019-12-26 14:46:12 - Info - Renaming class in DB - final class from 'DBserver' to 'DBServer': 0 rows affected
+2019-12-26 14:46:12 - Warning - Failed to rename class in DB - final class from 'OSfamily' to 'OSFamily'. Reason: Failed to issue SQL query: query = UPDATE `typology` SET `finalclass` = 'OSFamily' WHERE `finalclass` = BINARY 'OSfamily', mysql_error = Table 'itop.typology' doesn't exist, mysql_errno = 1146
+2019-12-26 14:46:12 - Warning - Failed to rename class in DB - final class from 'OSversion' to 'OSVersion'. Reason: Failed to issue SQL query: query = UPDATE `typology` SET `finalclass` = 'OSVersion' WHERE `finalclass` = BINARY 'OSversion', mysql_error = Table 'itop.typology' doesn't exist, mysql_errno = 1146
+2019-12-26 14:46:12 - Info - Renaming class in DB - final class from 'Webserver' to 'WebServer': 0 rows affected
+2019-12-26 14:46:12 - Info - Renaming class in DB - final class from 'OSpatch' to 'OSPatch': 0 rows affected
+2019-12-26 14:46:12 - Info - Renaming class in DB - final class from 'OsLicence' to 'OSLicence': 0 rows affected
+2019-12-26 14:46:12 - Warning - Failed to rename class in DB - final class from 'IOSversion' to 'IOSVersion'. Reason: Failed to issue SQL query: query = UPDATE `typology` SET `finalclass` = 'IOSVersion' WHERE `finalclass` = BINARY 'IOSversion', mysql_error = Table 'itop.typology' doesn't exist, mysql_errno = 1146
+2019-12-26 14:46:12 - Info - Renaming class in DB - final class from 'IPinterface' to 'IPInterface': 0 rows affected
+2019-12-26 14:46:12 - Info - Calling Module Handler: EndUserMgmtInstaller::BeforeDatabaseCreation(oConfig, 2.2.0, 2.2.0)
+2019-12-26 14:46:12 - Info - Renaming class in DB - final class from 'IpPhone' to 'IPPhone': 0 rows affected
+2019-12-26 14:46:12 - Info - Calling Module Handler: StorageMgmtInstaller::BeforeDatabaseCreation(oConfig, 2.2.0, 2.2.0)
+2019-12-26 14:46:12 - Info - Calling Module Handler: TicketsInstaller::BeforeDatabaseCreation(oConfig, 2.3.0, 2.3.0)
+2019-12-26 14:46:12 - Info - Calling Module Handler: KnownErrorMgmtInstaller::BeforeDatabaseCreation(oConfig, 2.3.0, 2.3.0)
+2019-12-26 14:46:12 - Info - Calling Module Handler: ServiceMgmtInstaller::BeforeDatabaseCreation(oConfig, 2.3.0, 2.3.0)
+2019-12-26 14:46:12 - Info - Creating the structure in ''.
+2019-12-26 14:46:13 - Info - 0.027s - query: CREATE TABLE `webserver` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2019-12-26 14:46:13 - Info - 0.026s - query: CREATE TABLE `webapplication` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `webserver_id` INT(11) DEFAULT 0, INDEX (`webserver_id`), `url` VARCHAR(2048) DEFAULT '') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2019-12-26 14:46:13 - Info - 0.023s - query: CREATE TABLE `typology` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) DEFAULT '', `finalclass` VARCHAR(255) DEFAULT 'Typology', INDEX (`finalclass`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2019-12-26 14:46:13 - Info - 0.026s - query: CREATE TABLE `vlan` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `vlan_tag` VARCHAR(255) DEFAULT '', `description` TEXT, `org_id` INT(11) DEFAULT 0, INDEX (`org_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2019-12-26 14:46:13 - Info - 0.030s - query: CREATE TABLE `workorder` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) DEFAULT '', `status` ENUM('closed','open') DEFAULT 'open', `description` TEXT, `ticket_id` INT(11) DEFAULT 0, INDEX (`ticket_id`), `team_id` INT(11) DEFAULT 0, INDEX (`team_id`), `owner_id` INT(11) DEFAULT 0, INDEX (`owner_id`), `start_date` DATETIME, `end_date` DATETIME, `log` LONGTEXT, `log_index` BLOB) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2019-12-26 14:46:13 - Info - 0.021s - query: CREATE TABLE `virtualdevice` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `status` ENUM('implementation','obsolete','production','stock') DEFAULT 'production') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2019-12-26 14:46:13 - Info - 0.021s - query: CREATE TABLE `virtualhost` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2019-12-26 14:46:13 - Info - 0.037s - query: CREATE TABLE `virtualmachine` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `virtualhost_id` INT(11) DEFAULT 0, INDEX (`virtualhost_id`), `osfamily_id` INT(11) DEFAULT 0, INDEX (`osfamily_id`), `osversion_id` INT(11) DEFAULT 0, INDEX (`osversion_id`), `oslicence_id` INT(11) DEFAULT 0, INDEX (`oslicence_id`), `cpu` VARCHAR(255) DEFAULT '', `ram` VARCHAR(255) DEFAULT '', `managementip` VARCHAR(255) DEFAULT '') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2019-12-26 14:46:13 - Info - 0.006s - query: ALTER TABLE `priv_trigger_onobject` CHANGE `target_class` `target_class` VARCHAR(255) DEFAULT 'ApplicationSolution' 
+2019-12-26 14:46:13 - Info - 0.007s - query: ALTER TABLE `priv_sync_datasource` CHANGE `scope_class` `scope_class` VARCHAR(255) DEFAULT 'ApplicationSolution' 
+2019-12-26 14:46:13 - Info - 0.315s - query: ALTER TABLE `ticket` CHANGE `situacion_actual` `situacion_actual` ENUM('Agent ID creation','Black list','Bypass Credit Score','Can not get a sign off code','Can not launch OVT','Change address','Change condition','Change email','Close FSO Fail','Credit Scoring verification fail','Customer lastname with special character','Data maintenance','Data management','Departure complete Fail','Disability Law','Disability Law and Bypass Credit Score','Document CE with Expedition date wrong','Error sent contract','Error-id customer','FSO blocked after multiple terminal activations','FSO not generated','FSO not released','Failure PSE site','Family and Friends Order','IDU AND ODU are failing','IDU is failing','Install Parameters Data fail','Limit sales by ID','Line of sight issue','Low SQF','Low SQF after the terminal activation','No aplica','No change Equipment','ODU is failing','Offer coverage','Offer creation','POW Fail','Partner setup','Payment Credit Card Fail','Payment Portal Down','Payment applied but not reflected','Payment coupon not generated or not sent','Payment not refleted in payment coupon','Re Schedule FSO','Real Customer','Reissue payment coupon','SBC file issue','Service activation fail','Service failed after new IDU is activated','Terminal registration-activation fail','Training De-Install','Training Install','Training Repair','Upload Workflow Fail','Upload photos and customer sign','Upload photos for close FSO','User creation','Validate FSO','Whitelist','Wrong Beam','Wrong Oasis version','Wrong application of Payment','Wrong install parameters outroute-polarity','Wrong satellite') 
+2019-12-26 14:46:16 - Ok - Database structure successfully updated.
+2019-12-26 14:46:16 - Ok - Hierchical keys rebuilt: The attribute parent_id from Organization is a hierarchical key.
+Rebuilding the fields parent_id_right and parent_id_left from table 'organization'...
+Ok, table 'organization' successfully updated.
+The attribute parent_id from Group is a hierarchical key.
+Rebuilding the fields parent_id_right and parent_id_left from table 'group'...
+Ok, table 'group' successfully updated.
+
+2019-12-26 14:46:16 - Ok - Data sources checked: There are no Data Sources in the database.
+Ok.
+
+2019-12-26 14:46:16 - Ok - Meta enums rebuilt: Executing query: UPDATE `ticket` JOIN `change` ON `change`.id = `ticket`.id SET `ticket`.`operational_status` = 'ongoing' WHERE `change`.`status` IN ('approved', 'assigned', 'implemented', 'monitored', 'new', 'notapproved', 'plannedscheduled', 'validated') AND `ticket`.`operational_status` != 'ongoing'
+Executing query: UPDATE `ticket` JOIN `change` ON `change`.id = `ticket`.id SET `ticket`.`operational_status` = 'closed' WHERE `change`.`status` IN ('closed', 'rejected') AND `ticket`.`operational_status` != 'closed'
+Executing query: UPDATE `ticket` JOIN `ticket_incident` ON `ticket_incident`.id = `ticket`.id SET `ticket`.`operational_status` = 'ongoing' WHERE `ticket_incident`.`status` IN ('assigned', 'escalated_tto', 'escalated_ttr', 'new', 'pending') AND `ticket`.`operational_status` != 'ongoing'
+Executing query: UPDATE `ticket` JOIN `ticket_incident` ON `ticket_incident`.id = `ticket`.id SET `ticket`.`operational_status` = 'closed' WHERE `ticket_incident`.`status` IN ('closed') AND `ticket`.`operational_status` != 'closed'
+Executing query: UPDATE `ticket` JOIN `ticket_incident` ON `ticket_incident`.id = `ticket`.id SET `ticket`.`operational_status` = 'resolved' WHERE `ticket_incident`.`status` IN ('resolved') AND `ticket`.`operational_status` != 'resolved'
+Executing query: UPDATE `ticket` JOIN `ticket_problem` ON `ticket_problem`.id = `ticket`.id SET `ticket`.`operational_status` = 'ongoing' WHERE `ticket_problem`.`status` IN ('assigned', 'new') AND `ticket`.`operational_status` != 'ongoing'
+Executing query: UPDATE `ticket` JOIN `ticket_problem` ON `ticket_problem`.id = `ticket`.id SET `ticket`.`operational_status` = 'closed' WHERE `ticket_problem`.`status` IN ('closed') AND `ticket`.`operational_status` != 'closed'
+Executing query: UPDATE `ticket` JOIN `ticket_problem` ON `ticket_problem`.id = `ticket`.id SET `ticket`.`operational_status` = 'resolved' WHERE `ticket_problem`.`status` IN ('resolved') AND `ticket`.`operational_status` != 'resolved'
+Executing query: UPDATE `ticket` JOIN `ticket_request` ON `ticket_request`.id = `ticket`.id SET `ticket`.`operational_status` = 'ongoing' WHERE `ticket_request`.`status` IN ('approved', 'assigned', 'escalated_tto', 'escalated_ttr', 'new', 'pending', 'waiting_for_approval') AND `ticket`.`operational_status` != 'ongoing'
+Executing query: UPDATE `ticket` JOIN `ticket_request` ON `ticket_request`.id = `ticket`.id SET `ticket`.`operational_status` = 'closed' WHERE `ticket_request`.`status` IN ('closed', 'rejected') AND `ticket`.`operational_status` != 'closed'
+Executing query: UPDATE `ticket` JOIN `ticket_request` ON `ticket_request`.id = `ticket`.id SET `ticket`.`operational_status` = 'resolved' WHERE `ticket_request`.`status` IN ('resolved') AND `ticket`.`operational_status` != 'resolved'
+
+2019-12-26 14:46:16 - Info - 'priv_change.origin' already initialized, nothing to do.
+2019-12-26 14:46:16 - Info - 'priv_async_task.status' already initialized, nothing to do.
+2019-12-26 14:46:16 - Info - Database Schema Successfully Updated for environment 'production'.
+2019-12-26 14:46:16 - Info - operation 'async_action', peak memory usage. 68945584
+2019-12-26 14:46:16 - Info - After Database Creation
+2019-12-26 14:46:17 - Info - MetaModel::Startup (ModelOnly = 1)
+2019-12-26 14:46:17 - Info - Calling Module Handler: AttachmentInstaller::AfterDatabaseCreation(oConfig, 2.3.0, 2.3.0)
+2019-12-26 14:46:17 - Info - Initializing attachment/item_org_id - null to zero
+2019-12-26 14:46:17 - Info - Initializing attachment/item_org_id - zero to the container
+2019-12-26 14:46:17 - Info - Initializing attachment/item_org_id - 0 records have been adjusted
+2019-12-26 14:46:17 - Info - Calling Module Handler: ConfigMgmtInstaller::AfterDatabaseCreation(oConfig, 2.3.0, 2.3.0)
+2019-12-26 14:46:17 - Info - Calling Module Handler: EndUserMgmtInstaller::AfterDatabaseCreation(oConfig, 2.2.0, 2.2.0)
+2019-12-26 14:46:17 - Info - Calling Module Handler: StorageMgmtInstaller::AfterDatabaseCreation(oConfig, 2.2.0, 2.2.0)
+2019-12-26 14:46:17 - Info - Calling Module Handler: TicketsInstaller::AfterDatabaseCreation(oConfig, 2.3.0, 2.3.0)
+2019-12-26 14:46:17 - Info - Calling Module Handler: KnownErrorMgmtInstaller::AfterDatabaseCreation(oConfig, 2.3.0, 2.3.0)
+2019-12-26 14:46:17 - Info - Calling Module Handler: ServiceMgmtInstaller::AfterDatabaseCreation(oConfig, 2.3.0, 2.3.0)
+2019-12-26 14:46:17 - Info - URP_Profiles::GetPredefinedObjects() returned 12 elements.
+2019-12-26 14:46:17 - Info - Calling Module Handler: AttachmentInstaller::AfterDatabaseSetup(oConfig, 2.3.0, 2.3.0)
+2019-12-26 14:46:17 - Info - Calling Module Handler: ConfigMgmtInstaller::AfterDatabaseSetup(oConfig, 2.3.0, 2.3.0)
+2019-12-26 14:46:17 - Info - Calling Module Handler: EndUserMgmtInstaller::AfterDatabaseSetup(oConfig, 2.2.0, 2.2.0)
+2019-12-26 14:46:17 - Info - Calling Module Handler: StorageMgmtInstaller::AfterDatabaseSetup(oConfig, 2.2.0, 2.2.0)
+2019-12-26 14:46:17 - Info - Calling Module Handler: TicketsInstaller::AfterDatabaseSetup(oConfig, 2.3.0, 2.3.0)
+2019-12-26 14:46:17 - Info - Calling Module Handler: KnownErrorMgmtInstaller::AfterDatabaseSetup(oConfig, 2.3.0, 2.3.0)
+2019-12-26 14:46:17 - Info - Calling Module Handler: ServiceMgmtInstaller::AfterDatabaseSetup(oConfig, 2.3.0, 2.3.0)
+2019-12-26 14:46:17 - Info - operation 'async_action', peak memory usage. 60165016
+2019-12-26 14:46:18 - Info - MetaModel::Startup (ModelOnly = )
+2019-12-26 14:46:18 - Info - starting data load session
+2019-12-26 14:46:18 - Info - ending data load session
+2019-12-26 14:46:18 - Info - operation 'async_action', peak memory usage. 60603888
+2019-12-26 14:46:19 - Info - MetaModel::Startup from C:\wamp64\www\itop//conf/production/config-itop.php (ModelOnly = 1)
+2019-12-26 08:46:21 - Info - operation 'async_action', peak memory usage. 61936376
+2019-12-26 14:51:09 - Error - <b>Error:</b> the configuration file 'C:\wamp64\www\itop/conf/production/config-itop.php' already exists and cannot be overwritten.
+2019-12-26 14:51:22 - Info - CheckPHPVersion
+2019-12-26 14:51:22 - Info - php.ini file(s): 'C:\wamp64\bin\apache\apache2.4.41\bin\php.ini'
+2019-12-26 14:51:22 - Info - Temporary directory for files upload (c:/wamp64/tmp) is writable.
+2019-12-26 14:51:22 - Info - upload_max_filesize: 2M
+2019-12-26 14:51:22 - Info - post_max_size: 8M
+2019-12-26 14:51:22 - Info - max_file_uploads: 20
+2019-12-26 14:51:22 - Info - memory_limit is 134217728, ok.
+2019-12-26 14:51:22 - Info - session.save_path is: 'c:/wamp64/tmp'.
+2019-12-26 14:51:22 - Ok - The current PHP Version (5.6.40) is greater than the minimum version required to run iTop, which is (5.3.6)
+2019-12-26 14:51:22 - Ok - Required PHP extension(s): dom, hash, iconv, json, mysqli, pcre, session, simplexml, soap, zip.
+2019-12-26 14:51:22 - Ok - Optional PHP extension(s): gd, ldap, mcrypt.
+2019-12-26 14:51:22 - Ok - Loaded php.ini files: C:\wamp64\bin\apache\apache2.4.41\bin\php.ini
+2019-12-26 14:51:22 - Ok - The value for session.save_path (c:/wamp64/tmp) is writable for the web server.
+2019-12-26 14:51:23 - Info - CheckBackupPrerequisites
+2019-12-26 14:51:23 - Info - PHP functions disabled: 
+2019-12-26 14:51:23 - Info - mysqldump -V said: "mysqldump" no se reconoce como un comando interno o externo,
+2019-12-26 14:51:23 - Info - mysqldump -V said: programa o archivo por lotes ejecutable.
+2019-12-26 14:51:23 - Info - operation 'async_action', peak memory usage. 12627344
+2019-12-26 14:51:25 - Info - GetApplicationVersion returns: product_name: iTop, product_version: 2.3.4.3302
+2019-12-26 14:51:26 - Info - CheckGraphviz
+2019-12-26 14:51:26 - Info - PHP functions disabled: 
+2019-12-26 14:51:26 - Info - ./usr/bin/dot -V said: El sistema no puede encontrar la ruta especificada.
+2019-12-26 14:51:26 - Info - operation 'async_action', peak memory usage. 12615848
+2019-12-26 14:51:41 - Info - ======= Installation starts =======
+Parameters:
+<?xml version="1.0" encoding="UTF-8"?>
+<installation>
+  <mode>upgrade</mode>
+  <preinstall>
+    <copies type="array"/>
+  </preinstall>
+  <source_dir>datamodels/2.x/</source_dir>
+  <datamodel_version>2.3.0</datamodel_version>
+  <previous_configuration_file>C:\wamp64\www\itop//conf/production/config-itop.php</previous_configuration_file>
+  <extensions_dir>extensions</extensions_dir>
+  <target_env>production</target_env>
+  <workspace_dir></workspace_dir>
+  <database>
+    <server>localhost</server>
+    <user>root</user>
+    <pwd>**removed**</pwd>
+    <name>itop</name>
+    <prefix></prefix>
+  </database>
+  <url>http://localhost/itop/</url>
+  <graphviz_path>./usr/bin/dot</graphviz_path>
+  <admin_account>
+    <user></user>
+    <pwd>**removed**</pwd>
+    <language></language>
+  </admin_account>
+  <language></language>
+  <selected_modules type="array">
+    <item>authent-external</item>
+    <item>authent-ldap</item>
+    <item>authent-local</item>
+    <item>itop-backup</item>
+    <item>itop-config</item>
+    <item>itop-profiles-itil</item>
+    <item>itop-sla-computation</item>
+    <item>itop-tickets</item>
+    <item>itop-welcome-itil</item>
+    <item>combodo-sla-computation</item>
+    <item>itop-config-mgmt</item>
+    <item>itop-attachments</item>
+    <item>itop-datacenter-mgmt</item>
+    <item>itop-endusers-devices</item>
+    <item>itop-storage-mgmt</item>
+    <item>itop-virtualization-mgmt</item>
+    <item>itop-bridge-virtualization-storage</item>
+    <item>itop-service-mgmt</item>
+    <item>itop-request-mgmt-itil</item>
+    <item>itop-incident-mgmt-itil</item>
+    <item>itop-portal</item>
+    <item>itop-portal-base</item>
+    <item>itop-full-itil</item>
+    <item>itop-change-mgmt-itil</item>
+    <item>itop-knownerror-mgmt</item>
+    <item>itop-problem-mgmt</item>
+    <item>portal-categories-filter</item>
+    <item>Datos-Instalador-module</item>
+    <item>Pais-ticket-module</item>
+    <item>Sales-model-module</item>
+    <item>location</item>
+    <item>odu</item>
+    <item>service-family-incident</item>
+    <item>situacion_actual</item>
+    <item>sqf</item>
+    <item>step-by-step-module</item>
+    <item>version</item>
+    <item>Campos Cambios-module</item>
+    <item>Correo_Instalador-module</item>
+    <item>External-id</item>
+    <item>Pais-cambio-module</item>
+    <item>Pais_in_change-module</item>
+    <item>Tipo-Release-module</item>
+    <item>apellido_instalador-module</item>
+    <item>attempts</item>
+    <item>beam</item>
+    <item>combodo-coverage-windows-computation</item>
+    <item>equipment_state_cod</item>
+    <item>fso</item>
+    <item>id_external-incident</item>
+    <item>id_externo-solicitudes</item>
+    <item>idu</item>
+    <item>idu_odu_status</item>
+    <item>idu_software_version</item>
+  </selected_modules>
+  <sample_data></sample_data>
+  <old_addon></old_addon>
+  <options type="array"/>
+</installation>
+
+
+2019-12-26 14:51:41 - Info - operation 'async_action', peak memory usage. 12661536
+2019-12-26 14:51:41 - Info - operation 'async_action', peak memory usage. 12631352
+2019-12-26 14:51:41 - Info - Compiling data model.
+2019-12-26 14:51:44 - Error - Data model source file (xml) could not be loaded - found errors in module: situacion_actual
+2019-12-26 14:51:44 - Error - Load error: File: file:/C:/wamp64/www/itop/extensions/situacion_actual/datamodel.situacion_actual.xml Line:79 Message:expected '>'
+
+2019-12-26 14:51:44 - Error - An exception occurred: The data model could not be compiled. Please check the setup error log at line 519 in file C:\wamp64\www\itop\setup\applicationinstaller.class.inc.php
+2019-12-26 14:51:44 - Call stack:
+2019-12-26 14:51:44 - #0 C:\wamp64\www\itop\setup\applicationinstaller.class.inc.php(217): ApplicationInstaller::DoCompile(...)
+2019-12-26 14:51:44 - #1 C:\wamp64\www\itop\setup\wizardsteps.class.inc.php(2191): ApplicationInstaller->ExecuteStep(...)
+2019-12-26 14:51:44 - #2 C:\wamp64\www\itop\setup\ajax.dataloader.php(153): WizStepSummary->AsyncAction(...)
+2019-12-26 14:51:44 - Info - operation 'async_action', peak memory usage. 36156512
+2019-12-26 14:53:03 - Info - CheckPHPVersion
+2019-12-26 14:53:03 - Info - php.ini file(s): 'C:\wamp64\bin\apache\apache2.4.41\bin\php.ini'
+2019-12-26 14:53:03 - Info - Temporary directory for files upload (c:/wamp64/tmp) is writable.
+2019-12-26 14:53:03 - Info - upload_max_filesize: 2M
+2019-12-26 14:53:03 - Info - post_max_size: 8M
+2019-12-26 14:53:03 - Info - max_file_uploads: 20
+2019-12-26 14:53:03 - Info - memory_limit is 134217728, ok.
+2019-12-26 14:53:03 - Info - session.save_path is: 'c:/wamp64/tmp'.
+2019-12-26 14:53:03 - Ok - The current PHP Version (5.6.40) is greater than the minimum version required to run iTop, which is (5.3.6)
+2019-12-26 14:53:03 - Ok - Required PHP extension(s): dom, hash, iconv, json, mysqli, pcre, session, simplexml, soap, zip.
+2019-12-26 14:53:03 - Ok - Optional PHP extension(s): gd, ldap, mcrypt.
+2019-12-26 14:53:03 - Ok - Loaded php.ini files: C:\wamp64\bin\apache\apache2.4.41\bin\php.ini
+2019-12-26 14:53:03 - Ok - The value for session.save_path (c:/wamp64/tmp) is writable for the web server.
+2019-12-26 14:53:05 - Info - CheckBackupPrerequisites
+2019-12-26 14:53:05 - Info - PHP functions disabled: 
+2019-12-26 14:53:05 - Info - mysqldump -V said: "mysqldump" no se reconoce como un comando interno o externo,
+2019-12-26 14:53:05 - Info - mysqldump -V said: programa o archivo por lotes ejecutable.
+2019-12-26 14:53:05 - Info - operation 'async_action', peak memory usage. 12627344
+2019-12-26 14:53:07 - Info - GetApplicationVersion returns: product_name: iTop, product_version: 2.3.4.3302
+2019-12-26 14:53:08 - Info - CheckGraphviz
+2019-12-26 14:53:08 - Info - PHP functions disabled: 
+2019-12-26 14:53:08 - Info - ./usr/bin/dot -V said: El sistema no puede encontrar la ruta especificada.
+2019-12-26 14:53:08 - Info - operation 'async_action', peak memory usage. 12615848
+2019-12-26 14:53:22 - Info - ======= Installation starts =======
+Parameters:
+<?xml version="1.0" encoding="UTF-8"?>
+<installation>
+  <mode>upgrade</mode>
+  <preinstall>
+    <copies type="array"/>
+  </preinstall>
+  <source_dir>datamodels/2.x/</source_dir>
+  <datamodel_version>2.3.0</datamodel_version>
+  <previous_configuration_file>C:\wamp64\www\itop//conf/production/config-itop.php</previous_configuration_file>
+  <extensions_dir>extensions</extensions_dir>
+  <target_env>production</target_env>
+  <workspace_dir></workspace_dir>
+  <database>
+    <server>localhost</server>
+    <user>root</user>
+    <pwd>**removed**</pwd>
+    <name>itop</name>
+    <prefix></prefix>
+  </database>
+  <url>http://localhost/itop/</url>
+  <graphviz_path>./usr/bin/dot</graphviz_path>
+  <admin_account>
+    <user></user>
+    <pwd>**removed**</pwd>
+    <language></language>
+  </admin_account>
+  <language></language>
+  <selected_modules type="array">
+    <item>authent-external</item>
+    <item>authent-ldap</item>
+    <item>authent-local</item>
+    <item>itop-backup</item>
+    <item>itop-config</item>
+    <item>itop-profiles-itil</item>
+    <item>itop-sla-computation</item>
+    <item>itop-tickets</item>
+    <item>itop-welcome-itil</item>
+    <item>combodo-sla-computation</item>
+    <item>itop-config-mgmt</item>
+    <item>itop-attachments</item>
+    <item>itop-datacenter-mgmt</item>
+    <item>itop-endusers-devices</item>
+    <item>itop-storage-mgmt</item>
+    <item>itop-virtualization-mgmt</item>
+    <item>itop-bridge-virtualization-storage</item>
+    <item>itop-service-mgmt</item>
+    <item>itop-request-mgmt-itil</item>
+    <item>itop-incident-mgmt-itil</item>
+    <item>itop-portal</item>
+    <item>itop-portal-base</item>
+    <item>itop-full-itil</item>
+    <item>itop-change-mgmt-itil</item>
+    <item>itop-knownerror-mgmt</item>
+    <item>itop-problem-mgmt</item>
+    <item>portal-categories-filter</item>
+    <item>Datos-Instalador-module</item>
+    <item>Pais-ticket-module</item>
+    <item>Sales-model-module</item>
+    <item>location</item>
+    <item>odu</item>
+    <item>service-family-incident</item>
+    <item>situacion_actual</item>
+    <item>sqf</item>
+    <item>step-by-step-module</item>
+    <item>version</item>
+    <item>Campos Cambios-module</item>
+    <item>Correo_Instalador-module</item>
+    <item>External-id</item>
+    <item>Pais-cambio-module</item>
+    <item>Pais_in_change-module</item>
+    <item>Tipo-Release-module</item>
+    <item>apellido_instalador-module</item>
+    <item>attempts</item>
+    <item>beam</item>
+    <item>combodo-coverage-windows-computation</item>
+    <item>equipment_state_cod</item>
+    <item>fso</item>
+    <item>id_external-incident</item>
+    <item>id_externo-solicitudes</item>
+    <item>idu</item>
+    <item>idu_odu_status</item>
+    <item>idu_software_version</item>
+  </selected_modules>
+  <sample_data></sample_data>
+  <old_addon></old_addon>
+  <options type="array"/>
+</installation>
+
+
+2019-12-26 14:53:22 - Info - operation 'async_action', peak memory usage. 12661536
+2019-12-26 14:53:22 - Info - operation 'async_action', peak memory usage. 12631352
+2019-12-26 14:53:22 - Info - Compiling data model.
+2019-12-26 14:53:30 - Info - Data model successfully compiled to 'C:\wamp64\www\itop/env-production'.
+2019-12-26 14:53:30 - Info - operation 'async_action', peak memory usage. 43020720
+2019-12-26 14:53:30 - Info - Update Database Schema for environment 'production'.
+2019-12-26 14:53:30 - Info - MetaModel::Startup (ModelOnly = 1)
+2019-12-26 14:53:31 - Info - Renaming 'priv_internalUser' into 'priv_internaluser' (lowercase)
+2019-12-26 14:53:31 - Info - Cleanup of 'priv_change' to remove orphan records
+2019-12-26 14:53:31 - Info - There is a total of 47006 records in priv_change.
+2019-12-26 14:53:31 - Info - There are 2 useless records in priv_change (0.00%)
+2019-12-26 14:53:31 - Info - Removing the orphan records...
+2019-12-26 14:53:31 - Info - Cleanup completed successfully.
+2019-12-26 14:53:31 - Info - Calling Module Handler: AttachmentInstaller::BeforeDatabaseCreation(oConfig, 2.3.0, 2.3.0)
+2019-12-26 14:53:31 - Info - No orphan attachment found.
+2019-12-26 14:53:31 - Info - Calling Module Handler: ConfigMgmtInstaller::BeforeDatabaseCreation(oConfig, 2.3.0, 2.3.0)
+2019-12-26 14:53:31 - Info - Renaming class in DB - final class from 'DBserver' to 'DBServer': 0 rows affected
+2019-12-26 14:53:31 - Info - Renaming class in DB - final class from 'OSfamily' to 'OSFamily': 0 rows affected
+2019-12-26 14:53:31 - Info - Renaming class in DB - final class from 'OSversion' to 'OSVersion': 0 rows affected
+2019-12-26 14:53:31 - Info - Renaming class in DB - final class from 'Webserver' to 'WebServer': 0 rows affected
+2019-12-26 14:53:31 - Info - Renaming class in DB - final class from 'OSpatch' to 'OSPatch': 0 rows affected
+2019-12-26 14:53:31 - Info - Renaming class in DB - final class from 'OsLicence' to 'OSLicence': 0 rows affected
+2019-12-26 14:53:31 - Info - Renaming class in DB - final class from 'IOSversion' to 'IOSVersion': 0 rows affected
+2019-12-26 14:53:31 - Info - Renaming class in DB - final class from 'IPinterface' to 'IPInterface': 0 rows affected
+2019-12-26 14:53:31 - Info - Calling Module Handler: EndUserMgmtInstaller::BeforeDatabaseCreation(oConfig, 2.2.0, 2.2.0)
+2019-12-26 14:53:31 - Info - Renaming class in DB - final class from 'IpPhone' to 'IPPhone': 0 rows affected
+2019-12-26 14:53:31 - Info - Calling Module Handler: StorageMgmtInstaller::BeforeDatabaseCreation(oConfig, 2.2.0, 2.2.0)
+2019-12-26 14:53:31 - Info - Calling Module Handler: TicketsInstaller::BeforeDatabaseCreation(oConfig, 2.3.0, 2.3.0)
+2019-12-26 14:53:31 - Info - Calling Module Handler: KnownErrorMgmtInstaller::BeforeDatabaseCreation(oConfig, 2.3.0, 2.3.0)
+2019-12-26 14:53:31 - Info - Calling Module Handler: ServiceMgmtInstaller::BeforeDatabaseCreation(oConfig, 2.3.0, 2.3.0)
+2019-12-26 14:53:31 - Info - Creating the structure in ''.
+2019-12-26 14:53:32 - Info - 0.016s - query: ALTER TABLE `priv_trigger_onobject` CHANGE `target_class` `target_class` VARCHAR(255) DEFAULT 'ApplicationSolution' 
+2019-12-26 14:53:32 - Info - 0.008s - query: ALTER TABLE `priv_sync_datasource` CHANGE `scope_class` `scope_class` VARCHAR(255) DEFAULT 'ApplicationSolution' 
+2019-12-26 14:53:32 - Info - 0.292s - query: ALTER TABLE `ticket` CHANGE `sales_model` `sales_model` ENUM('Express Wifi','Retail','VAR') DEFAULT 'Retail', CHANGE `situacion_actual` `situacion_actual` ENUM('Agent ID creation','Black list','Bypass Credit Score','Can not get a sign off code','Can not launch OVT','Change address','Change condition','Change email','Close FSO Fail','Credit Scoring verification fail','Customer lastname with special character','Data maintenance','Data management','Departure complete Fail','Disability Law','Disability Law and Bypass Credit Score','Document CE with Expedition date wrong','Error sent contract','Error-id customer','FSO blocked after multiple terminal activations','FSO not generated','FSO not released','Failure PSE site','Family and Friends Order','Family and Friends Order and Bypass Crediy Score','IDU AND ODU are failing','IDU is failing','Install Parameters Data fail','Limit sales by ID','Line of sight issue','Low SQF','Low SQF after the terminal activation','No aplica','No change Equipment','ODU is failing','Offer coverage','Offer creation','POW Fail','Partner setup','Payment Credit Card Fail','Payment Portal Down','Payment applied but not reflected','Payment coupon not generated or not sent','Payment not refleted in payment coupon','Re Schedule FSO','Real Customer','Reissue payment coupon','SBC file issue','Service activation fail','Service failed after new IDU is activated','Terminal registration-activation fail','Training De-Install','Training Install','Training Repair','Upload Workflow Fail','Upload photos and customer sign','Upload photos for close FSO','User creation','Validate FSO','Whitelist','Wrong Beam','Wrong Oasis version','Wrong application of Payment','Wrong install parameters outroute-polarity','Wrong satellite') 
+2019-12-26 14:53:35 - Ok - Database structure successfully updated.
+2019-12-26 14:53:35 - Ok - Hierchical keys rebuilt: The attribute parent_id from Organization is a hierarchical key.
+Rebuilding the fields parent_id_right and parent_id_left from table 'organization'...
+Ok, table 'organization' successfully updated.
+The attribute parent_id from Group is a hierarchical key.
+Rebuilding the fields parent_id_right and parent_id_left from table 'group'...
+Ok, table 'group' successfully updated.
+
+2019-12-26 14:53:35 - Ok - Data sources checked: There are no Data Sources in the database.
+Ok.
+
+2019-12-26 14:53:35 - Ok - Meta enums rebuilt: Executing query: UPDATE `ticket` JOIN `change` ON `change`.id = `ticket`.id SET `ticket`.`operational_status` = 'ongoing' WHERE `change`.`status` IN ('approved', 'assigned', 'implemented', 'monitored', 'new', 'notapproved', 'plannedscheduled', 'validated') AND `ticket`.`operational_status` != 'ongoing'
+Executing query: UPDATE `ticket` JOIN `change` ON `change`.id = `ticket`.id SET `ticket`.`operational_status` = 'closed' WHERE `change`.`status` IN ('closed', 'rejected') AND `ticket`.`operational_status` != 'closed'
+Executing query: UPDATE `ticket` JOIN `ticket_incident` ON `ticket_incident`.id = `ticket`.id SET `ticket`.`operational_status` = 'ongoing' WHERE `ticket_incident`.`status` IN ('assigned', 'escalated_tto', 'escalated_ttr', 'new', 'pending') AND `ticket`.`operational_status` != 'ongoing'
+Executing query: UPDATE `ticket` JOIN `ticket_incident` ON `ticket_incident`.id = `ticket`.id SET `ticket`.`operational_status` = 'closed' WHERE `ticket_incident`.`status` IN ('closed') AND `ticket`.`operational_status` != 'closed'
+Executing query: UPDATE `ticket` JOIN `ticket_incident` ON `ticket_incident`.id = `ticket`.id SET `ticket`.`operational_status` = 'resolved' WHERE `ticket_incident`.`status` IN ('resolved') AND `ticket`.`operational_status` != 'resolved'
+Executing query: UPDATE `ticket` JOIN `ticket_problem` ON `ticket_problem`.id = `ticket`.id SET `ticket`.`operational_status` = 'ongoing' WHERE `ticket_problem`.`status` IN ('assigned', 'new') AND `ticket`.`operational_status` != 'ongoing'
+Executing query: UPDATE `ticket` JOIN `ticket_problem` ON `ticket_problem`.id = `ticket`.id SET `ticket`.`operational_status` = 'closed' WHERE `ticket_problem`.`status` IN ('closed') AND `ticket`.`operational_status` != 'closed'
+Executing query: UPDATE `ticket` JOIN `ticket_problem` ON `ticket_problem`.id = `ticket`.id SET `ticket`.`operational_status` = 'resolved' WHERE `ticket_problem`.`status` IN ('resolved') AND `ticket`.`operational_status` != 'resolved'
+Executing query: UPDATE `ticket` JOIN `ticket_request` ON `ticket_request`.id = `ticket`.id SET `ticket`.`operational_status` = 'ongoing' WHERE `ticket_request`.`status` IN ('approved', 'assigned', 'escalated_tto', 'escalated_ttr', 'new', 'pending', 'waiting_for_approval') AND `ticket`.`operational_status` != 'ongoing'
+Executing query: UPDATE `ticket` JOIN `ticket_request` ON `ticket_request`.id = `ticket`.id SET `ticket`.`operational_status` = 'closed' WHERE `ticket_request`.`status` IN ('closed', 'rejected') AND `ticket`.`operational_status` != 'closed'
+Executing query: UPDATE `ticket` JOIN `ticket_request` ON `ticket_request`.id = `ticket`.id SET `ticket`.`operational_status` = 'resolved' WHERE `ticket_request`.`status` IN ('resolved') AND `ticket`.`operational_status` != 'resolved'
+
+2019-12-26 14:53:35 - Info - 'priv_change.origin' already initialized, nothing to do.
+2019-12-26 14:53:35 - Info - 'priv_async_task.status' already initialized, nothing to do.
+2019-12-26 14:53:35 - Info - Database Schema Successfully Updated for environment 'production'.
+2019-12-26 14:53:35 - Info - operation 'async_action', peak memory usage. 72607280
+2019-12-26 14:53:35 - Info - After Database Creation
+2019-12-26 14:53:35 - Info - MetaModel::Startup (ModelOnly = 1)
+2019-12-26 14:53:36 - Info - Calling Module Handler: AttachmentInstaller::AfterDatabaseCreation(oConfig, 2.3.0, 2.3.0)
+2019-12-26 14:53:36 - Info - Initializing attachment/item_org_id - null to zero
+2019-12-26 14:53:36 - Info - Initializing attachment/item_org_id - zero to the container
+2019-12-26 14:53:36 - Info - Initializing attachment/item_org_id - 0 records have been adjusted
+2019-12-26 14:53:36 - Info - Calling Module Handler: ConfigMgmtInstaller::AfterDatabaseCreation(oConfig, 2.3.0, 2.3.0)
+2019-12-26 14:53:36 - Info - Calling Module Handler: EndUserMgmtInstaller::AfterDatabaseCreation(oConfig, 2.2.0, 2.2.0)
+2019-12-26 14:53:36 - Info - Calling Module Handler: StorageMgmtInstaller::AfterDatabaseCreation(oConfig, 2.2.0, 2.2.0)
+2019-12-26 14:53:36 - Info - Calling Module Handler: TicketsInstaller::AfterDatabaseCreation(oConfig, 2.3.0, 2.3.0)
+2019-12-26 14:53:36 - Info - Calling Module Handler: KnownErrorMgmtInstaller::AfterDatabaseCreation(oConfig, 2.3.0, 2.3.0)
+2019-12-26 14:53:36 - Info - Calling Module Handler: ServiceMgmtInstaller::AfterDatabaseCreation(oConfig, 2.3.0, 2.3.0)
+2019-12-26 14:53:36 - Info - URP_Profiles::GetPredefinedObjects() returned 12 elements.
+2019-12-26 14:53:36 - Info - Calling Module Handler: AttachmentInstaller::AfterDatabaseSetup(oConfig, 2.3.0, 2.3.0)
+2019-12-26 14:53:36 - Info - Calling Module Handler: ConfigMgmtInstaller::AfterDatabaseSetup(oConfig, 2.3.0, 2.3.0)
+2019-12-26 14:53:36 - Info - Calling Module Handler: EndUserMgmtInstaller::AfterDatabaseSetup(oConfig, 2.2.0, 2.2.0)
+2019-12-26 14:53:36 - Info - Calling Module Handler: StorageMgmtInstaller::AfterDatabaseSetup(oConfig, 2.2.0, 2.2.0)
+2019-12-26 14:53:36 - Info - Calling Module Handler: TicketsInstaller::AfterDatabaseSetup(oConfig, 2.3.0, 2.3.0)
+2019-12-26 14:53:36 - Info - Calling Module Handler: KnownErrorMgmtInstaller::AfterDatabaseSetup(oConfig, 2.3.0, 2.3.0)
+2019-12-26 14:53:36 - Info - Calling Module Handler: ServiceMgmtInstaller::AfterDatabaseSetup(oConfig, 2.3.0, 2.3.0)
+2019-12-26 14:53:36 - Info - operation 'async_action', peak memory usage. 60164816
+2019-12-26 14:53:36 - Info - MetaModel::Startup (ModelOnly = )
+2019-12-26 14:53:37 - Info - starting data load session
+2019-12-26 14:53:37 - Info - ending data load session
+2019-12-26 14:53:37 - Info - operation 'async_action', peak memory usage. 60716928
+2019-12-26 14:53:37 - Info - MetaModel::Startup from C:\wamp64\www\itop//conf/production/config-itop.php (ModelOnly = 1)
+2019-12-26 08:53:39 - Info - operation 'async_action', peak memory usage. 62056872
