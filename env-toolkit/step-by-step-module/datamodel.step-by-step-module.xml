@@ -9,8 +9,8 @@
           <sql>step_by_step</sql>
           <default_value/>          
 		  <is_null_allowed>true</is_null_allowed>
-		  <width>800px</width>
-		  <height>200px</height>
+		  <width>900px</width>
+		  <height>800px</height>
 		  <always_load_in_tables>true</always_load_in_tables>
         </field>						
 	</fields>

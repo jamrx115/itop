@@ -212,3 +212,10 @@ Debug trace:
 2019-12-26 08:54:37 | Error | ldap_authentication: wrong password for user: 'CN=Jorge Andres jaa. Avendaño,CN=Users,DC=alltic,DC=local'.
 2019-12-26 08:54:40 | Error | ldap_set_option('17', '3') returned true
 2019-12-26 08:54:40 | Error | ldap_set_option('8', '0') returned true
+2019-12-30 09:12:57 | Error | ldap_set_option('17', '3') returned true
+2019-12-30 09:12:57 | Error | ldap_set_option('8', '0') returned true
+2019-12-30 09:12:57 | Error | ldap_authentication: wrong password for user: 'CN=Jorge Andres jaa. Avendaño,CN=Users,DC=alltic,DC=local'.
+2019-12-30 09:13:02 | Error | ldap_set_option('17', '3') returned true
+2019-12-30 09:13:02 | Error | ldap_set_option('8', '0') returned true
+2019-12-30 09:33:55 | Error | ldap_set_option('17', '3') returned true
+2019-12-30 09:33:55 | Error | ldap_set_option('8', '0') returned true
