@@ -29,7 +29,7 @@ $MySettings = array(
 
 	// app_root_url: Root URL used for navigating within the application, or from an email to the application (you can put $SERVER_NAME$ as a placeholder for the server's name)
 	//	default: ''
-	'app_root_url' => 'http://172.16.40.79/itop/',
+	'app_root_url' => 'http://localhost/itop/',
 
 	// buttons_position: Position of the forms buttons: bottom | top | both
 	//	default: 'both'
