@@ -75,7 +75,7 @@
 <value id="Disability law and bypass credit score">Disability Law and Bypass Credit Score</value>
 <value id="Family_and_Friends_Order">Family and Friends Order</value>
 <value id="Family_Friends_Bypass_Crediy">Family and Friends Order and Bypass Crediy Score</value>
-
+<value id="Field Service Not Authorized">Field Service Not Authorized</value>
 			</values>
           <sql>situacion_actual</sql>
           <default_value></default_value>
