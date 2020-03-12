@@ -78,6 +78,7 @@
 <value id="Field_service_not_authorized">Field Service Not Authorized</value>
 <value id="Cancel SAN">Cancel SAN</value>
 <value id="Refund">Refund</value>
+<value id="Distributors inquirys">Distributors inquirys</value>
 			</values>
           <sql>situacion_actual</sql>
           <default_value></default_value>

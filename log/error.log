@@ -225,3 +225,5 @@ Debug trace:
 2020-02-07 16:19:19 | Error | ldap_set_option('8', '0') returned true
 2020-02-07 16:21:16 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: hdc-fa-qa@alltic.co, ibarona@alltic.co, javendano@alltic.co, mleal@alltic.co
 2020-02-07 16:21:31 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: achaves@alltic.co, analista1@alltic.co, ibarona@alltic.co, mleal@alltic.co
+2020-03-12 15:56:27 | Error | ldap_set_option('17', '3') returned true
+2020-03-12 15:56:27 | Error | ldap_set_option('8', '0') returned true
