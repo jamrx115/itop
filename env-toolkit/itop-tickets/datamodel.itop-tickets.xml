@@ -1125,7 +1125,7 @@
 						<field id="status"/>
 						<field id="service_id"/>
 						<field id="servicesubcategory_id"/>
-						<!-- <field id="priority"/> se oculta pa prioridad-->
+					 <field id="priority"/> 
 						<field id="caller_id"/>
 					</fields>
 					<!-- Optional tag to add attributes to the table by their code -->
@@ -1243,16 +1243,16 @@
 						</div>
 						<div id="service_details_placeholder">
 						</div>
-						<!--<div class="row">
-							<div class="col-sm-6">
+						<div class="row">
+							<!--<div class="col-sm-6">
 								<div class="form_field" data-field-id="impact">
 								</div>
-							</div>
+							</div>-->
 							<div class="col-sm-6">
 								<div class="form_field" data-field-id="urgency">
 								</div>
 							</div>
-						</div>-->
+						</div>
 						<div>
 							<div class="form_field" data-field-id="title">
 							</div>
@@ -1301,11 +1301,11 @@
 								</div>
 								
 								<!--<div class="form_field" data-field-id="impact" data-field-flags="read_only">
-								</div>
+								</div>-->
 								<div class="form_field" data-field-id="urgency" data-field-flags="read_only">
 								</div>
 								<div class="form_field" data-field-id="priority" data-field-flags="read_only">
-								</div>-->
+								</div>
 								<div class="form_field" data-field-id="start_date" data-field-flags="read_only">
 								</div>
 								<div class="form_field" data-field-id="last_update" data-field-flags="read_only">

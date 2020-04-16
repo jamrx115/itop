@@ -105,7 +105,7 @@
 						<value id="1">1</value>
 						<value id="2">2</value>
 						<value id="3">3</value>
-						<value id="4">4</value>
+						<value id="4">4</value>  
 					</values>
 					<sql>urgency</sql>
 					<default_value>4</default_value>
@@ -2087,8 +2087,9 @@
                         </div>
                         <div id="service_details_placeholder"></div>
 						<div class="row">
-						  <div class="col-sm-6"><div class="form_field" data-field-id="pais_ticket"></div></div>
-						  <div class="col-sm-6"><div class="form_field" data-field-id="san"></div></div>
+						  <div class="col-sm-4"><div class="form_field" data-field-id="pais_ticket"></div></div>
+						  <div class="col-sm-4"><div class="form_field" data-field-id="san"></div></div>
+						   <div class="col-sm-4"><div class="form_field" data-field-id="urgency"></div></div>
 						  </div>
 						<div class="row">
 						 </div>

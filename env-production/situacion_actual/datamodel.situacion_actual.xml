@@ -79,6 +79,9 @@
 <value id="Cancel SAN">Cancel SAN</value>
 <value id="Refund">Refund</value>
 <value id="Distributors inquirys">Distributors inquirys</value>
+<value id="without coverage">Without Coverage</value>
+<value id="new san correction">New SAN Correction</value>
+<value id="New SAN Relocation">New SAN Relocation</value>
 			</values>
           <sql>situacion_actual</sql>
           <default_value></default_value>

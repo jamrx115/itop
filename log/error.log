@@ -227,3 +227,17 @@ Debug trace:
 2020-02-07 16:21:31 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: achaves@alltic.co, analista1@alltic.co, ibarona@alltic.co, mleal@alltic.co
 2020-03-12 15:56:27 | Error | ldap_set_option('17', '3') returned true
 2020-03-12 15:56:27 | Error | ldap_set_option('8', '0') returned true
+2020-04-15 14:16:05 | Error | ldap_set_option('17', '3') returned true
+2020-04-15 14:16:05 | Error | ldap_set_option('8', '0') returned true
+2020-04-15 14:18:27 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: hdc-fa-qa@alltic.co, ibarona@alltic.co, javendano@alltic.co, mleal@alltic.co
+2020-04-15 14:22:06 | Error | ldap_set_option('17', '3') returned true
+2020-04-15 14:22:06 | Error | ldap_set_option('8', '0') returned true
+2020-04-15 23:05:40 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: hdc-fa-qa@alltic.co, ibarona@alltic.co, javendano@alltic.co, mleal@alltic.co
+2020-04-15 23:06:40 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: hdc-fa-qa@alltic.co, ibarona@alltic.co, mleal@alltic.co
+2020-04-15 23:08:05 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: hdc-fa-qa@alltic.co, ibarona@alltic.co, mleal@alltic.co
+2020-04-15 23:09:25 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: hdc-fa-qa@alltic.co, ibarona@alltic.co, mleal@alltic.co
+2020-04-15 23:15:00 | Error | ldap_set_option('17', '3') returned true
+2020-04-15 23:15:00 | Error | ldap_set_option('8', '0') returned true
+2020-04-15 23:15:25 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: achala@alltic.co, jocaheba@gmail.com, ibarona@alltic.co, mleal@alltic.co
+2020-04-15 23:15:45 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: jocaheba@gmail.com, achala@alltic.co, ibarona@alltic.co, mleal@alltic.co
+2020-04-15 23:18:43 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: hdc-fa-qa@alltic.co, ibarona@alltic.co, javendano@alltic.co, mleal@alltic.co
