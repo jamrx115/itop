@@ -78,7 +78,7 @@ $MySettings = array(
 
 	'db_host' => 'localhost',
 
-	'db_name' => 'itop',
+	'db_name' => 'itop4',
 
 	'db_pwd' => '',
 

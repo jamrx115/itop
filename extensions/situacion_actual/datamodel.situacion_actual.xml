@@ -82,6 +82,12 @@
 <value id="without coverage">Without Coverage</value>
 <value id="new san correction">New SAN Correction</value>
 <value id="New SAN Relocation">New SAN Relocation</value>
+<value id="Registration-Activation Successfully">Registration-Activation Successfully</value>
+<value id="AP Status Validation">AP Status Validation</value>
+<value id="AP Status Failed">AP Status Failed</value>
+<value id="HughesNet Degradation Service Validation">HughesNet Degradation Service Validation</value>
+<value id="PQR Escalated">PQR Escalated</value>
+
 			</values>
           <sql>situacion_actual</sql>
           <default_value></default_value>
