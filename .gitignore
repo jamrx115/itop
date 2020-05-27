@@ -1,5 +1,2 @@
 ﻿# a comment – this is ignored
 # no .a files
-conf\production\
-data\backups\
-data\bulk_export
