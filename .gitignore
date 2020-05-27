@@ -1,3 +1,5 @@
-# a comment – this is ignored
+﻿# a comment – this is ignored
 # no .a files
-conf/production/config-itop.php
+conf\production\
+data\backups\
+data\bulk_export

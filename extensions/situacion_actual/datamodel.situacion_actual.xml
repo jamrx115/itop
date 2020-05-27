@@ -87,6 +87,7 @@
 <value id="AP Status Failed">AP Status Failed</value>
 <value id="HughesNet Degradation Service Validation">HughesNet Degradation Service Validation</value>
 <value id="PQR Escalated">PQR Escalated</value>
+<value id="PQR Escalated">Coordinates fail in departure complete</value>
 
 			</values>
           <sql>situacion_actual</sql>
