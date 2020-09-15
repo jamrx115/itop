@@ -29,7 +29,7 @@ $MySettings = array(
 
 	// app_root_url: Root URL used for navigating within the application, or from an email to the application (you can put $SERVER_NAME$ as a placeholder for the server's name)
 	//	default: ''
-	'app_root_url' => 'http://localhost/itop/',
+	'app_root_url' => 'https://alltic.co/itop/',
 
 	// buttons_position: Position of the forms buttons: bottom | top | both
 	//	default: 'both'
@@ -78,13 +78,13 @@ $MySettings = array(
 
 	'db_host' => 'localhost',
 
-	'db_name' => 'itop4',
+	'db_name' => 'itop_demo',
 
-	'db_pwd' => '',
+	'db_pwd' => 'Alltic2017',
 
 	'db_subname' => '',
 
-	'db_user' => 'root',
+	'db_user' => 'alltic_itop_2',
 
 	// deadline_format: The format used for displaying "deadline" attributes: any string with the following placeholders: $date$, $difference$
 	//	default: '$difference$'
@@ -208,11 +208,11 @@ $MySettings = array(
  */
 $MyModuleSettings = array(
 	'authent-ldap' => array (
-		'host' => 'ldap://190.145.215.202 ldap://3.16.200.46',
+		'host' => 'ldap://190.145.215.202 ldap://181.143.229.210 ldap://3.16.200.46',
 		'port' => 389,
 		'default_user' => 'CN=Conexion Aplicaciones,CN=Users,DC=alltic,DC=local',
 		'default_pwd' => '@lltic2019',
-		'base_dn' => 'DC=alltic,DC=local',
+		'base_dn' => 'CN=Users,DC=alltic,DC=local',
 		'user_query' => '(sAMAccountName=%s)',
 		'options' => array (
 		  17 => 3,
